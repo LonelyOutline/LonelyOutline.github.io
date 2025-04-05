@@ -3,7 +3,122 @@
   <entry>
     <title>blender的学习</title>
     <url>/2025/04/05/blender%E7%9A%84%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>asd</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、视图操作">一、视图操作</h2>
+<ul>
+<li><strong>数字键</strong>：
+<ul>
+<li>数字键 1（主键盘）：切换到前视图。</li>
+<li>数字键 3（主键盘）：切换到侧视图。</li>
+<li>数字键 7（主键盘）：切换到顶视图。</li>
+<li>数字键 5（主键盘）：在正交视图和透视视图之间切换。</li>
+</ul>
+</li>
+<li><strong>鼠标操作</strong>：
+<ul>
+<li>鼠标滚轮：放大或缩小视图。</li>
+<li>按住鼠标中键并拖动：平移视图。</li>
+<li>按住鼠标中键并按住Shift键拖动：旋转视图。</li>
+</ul>
+</li>
+<li><strong>其他快捷键</strong>：
+<ul>
+<li>Numpad .：聚焦到选中的对象。</li>
+<li>Shift + C：重置视图到默认的场景中心。</li>
+</ul>
+</li>
+</ul>
+<h2 id="二、选择操作">二、选择操作</h2>
+<ul>
+<li><strong>单个对象选择</strong>：
+<ul>
+<li>鼠标左键：在3D视图中选择对象。</li>
+<li>Shift + 鼠标左键：添加或移除对象的选择。</li>
+</ul>
+</li>
+<li><strong>多个对象选择</strong>：
+<ul>
+<li>Ctrl + 鼠标左键：框选多个对象。</li>
+<li>B：框选工具，用鼠标拖动一个框来选择框内的对象。</li>
+<li>C：圈选工具，用鼠标画圈来选择圈内的对象。</li>
+</ul>
+</li>
+<li><strong>其他选择</strong>：
+<ul>
+<li>A：全选或取消全选。</li>
+<li>Alt + 鼠标左键：选择边缘环（在编辑模式下，用于选择边缘环）。</li>
+</ul>
+</li>
+</ul>
+<h2 id="三、物体模式操作">三、物体模式操作</h2>
+<ul>
+<li><strong>移动、旋转和缩放</strong>：
+<ul>
+<li>G：移动物体。</li>
+<li>R：旋转物体。</li>
+<li>S：缩放物体。</li>
+<li>在执行移动、旋转或缩放操作后，可以按X、Y或Z键来限制操作到特定的轴。</li>
+</ul>
+</li>
+<li><strong>复制和删除</strong>：
+<ul>
+<li>Shift + D：复制选中的物体。</li>
+<li>X：删除选中的物体。</li>
+</ul>
+</li>
+<li><strong>其他操作</strong>：
+<ul>
+<li>Tab：在物体模式和编辑模式之间切换。</li>
+<li>H：隐藏选中的物体。</li>
+<li>Alt + H：显示所有隐藏的物体。</li>
+</ul>
+</li>
+</ul>
+<h2 id="四、编辑模式操作（以网格编辑为例）">四、编辑模式操作（以网格编辑为例）</h2>
+<ul>
+<li><strong>顶点、边和面的切换</strong>：
+<ul>
+<li>1（数字键区）：切换到顶点选择模式。</li>
+<li>2（数字键区）：切换到边选择模式。</li>
+<li>3（数字键区）：切换到面选择模式。</li>
+</ul>
+</li>
+<li><strong>创建和删除</strong>：
+<ul>
+<li>F：创建新的面或边。</li>
+<li>X：删除选中的顶点、边或面。</li>
+</ul>
+</li>
+<li><strong>其他操作</strong>：
+<ul>
+<li>E：挤出选中的顶点、边或面。</li>
+<li>Ctrl + R：添加循环边。</li>
+<li>Ctrl + B：倒角操作。</li>
+</ul>
+</li>
+</ul>
+<h2 id="五、渲染和动画">五、渲染和动画</h2>
+<ul>
+<li><strong>渲染</strong>：
+<ul>
+<li>F12：渲染当前场景。</li>
+<li>Shift + F12：渲染并保存当前场景。</li>
+</ul>
+</li>
+<li><strong>动画</strong>：
+<ul>
+<li>I：插入关键帧。</li>
+<li>Alt + A：在3D视图中播放动画。</li>
+</ul>
+</li>
+</ul>
+<h2 id="六、其他常用快捷键">六、其他常用快捷键</h2>
+<ul>
+<li>Ctrl + Z：撤销操作。</li>
+<li>Ctrl + Shift + Z：重做操作。</li>
+<li>Ctrl + S：保存文件。</li>
+<li>Ctrl + O：打开文件。</li>
+<li>Ctrl + N：重置场景。</li>
+</ul>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -478,6 +593,32 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       </tags>
   </entry>
   <entry>
+    <title>碎碎念</title>
+    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
+<p>图片镜像服务<br>
+可以提取一些图片使用</p>
+<pre><code class="language-网址">https://image.baidu.com/search/down?url=
+</code></pre>
+<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
+</code></pre>
+<pre><code class="language-网址">https://images.weserv.nl/?url=
+</code></pre>
+<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
+</code></pre>
+<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
+</code></pre>
+<pre><code class="language-网址">https://search.pstatic.net/common?src=
+</code></pre>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前端JS：关于DOM元素</title>
     <url>/2025/03/27/%E5%89%8D%E7%AB%AFJS%EF%BC%9A%E5%85%B3%E4%BA%8EDOM%E5%85%83%E7%B4%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念">核心概念</h2>
@@ -690,32 +831,6 @@ document.querySelectorAll('.box')//获取第所有类选择器
       <tags>
         <tag>前端</tag>
         <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>碎碎念</title>
-    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
-<p>图片镜像服务<br>
-可以提取一些图片使用</p>
-<pre><code class="language-网址">https://image.baidu.com/search/down?url=
-</code></pre>
-<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://images.weserv.nl/?url=
-</code></pre>
-<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
-</code></pre>
-<pre><code class="language-网址">https://search.pstatic.net/common?src=
-</code></pre>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
 </search>
