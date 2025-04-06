@@ -118,8 +118,11 @@
 <li>Ctrl + Shift + Z：重做操作。</li>
 <li>Ctrl + S：保存文件。</li>
 <li>Ctrl + O：打开文件。</li>
-<li>Ctrl + N：重置场景。</li>
+<li>Ctrl + N：重置场景。<br>
+<img src="https://bu.dusays.com/2025/04/06/67f23a31d9c6e.png" alt></li>
 </ul>
+<h1>2025/4/6 学习内容</h1>
+<p><img src="https://bu.dusays.com/2025/04/06/67f23ccb41f5b.png" alt></p>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -594,32 +597,6 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       </tags>
   </entry>
   <entry>
-    <title>碎碎念</title>
-    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
-<p>图片镜像服务<br>
-可以提取一些图片使用</p>
-<pre><code class="language-网址">https://image.baidu.com/search/down?url=
-</code></pre>
-<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://images.weserv.nl/?url=
-</code></pre>
-<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
-</code></pre>
-<pre><code class="language-网址">https://search.pstatic.net/common?src=
-</code></pre>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>前端JS：关于DOM元素</title>
     <url>/2025/03/27/%E5%89%8D%E7%AB%AFJS%EF%BC%9A%E5%85%B3%E4%BA%8EDOM%E5%85%83%E7%B4%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念">核心概念</h2>
@@ -832,6 +809,32 @@ document.querySelectorAll('.box')//获取第所有类选择器
       <tags>
         <tag>前端</tag>
         <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>碎碎念</title>
+    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
+<p>图片镜像服务<br>
+可以提取一些图片使用</p>
+<pre><code class="language-网址">https://image.baidu.com/search/down?url=
+</code></pre>
+<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
+</code></pre>
+<pre><code class="language-网址">https://images.weserv.nl/?url=
+</code></pre>
+<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
+</code></pre>
+<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
+</code></pre>
+<pre><code class="language-网址">https://search.pstatic.net/common?src=
+</code></pre>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>
