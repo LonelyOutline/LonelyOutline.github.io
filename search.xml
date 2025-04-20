@@ -1,106 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>CTF入门第一章</title>
-    <url>/2025/03/30/ctf%E5%85%A5%E9%97%A8%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="CTF-知识体系分类整理">CTF 知识体系分类整理</h2>
-<h2 id="一、Web-安全">一、Web 安全</h2>
-<p>【核心漏洞类型】</p>
-<table>
-<thead>
-<tr>
-<th>Web 安全核心漏洞类型</th>
-<th>Web 安全核心漏洞类型</th>
-<th>Web 安全核心漏洞类型</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>SQL 注入</td>
-<td>XSS 跨站脚本</td>
-<td>文件上传漏洞</td>
-</tr>
-<tr>
-<td>文件包含漏洞</td>
-<td>XXE XML 外部实体注入</td>
-<td>SSRF 服务器端请求伪造</td>
-</tr>
-<tr>
-<td>RCE 远程代码执行</td>
-<td>代码审计技术</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="二、密码学">二、密码学</h2>
-<p>【主要分支】</p>
-<ul>
-<li>编码技术</li>
-<li>现代密码学</li>
-<li>古典密码学</li>
-</ul>
-<h2 id="三、逆向工程">三、逆向工程</h2>
-<table>
-<thead>
-<tr>
-<th>核心技术</th>
-<th>常见场景</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>可执行文件分析</td>
-<td>算法破解获取 flag</td>
-</tr>
-<tr>
-<td>ASM 汇编语言</td>
-<td>反调试对抗</td>
-</tr>
-<tr>
-<td>IDA Pro 工具使用</td>
-<td>代码混淆处理</td>
-</tr>
-<tr>
-<td>壳处理技术</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="四、二进制安全">四、二进制安全</h2>
-<p>【核心方向】</p>
-<ul>
-<li>堆溢出漏洞</li>
-<li>栈溢出漏洞</li>
-<li>漏洞利用 exp 编写</li>
-<li>安全保护机制绕过</li>
-</ul>
-<h2 id="五、杂项技术">五、杂项技术</h2>
-<table>
-<thead>
-<tr>
-<th>涵盖范围</th>
-<th>涵盖范围</th>
-<th>涵盖范围</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>隐写技术</td>
-<td>信息收集</td>
-<td>流量分析</td>
-</tr>
-<tr>
-<td>压缩包处理</td>
-<td>内存取证</td>
-<td>其他未归类技术</td>
-</tr>
-</tbody>
-</table>
+    <title>【picoCTF】Forbidden Paths 禁止路径</title>
+    <url>/2025/04/20/asd/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径">👀Forbidden Paths 禁止路径</h3>
+<p>题目截图：<br>
+<img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"><br>
+访问实例可以得到<br>
+<img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
+<h3 id="🤔思路：">🤔思路：</h3>
+<p>由题已经知道</p>
+<pre><code class="language-language">网站文件位于 /usr/share/nginx/html/ 中，
+标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，
+标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。
+</code></pre>
+<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>
+最后尝试：<code>../../../flag.txt</code></p>
+<h3 id="🚩获得flag">🚩获得flag:</h3>
+<p>尝试：<code>../../../flag.txt</code><br>
+flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br>
+<img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png" alt></p>
 ]]></content>
       <categories>
-        <category>学习</category>
+        <category>picoCTF</category>
       </categories>
       <tags>
+        <tag>题目</tag>
         <tag>CTF</tag>
       </tags>
   </entry>
@@ -246,26 +171,107 @@
       </tags>
   </entry>
   <entry>
-    <title>python包的概念</title>
-    <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包">自定义pyothon包</h2>
-<ol>
-<li>
-<p>包的文件夹中需要包含__init__.py，才可以被其他python文件引用。</p>
+    <title>CTF入门第一章</title>
+    <url>/2025/03/30/ctf%E5%85%A5%E9%97%A8%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="CTF-知识体系分类整理">CTF 知识体系分类整理</h2>
+<h2 id="一、Web-安全">一、Web 安全</h2>
+<p>【核心漏洞类型】</p>
+<table>
+<thead>
+<tr>
+<th>Web 安全核心漏洞类型</th>
+<th>Web 安全核心漏洞类型</th>
+<th>Web 安全核心漏洞类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SQL 注入</td>
+<td>XSS 跨站脚本</td>
+<td>文件上传漏洞</td>
+</tr>
+<tr>
+<td>文件包含漏洞</td>
+<td>XXE XML 外部实体注入</td>
+<td>SSRF 服务器端请求伪造</td>
+</tr>
+<tr>
+<td>RCE 远程代码执行</td>
+<td>代码审计技术</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="二、密码学">二、密码学</h2>
+<p>【主要分支】</p>
 <ul>
-<li>什么是__init__.py文件?<br>
-- 可以对包进行初始化，比如改变环境变量等等。<br>
-- 管理包公共接口，比如在</li>
+<li>编码技术</li>
+<li>现代密码学</li>
+<li>古典密码学</li>
 </ul>
-</li>
-<li></li>
-</ol>
+<h2 id="三、逆向工程">三、逆向工程</h2>
+<table>
+<thead>
+<tr>
+<th>核心技术</th>
+<th>常见场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>可执行文件分析</td>
+<td>算法破解获取 flag</td>
+</tr>
+<tr>
+<td>ASM 汇编语言</td>
+<td>反调试对抗</td>
+</tr>
+<tr>
+<td>IDA Pro 工具使用</td>
+<td>代码混淆处理</td>
+</tr>
+<tr>
+<td>壳处理技术</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="四、二进制安全">四、二进制安全</h2>
+<p>【核心方向】</p>
+<ul>
+<li>堆溢出漏洞</li>
+<li>栈溢出漏洞</li>
+<li>漏洞利用 exp 编写</li>
+<li>安全保护机制绕过</li>
+</ul>
+<h2 id="五、杂项技术">五、杂项技术</h2>
+<table>
+<thead>
+<tr>
+<th>涵盖范围</th>
+<th>涵盖范围</th>
+<th>涵盖范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>隐写技术</td>
+<td>信息收集</td>
+<td>流量分析</td>
+</tr>
+<tr>
+<td>压缩包处理</td>
+<td>内存取证</td>
+<td>其他未归类技术</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
       <categories>
         <category>学习</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>CTF</tag>
       </tags>
   </entry>
   <entry>
@@ -634,122 +640,291 @@
       </tags>
   </entry>
   <entry>
-    <title>初识vue</title>
-    <url>/2025/04/13/%E5%88%9D%E8%AF%86vue/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="如何构建-Vue-项目">如何构建 Vue 项目</h3>
-<h4 id="使用-Vite-脚手架构建-Vue-项目">使用 Vite 脚手架构建 Vue 项目</h4>
-<p><code>npm create vite@latest frontend -- --template vue</code></p>
-<p><strong>参数说明：</strong></p>
-<ul>
-<li>npm create：使用 npm 创建新项目。</li>
-<li>vite@latest：使用最新版本的 Vite 脚手架。</li>
-<li>frontend：项目名称，将在当前目录创建一个名为 frontend 的文件夹。</li>
-<li>--template vue：使用 Vue 模板创建项目。</li>
-</ul>
-<h4 id="项目结构">项目结构</h4>
-<p>创建后会生成一个名为 frontend 的文件夹，用于存放前端内容。以下是 frontend 文件夹下的常见文件和文件夹及其作用：</p>
-<ul>
-<li>
-<p><strong>/src</strong>：项目的核心源代码目录。</p>
-<ul>
-<li><strong>/src/assets</strong>：存放静态资源，如图片、样式文件等。</li>
-<li><strong>/src/components</strong>：存放可复用的 Vue 组件。</li>
-<li><strong>/src/views</strong>：存放页面级的 Vue 组件，通常对应路由。</li>
-<li><strong>/src/router</strong>：存放路由配置文件，用于管理页面跳转。</li>
-<li><strong>/src/store</strong>：存放 Vuex 状态管理相关代码（如果使用 Vuex）。</li>
-<li><strong>/src/main.js</strong>：项目的入口文件，用于初始化 Vue 应用。</li>
-<li><strong>/src/App.vue</strong>：项目的根组件，包含全局布局和样式。</li>
-</ul>
-</li>
-<li>
-<p><strong>/public</strong>：存放公共资源，如 favicon、静态 HTML 文件等。这些文件会被直接复制到构建后的输出目录。</p>
-</li>
-<li>
-<p><strong>/node_modules</strong>：存放项目依赖的第三方模块。此文件夹由 npm install 命令自动生成，通常不需要手动修改。</p>
-</li>
-<li>
-<p><strong>/dist</strong>：项目构建后的输出目录。运行构建命令（如 npm run build）后，生成的静态资源会存放在这个文件夹中，用于部署到服务器。</p>
-</li>
-<li>
-<p><strong>index.html</strong>：Vue 的入口页面，位于项目根目录。它是项目的模板文件，Vite 会根据此文件生成最终的 HTML 文件。</p>
-</li>
-</ul>
-<h4 id="安装依赖">安装依赖</h4>
-<p>运行以下命令安装项目依赖：</p>
-<p><code>npm install</code></p>
-<h3 id="运行检查">运行检查</h3>
-<p>运行代码确定可以运行<br>
-<code>npm run dev</code></p>
-<h4 id="构建后的目录结构示例">构建后的目录结构示例</h4>
-<p><img src="https://bu.dusays.com/2025/04/13/67fb781fe3155.png" alt="构建后"></p>
-<h3 id="安装推荐依赖">安装推荐依赖</h3>
-<h4 id="1-功能性依赖">1. 功能性依赖</h4>
-<ul>
-<li><strong>vue-router</strong>：Vue 官方的路由管理器，用于实现页面导航和路由控制，支持路由嵌套、参数传递等功能。</li>
-<li><strong>pinia</strong>：Vue 官方推荐的状态管理库，用于管理全局状态，比 Vuex 更轻量和简单。</li>
-<li><strong>axios</strong>：流行的 HTTP 客户端，用于与后端 API 进行通信，支持请求拦截、响应处理等功能。</li>
-<li><strong>element-plus</strong>：Vue 3 的 UI 组件库，提供丰富的预制组件，支持主题定制。</li>
-<li><strong>@element-plus/icons-vue</strong>：Element Plus 的图标库，提供常用的图标组件。</li>
-</ul>
-<p>安装命令：</p>
-<p><code>npm install vue-router pinia axios element-plus @element-plus/icons-vue</code></p>
-<h4 id="2-开发工具依赖">2. 开发工具依赖</h4>
-<ul>
-<li><strong>sass</strong>：CSS 预处理器，用于编写更灵活的样式代码。</li>
-<li><strong>unplugin-auto-import</strong>：自动导入 API，减少手动导入的繁琐操作。</li>
-<li><strong>unplugin-vue-components</strong>：自动导入组件，提升开发效率。</li>
-</ul>
-<p>安装命令：</p>
-<p><code>npm install -D sass unplugin-auto-import unplugin-vue-components</code></p>
-<h4 id="3-功能增强依赖">3. 功能增强依赖</h4>
-<ul>
-<li><strong>dayjs</strong>：轻量级的日期处理库，用于格式化、解析和操作日期。</li>
-<li><strong>lodash-es</strong>：工具函数库，提供丰富的函数用于数组、对象等操作。</li>
-<li><strong>js-cookie</strong>：用于处理浏览器 Cookie 的库。</li>
-<li><strong>nprogress</strong>：页面加载进度条库，用于增强用户体验。</li>
-</ul>
-<p>安装命令：</p>
-<p><code>npm install dayjs lodash-es js-cookie nprogress</code></p>
-<hr>
-<h3 id="开始开发页面">开始开发页面</h3>
-<p>安装完依赖后，就可以开发页面啦！以下是开发过程中的一些常见步骤：</p>
+    <title>【picoCTF】JAuth  J</title>
+    <url>/2025/04/19/picoctfjauth--j/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径">👀Forbidden Paths 禁止路径</h3>
+<p>题目截图：</p>
+<h3 id="🤔思路：">🤔思路：</h3>
+<p>由题已经知道</p>
+<pre><code class="language-language">网站文件位于 /usr/share/nginx/html/ 中，
+标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，
+标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。
+</code></pre>
+<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>
+最后尝试：<code>../../../flag.txt</code></p>
+<h3 id="🚩获得flag">🚩获得flag:</h3>
+<p>尝试：<code>../../../flag.txt</code><br>
+flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br>
+<img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png" alt></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>题目</tag>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python包的概念</title>
+    <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包">自定义pyothon包</h2>
 <ol>
 <li>
-<p><strong>配置路由</strong>： 在 /src/router/index.js 中配置页面路由，使用 vue-router 定义页面路径和对应的组件。</p>
+<p>包的文件夹中需要包含__init__.py，才可以被其他python文件引用。</p>
+<ul>
+<li>什么是__init__.py文件?<br>
+- 可以对包进行初始化，比如改变环境变量等等。<br>
+- 管理包公共接口，比如在</li>
+</ul>
 </li>
-<li>
-<p><strong>管理状态</strong>： 在 /src/store 中使用 pinia 创建和管理全局状态，方便组件间共享数据。</p>
-</li>
-<li>
-<p><strong>使用 UI 组件库</strong>： 导入 element-plus 组件库，使用其提供的预制组件快速构建页面。</p>
-</li>
-<li>
-<p><strong>开发组件</strong>： 在 /src/components 中创建可复用的 Vue 组件，提升代码复用性。</p>
-</li>
-<li>
-<p><strong>页面开发</strong>： 在 /src/views 中开发页面级组件，结合路由实现页面跳转。</p>
-</li>
-<li>
-<p><strong>样式开发</strong>： 使用 sass 编写样式文件，存放在 /src/assets 中，统一管理项目样式。</p>
-</li>
-<li>
-<p><strong>API 请求</strong>： 使用 axios 与后端 API 进行通信，处理数据请求和响应。</p>
-</li>
-<li>
-<p><strong>工具函数</strong>： 使用 lodash-es 提供的工具函数简化代码逻辑。</p>
-</li>
-<li>
-<p><strong>日期处理</strong>： 使用 dayjs 处理日期相关的逻辑，如格式化、计算等。</p>
-</li>
-<li>
-<p><strong>用户体验优化</strong>： 使用 nprogress 添加页面加载进度条，提升用户体验。</p>
-</li>
+<li></li>
 </ol>
-<h4 id="打包vue项目：">打包vue项目：</h4>
-<pre><code class="language-language">npm run build
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于博客</title>
+    <url>/2025/03/27/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##hexo文件构造<br>
+在博客的根目录下以下文件夹，以及他们对应的作用：<br>
+public ：这个是博客装换成静态页面所存储的文件夹<br>
+source : 这个是博客的数据存放位置，存放着文章，页面信息等内容</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue的第一个项目！</title>
+    <url>/2025/04/13/vue%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="知识回顾：">知识回顾：</h3>
+<h4 id="vue项目结构说明：">vue项目结构说明：</h4>
+<ul>
+<li>App.vue : 应用的根组件，所有页面的容器</li>
+<li>components : 存放可复用的组件</li>
+<li>router : 路由配置，控制页面跳转</li>
+<li>views : 存放页面级组件</li>
+</ul>
+<h3 id="第一步！了解vue页面的基本概念：">第一步！了解vue页面的基本概念：</h3>
+<h4 id="基本三件套；script-template-style">基本三件套；script-template-style</h4>
+<p>这种结构被称为“单文件组件”(SFC)</p>
+<pre><code class="language-language">&lt;script setup&gt;
+// 这里写 JavaScript 代码
+// 比如：定义变量、函数、导入其他文件等
+&lt;/script&gt;
 
+&lt;template&gt;
+&lt;!-- 这里写页面结构，类似 HTML --&gt;
+&lt;!-- 就是用户看到的内容 --&gt;
+&lt;/template&gt;
+
+&lt;style&gt;
+/* 这里写样式，就是 CSS */
+/* 控制页面长什么样子 */
+&lt;/style&gt;
 </code></pre>
-<p>这会将vue项目打包成静态资源，也可以使用electron打包成桌面程序</p>
+<h4 id="关于-script-setup-：">关于 script setup ：</h4>
+<p>概念：是 Vue 3 引入的一种语法糖，基于 Composition API，使得代码更加简洁和易于理解。它允许我们在&lt;‘script’&gt;标签中直接使用 setup 函数的功能。</p>
+<pre><code class="language-javascript">// 导入需要的东西，就像拿工具一样
+import &#123; ref &#125; from 'vue'  
+// ref 用来创建可以改变的变量
+import &#123; useRouter &#125; from 'vue-router' 
+// 用来实现页面跳转
+
+// 创建变量
+const count = ref(0)  // 这个值可以改变，改变时页面会自动更新
+// 创建函数
+const addCount = () =&gt; &#123;
+  count.value = count.value + 1  // 改变值的方法
+&#125;
+</code></pre>
+<p><strong><code>大致了解作用，用到再详解</code></strong><br>
+解释：<br>
+Q: 什么是ref?<br>
+A: 参考<a href="https://cn.vuejs.org/api/">API 参考 | Vue.js</a></p>
+<pre><code class="language-answer">- ref 的作用：
+- 让数据变成&quot;响应式&quot;的
+- 当数据改变时，页面会自动更新
+
+- 举个生活例子：
+- 没有 ref ：就像手动计分板，改变分数需要手动更新显示
+- 使用 ref ：就像电子计分板，改变分数时显示会自动更新
+</code></pre>
+<p>Q：什么是’vue-router’<br>
+A：这是vue-router官方提供的路由管理，可以更好地管理页面跳转和路由。具体学习在<a href="https://router.vuejs.org/zh/introduction.html">介绍 | Vue Router</a></p>
+<hr>
+<h3 id="第二步！开始来搭建页面吧！">第二步！开始来搭建页面吧！</h3>
+<p>我想制作一个左右布局的页面，左侧是导航栏：<br>
+那么，我就先在复用组件中创建一个导航栏/components/sidebar<br>
+我使用的是<a href="https://element-plus.org/zh-CN/">Element Plus(组件官网)</a>组件。</p>
+<pre><code class="language-html">
+&lt;script setup&gt;
+// 导入所需的 Vue 功能
+import &#123; ref, inject &#125; from 'vue'  // 增加 inject 导入
+import &#123; useRouter, useRoute &#125; from 'vue-router'  // 用于路由导航
+import &#123; watch &#125; from 'vue'
+
+// 导入 Element Plus 的图标组件
+import &#123;
+  HomeFilled,
+  Document,
+  Picture,
+  Setting,
+  Moon,
+  Sunny
+&#125; from '@element-plus/icons-vue'
+// @element-plus/icons-vue 是 Element Plus 提供的图标库
+
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;el-menu
+    class=&quot;sidebar-menu&quot;&gt;
+
+    &lt;!-- 首页菜单项 --&gt;
+    &lt;el-menu-item index=&quot;/&quot;&gt;
+      &lt;el-icon&gt;&lt;HomeFilled /&gt;&lt;/el-icon&gt;
+      &lt;template #title&gt;首页&lt;/template&gt;
+    &lt;/el-menu-item&gt;
+
+    &lt;!-- 文章管理菜单项 --&gt;
+    &lt;el-menu-item index=&quot;/posts&quot;&gt;
+      &lt;el-icon&gt;&lt;Document /&gt;&lt;/el-icon&gt;
+      &lt;template #title&gt;文章管理&lt;/template&gt;
+    &lt;/el-menu-item&gt;
+
+    &lt;!-- 图片管理菜单项 --&gt;
+    &lt;el-menu-item index=&quot;/images&quot;&gt;
+      &lt;el-icon&gt;&lt;Picture /&gt;&lt;/el-icon&gt;
+      &lt;template #title&gt;图片管理&lt;/template&gt;
+    &lt;/el-menu-item&gt;
+    
+    &lt;!-- 设置菜单项 --&gt;
+    &lt;el-menu-item index=&quot;/settings&quot;&gt;
+      &lt;el-icon&gt;&lt;Setting /&gt;&lt;/el-icon&gt;
+      &lt;template #title&gt;设置&lt;/template&gt;
+    &lt;/el-menu-item&gt;
+  &lt;/el-menu&gt;
+&lt;/template&gt;
+
+&lt;style scoped&gt;
+.sidebar-menu &#123;
+  height: 100vh;
+  border-right: none;
+  transition: all 0.3s;
+&#125;
+
+.sidebar-menu:not(.el-menu--collapse) &#123;
+  width: 200px;
+&#125;
+
+.logo &#123;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f2f2f2;
+  transition: all 0.3s;
+&#125;
+
+.logo-small &#123;
+  height: 30px;
+  transition: all 0.3s;
+&#125;
+
+.el-menu-item &#123;
+  border-left: 3px solid transparent;
+&#125;
+
+.el-menu-item.is-active &#123;
+  background-color: var(--el-menu-hover-bg-color);
+  border-left: 3px solid var(--el-menu-active-color);
+&#125;
+
+.el-menu-item:hover &#123;
+  background-color: var(--el-menu-hover-bg-color);
+&#125;
+
+.theme-switch &#123;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  transition: all 0.3s;
+&#125;
+
+.theme-switch.collapsed &#123;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+&#125;
+
+.theme-switch.dark &#123;
+  color: #e5e7eb;
+&#125;
+
+.switch-btn &#123;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.3s;
+&#125;
+
+.switch-btn:hover &#123;
+  background-color: var(--el-menu-hover-bg-color);
+&#125;
+
+.switch-btn .el-icon &#123;
+  margin-right: 10px;
+  font-size: 18px;
+&#125;
+
+.theme-switch.collapsed .switch-btn .el-icon &#123;
+  margin-right: 0;
+&#125;
+&lt;/style&gt;
+</code></pre>
+<p>然后引入到APP.vue中：</p>
+<pre><code class="language-html">&lt;script setup&gt;
+import Sidebar from './components/Sidebar.vue';
+&lt;!-- 导入sidebar组件 --&gt;
+import './style.css'
+import &#123; ref, onMounted, onUnmounted &#125; from 'vue'
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;el-container class=&quot;container&quot;&gt;
+      &lt;!-- 侧边栏 --&gt;
+      &lt;el-aside :width=&quot;isCollapse ? '64px' : '200px'&quot; class=&quot;aside-container&quot;&gt;
+        &lt;Sidebar :is-collapse=&quot;isCollapse&quot; @toggle-collapse=&quot;isCollapse = !isCollapse&quot; /&gt;
+      &lt;/el-aside&gt;
+      
+      &lt;!-- 主内容区 --&gt;
+      &lt;el-container class=&quot;main-container&quot;&gt;
+        &lt;el-main&gt;
+          &lt;router-view&gt;&lt;/router-view&gt;
+        &lt;/el-main&gt;
+      &lt;/el-container&gt;
+    &lt;/el-container&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+&lt;style&gt;
+&lt;/style&gt;
+</code></pre>
 ]]></content>
       <categories>
         <category>web开发</category>
@@ -757,6 +932,32 @@
       <tags>
         <tag>前端</tag>
         <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>碎碎念</title>
+    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
+<p>图片镜像服务<br>
+可以提取一些图片使用</p>
+<pre><code class="language-网址">https://image.baidu.com/search/down?url=
+</code></pre>
+<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
+</code></pre>
+<pre><code class="language-网址">https://images.weserv.nl/?url=
+</code></pre>
+<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
+</code></pre>
+<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
+</code></pre>
+<pre><code class="language-网址">https://search.pstatic.net/common?src=
+</code></pre>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -975,44 +1176,129 @@ document.querySelectorAll('.box')//获取第所有类选择器
       </tags>
   </entry>
   <entry>
-    <title>关于博客</title>
-    <url>/2025/03/27/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##hexo文件构造<br>
-在博客的根目录下以下文件夹，以及他们对应的作用：<br>
-public ：这个是博客装换成静态页面所存储的文件夹<br>
-source : 这个是博客的数据存放位置，存放着文章，页面信息等内容</p>
+    <title>初识vue</title>
+    <url>/2025/04/13/%E5%88%9D%E8%AF%86vue/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="如何构建-Vue-项目">如何构建 Vue 项目</h3>
+<h4 id="使用-Vite-脚手架构建-Vue-项目">使用 Vite 脚手架构建 Vue 项目</h4>
+<p><code>npm create vite@latest frontend -- --template vue</code></p>
+<p><strong>参数说明：</strong></p>
+<ul>
+<li>npm create：使用 npm 创建新项目。</li>
+<li>vite@latest：使用最新版本的 Vite 脚手架。</li>
+<li>frontend：项目名称，将在当前目录创建一个名为 frontend 的文件夹。</li>
+<li>--template vue：使用 Vue 模板创建项目。</li>
+</ul>
+<h4 id="项目结构">项目结构</h4>
+<p>创建后会生成一个名为 frontend 的文件夹，用于存放前端内容。以下是 frontend 文件夹下的常见文件和文件夹及其作用：</p>
+<ul>
+<li>
+<p><strong>/src</strong>：项目的核心源代码目录。</p>
+<ul>
+<li><strong>/src/assets</strong>：存放静态资源，如图片、样式文件等。</li>
+<li><strong>/src/components</strong>：存放可复用的 Vue 组件。</li>
+<li><strong>/src/views</strong>：存放页面级的 Vue 组件，通常对应路由。</li>
+<li><strong>/src/router</strong>：存放路由配置文件，用于管理页面跳转。</li>
+<li><strong>/src/store</strong>：存放 Vuex 状态管理相关代码（如果使用 Vuex）。</li>
+<li><strong>/src/main.js</strong>：项目的入口文件，用于初始化 Vue 应用。</li>
+<li><strong>/src/App.vue</strong>：项目的根组件，包含全局布局和样式。</li>
+</ul>
+</li>
+<li>
+<p><strong>/public</strong>：存放公共资源，如 favicon、静态 HTML 文件等。这些文件会被直接复制到构建后的输出目录。</p>
+</li>
+<li>
+<p><strong>/node_modules</strong>：存放项目依赖的第三方模块。此文件夹由 npm install 命令自动生成，通常不需要手动修改。</p>
+</li>
+<li>
+<p><strong>/dist</strong>：项目构建后的输出目录。运行构建命令（如 npm run build）后，生成的静态资源会存放在这个文件夹中，用于部署到服务器。</p>
+</li>
+<li>
+<p><strong>index.html</strong>：Vue 的入口页面，位于项目根目录。它是项目的模板文件，Vite 会根据此文件生成最终的 HTML 文件。</p>
+</li>
+</ul>
+<h4 id="安装依赖">安装依赖</h4>
+<p>运行以下命令安装项目依赖：</p>
+<p><code>npm install</code></p>
+<h3 id="运行检查">运行检查</h3>
+<p>运行代码确定可以运行<br>
+<code>npm run dev</code></p>
+<h4 id="构建后的目录结构示例">构建后的目录结构示例</h4>
+<p><img src="https://bu.dusays.com/2025/04/13/67fb781fe3155.png" alt="构建后"></p>
+<h3 id="安装推荐依赖">安装推荐依赖</h3>
+<h4 id="1-功能性依赖">1. 功能性依赖</h4>
+<ul>
+<li><strong>vue-router</strong>：Vue 官方的路由管理器，用于实现页面导航和路由控制，支持路由嵌套、参数传递等功能。</li>
+<li><strong>pinia</strong>：Vue 官方推荐的状态管理库，用于管理全局状态，比 Vuex 更轻量和简单。</li>
+<li><strong>axios</strong>：流行的 HTTP 客户端，用于与后端 API 进行通信，支持请求拦截、响应处理等功能。</li>
+<li><strong>element-plus</strong>：Vue 3 的 UI 组件库，提供丰富的预制组件，支持主题定制。</li>
+<li><strong>@element-plus/icons-vue</strong>：Element Plus 的图标库，提供常用的图标组件。</li>
+</ul>
+<p>安装命令：</p>
+<p><code>npm install vue-router pinia axios element-plus @element-plus/icons-vue</code></p>
+<h4 id="2-开发工具依赖">2. 开发工具依赖</h4>
+<ul>
+<li><strong>sass</strong>：CSS 预处理器，用于编写更灵活的样式代码。</li>
+<li><strong>unplugin-auto-import</strong>：自动导入 API，减少手动导入的繁琐操作。</li>
+<li><strong>unplugin-vue-components</strong>：自动导入组件，提升开发效率。</li>
+</ul>
+<p>安装命令：</p>
+<p><code>npm install -D sass unplugin-auto-import unplugin-vue-components</code></p>
+<h4 id="3-功能增强依赖">3. 功能增强依赖</h4>
+<ul>
+<li><strong>dayjs</strong>：轻量级的日期处理库，用于格式化、解析和操作日期。</li>
+<li><strong>lodash-es</strong>：工具函数库，提供丰富的函数用于数组、对象等操作。</li>
+<li><strong>js-cookie</strong>：用于处理浏览器 Cookie 的库。</li>
+<li><strong>nprogress</strong>：页面加载进度条库，用于增强用户体验。</li>
+</ul>
+<p>安装命令：</p>
+<p><code>npm install dayjs lodash-es js-cookie nprogress</code></p>
+<hr>
+<h3 id="开始开发页面">开始开发页面</h3>
+<p>安装完依赖后，就可以开发页面啦！以下是开发过程中的一些常见步骤：</p>
+<ol>
+<li>
+<p><strong>配置路由</strong>： 在 /src/router/index.js 中配置页面路由，使用 vue-router 定义页面路径和对应的组件。</p>
+</li>
+<li>
+<p><strong>管理状态</strong>： 在 /src/store 中使用 pinia 创建和管理全局状态，方便组件间共享数据。</p>
+</li>
+<li>
+<p><strong>使用 UI 组件库</strong>： 导入 element-plus 组件库，使用其提供的预制组件快速构建页面。</p>
+</li>
+<li>
+<p><strong>开发组件</strong>： 在 /src/components 中创建可复用的 Vue 组件，提升代码复用性。</p>
+</li>
+<li>
+<p><strong>页面开发</strong>： 在 /src/views 中开发页面级组件，结合路由实现页面跳转。</p>
+</li>
+<li>
+<p><strong>样式开发</strong>： 使用 sass 编写样式文件，存放在 /src/assets 中，统一管理项目样式。</p>
+</li>
+<li>
+<p><strong>API 请求</strong>： 使用 axios 与后端 API 进行通信，处理数据请求和响应。</p>
+</li>
+<li>
+<p><strong>工具函数</strong>： 使用 lodash-es 提供的工具函数简化代码逻辑。</p>
+</li>
+<li>
+<p><strong>日期处理</strong>： 使用 dayjs 处理日期相关的逻辑，如格式化、计算等。</p>
+</li>
+<li>
+<p><strong>用户体验优化</strong>： 使用 nprogress 添加页面加载进度条，提升用户体验。</p>
+</li>
+</ol>
+<h4 id="打包vue项目：">打包vue项目：</h4>
+<pre><code class="language-language">npm run build
+
+</code></pre>
+<p>这会将vue项目打包成静态资源，也可以使用electron打包成桌面程序</p>
 ]]></content>
       <categories>
-        <category>其他</category>
+        <category>web开发</category>
       </categories>
       <tags>
-        <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>碎碎念</title>
-    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
-<p>图片镜像服务<br>
-可以提取一些图片使用</p>
-<pre><code class="language-网址">https://image.baidu.com/search/down?url=
-</code></pre>
-<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://images.weserv.nl/?url=
-</code></pre>
-<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
-</code></pre>
-<pre><code class="language-网址">https://search.pstatic.net/common?src=
-</code></pre>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
+        <tag>前端</tag>
+        <tag>vue</tag>
       </tags>
   </entry>
 </search>
