@@ -246,48 +246,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【picoCTF】JAuth  J</title>
-    <url>/2025/04/19/picoctfjauth--j/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J">👀JAuth  J</h3>
-<p>题目截图：<br>
-<img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
-<h3 id="🤔思路：">🤔思路：</h3>
-<p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>
-题目内容：</p>
-<pre><code class="language-language">您能否识别组件并利用易受攻击的组件？
-该网站在此处运行。你能成为 ？admin
-您可以使用密码登录以开始使用。testTest123!
-</code></pre>
-<p>启动实例访问：</p>
-<h4 id="第一步">@第一步</h4>
-<p>访问网站看到的界面是这样的<br>
-<img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>
-在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
-<h4 id="第二步-尝试登录">@第二步 尝试登录</h4>
-<p>用户:<code>test</code><br>
-密码:<code>Test123!</code><br>
-<img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png" alt><br>
-登录成功！<br>
-<img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png" alt><br>
-好吧被忽悠了，让我们在看看控制台有没有线索？<br>
-在应用程序中能看到cookie有token令牌<br>
-<img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png" alt></p>
-<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br>
-<img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png" alt><br>
-是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
-<h3 id="🚩获得flag">🚩获得flag:</h3>
-<p>####工具<br>
-<a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HTML基础内容（文档结构与核心知识）</title>
     <url>/2025/03/27/htlm%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9-%E5%9F%BA%E7%A1%80%E7%BB%93%E6%9E%84%E3%80%81%E7%9F%A5%E8%AF%86%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="基本文档结构">基本文档结构</h2>
@@ -653,6 +611,48 @@
       </tags>
   </entry>
   <entry>
+    <title>【picoCTF】JAuth  J</title>
+    <url>/2025/04/19/picoctfjauth--j/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J">👀JAuth  J</h3>
+<p>题目截图：<br>
+<img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
+<h3 id="🤔思路：">🤔思路：</h3>
+<p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>
+题目内容：</p>
+<pre><code class="language-language">您能否识别组件并利用易受攻击的组件？
+该网站在此处运行。你能成为 ？admin
+您可以使用密码登录以开始使用。testTest123!
+</code></pre>
+<p>启动实例访问：</p>
+<h4 id="第一步">@第一步</h4>
+<p>访问网站看到的界面是这样的<br>
+<img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>
+在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
+<h4 id="第二步-尝试登录">@第二步 尝试登录</h4>
+<p>用户:<code>test</code><br>
+密码:<code>Test123!</code><br>
+<img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png" alt><br>
+登录成功！<br>
+<img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png" alt><br>
+好吧被忽悠了，让我们在看看控制台有没有线索？<br>
+在应用程序中能看到cookie有token令牌<br>
+<img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png" alt></p>
+<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br>
+<img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png" alt><br>
+是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
+<h3 id="🚩获得flag">🚩获得flag:</h3>
+<p>####工具<br>
+<a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>题目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python包的概念</title>
     <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包">自定义pyothon包</h2>
@@ -676,32 +676,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【picoCTF】Forbidden Paths 禁止路径</title>
-    <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径">👀Forbidden Paths 禁止路径</h3>
-<p>题目截图：</p>
-<p><img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"></p>
-<p>访问实例可以得到</p>
-<p><img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
-<h3 id="🤔思路：">🤔思路：</h3>
-<p>由题已经知道</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line"></span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code></p>
-<p>最后尝试：<code>../../../flag.txt</code></p>
-<h3 id="🚩获得flag">🚩获得flag:</h3>
-<p>尝试：<code>../../../flag.txt</code></p>
-<p>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code></p>
-<p><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png" alt></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vue的第一个项目！</title>
     <url>/2025/04/13/vue%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="知识回顾：">知识回顾：</h3>
@@ -715,7 +689,7 @@
 <h3 id="第一步！了解vue页面的基本概念：">第一步！了解vue页面的基本概念：</h3>
 <h4 id="基本三件套；script-template-style">基本三件套；script-template-style</h4>
 <p>这种结构被称为“单文件组件”(SFC)</p>
-<pre><code class="language-language">&lt;script setup&gt;
+<pre><code class="language-html">&lt;script setup&gt;
 // 这里写 JavaScript 代码
 // 比如：定义变量、函数、导入其他文件等
 &lt;/script&gt;
@@ -948,115 +922,29 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       </tags>
   </entry>
   <entry>
-    <title>前端JS：关于DOM元素</title>
-    <url>/2025/03/27/%E5%89%8D%E7%AB%AFJS%EF%BC%9A%E5%85%B3%E4%BA%8EDOM%E5%85%83%E7%B4%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念">核心概念</h2>
-<h3 id="元素-Element-vs-节点-Node">元素(Element) vs 节点(Node)</h3>
-<ul>
-<li>
-<p>元素：HTML文档中的具体标签（如 <code>&lt;div&gt;</code> <code>&lt;button&gt;</code>）</p>
-</li>
-<li>
-<p>节点：文档中的所有组成部分（包括元素、文本、注释等）</p>
-</li>
-<li>
-<p>关系：元素是节点的一种特殊类型</p>
-</li>
-</ul>
-<h3 id="常用DOM操作">常用DOM操作</h3>
-<ol>
-<li>
-<p><strong>禁用元素</strong>：<code>element.disabled = true</code> 适用于表单元素</p>
-</li>
-<li>
-<p><strong>内容操作</strong>：<code>innerHTML</code> / <code>textContent</code></p>
-</li>
-<li>
-<p><strong>样式控制</strong>：<code>style.property</code> / <code>classList</code></p>
-</li>
-<li>
-<p><strong>事件处理</strong>：<code>addEventListener</code></p>
-</li>
-</ol>
-<h2 id="实战案例">实战案例</h2>
-<h3 id="案例1：动态表格生成">案例1：动态表格生成</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 1. 创建表格骨架</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> table = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;table&#x27;</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 批量生成数据行</span></span><br><span class="line"></span><br><span class="line">users.<span class="title function_">forEach</span>(<span class="function"><span class="params">user</span> =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> row = table.<span class="title function_">insertRow</span>();</span><br><span class="line"></span><br><span class="line">  row.<span class="property">innerHTML</span> = <span class="string">`&lt;td&gt;<span class="subst">$&#123;user.name&#125;</span>&lt;/td&gt;&lt;td&gt;<span class="subst">$&#123;user.age&#125;</span>&lt;/td&gt;`</span>;</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 添加到页面</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(table);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="案例2：颜色切换器">案例2：颜色切换器</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;color-picker&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#ff0000&quot;</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#00ff00&quot;</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;button&#x27;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">btn</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  btn.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">backgroundColor</span> = btn.<span class="property">dataset</span>.<span class="property">color</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="常见问题">常见问题</h2>
-<ol>
-<li>
-<p><strong>元素找不到</strong>：检查选择器拼写/元素加载时机</p>
-</li>
-<li>
-<p><strong>事件不触发</strong>：确认元素已渲染后再绑定事件</p>
-</li>
-<li>
-<p><strong>样式不生效</strong>：优先使用class操作代替直接style修改</p>
-</li>
-</ol>
-<h2 id="进阶练习">进阶练习</h2>
-<p>| 练习项目 | 关键技能 | 实现思路 |</p>
-<p>|---------|---------|---------|</p>
-<p>| 留言板 | 节点创建/事件委托 | 1. 获取输入 2. 创建元素 3. 添加删除功能 |</p>
-<p>| 全选功能 | 属性批量操作 | 1. 获取所有复选框 2. 联动全选状态 |</p>
-<p>| 分类筛选 | 数据过滤/显示控制 | 1. 数据分类 2. 显示切换动画 |</p>
-<p>流程图示例（全选功能）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">flowchart TD</span><br><span class="line"></span><br><span class="line">    A[点击全选按钮] --&gt; B&#123;全选状态&#125;</span><br><span class="line"></span><br><span class="line">    B --&gt;|true| C[设置所有checkbox.checked=true]</span><br><span class="line"></span><br><span class="line">    B --&gt;|false| D[设置所有checkbox.checked=false]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>对象.disabled = true 禁用按钮/搜索框</p>
-<h2 id="循环方法对比">循环方法对比</h2>
-<h3 id="基本用法">基本用法</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// forEach写法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line">arr.<span class="title function_">forEach</span>(alert);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 传统for循环写法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> k = <span class="number">0</span>, length = arr.<span class="property">length</span>; k &lt; length; k++) &#123;</span><br><span class="line"></span><br><span class="line">  <span class="title function_">alert</span>(arr[k]); <span class="comment">// 注意变量名一致性</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="ForEach参数解析">ForEach参数解析</h3>
-<p>| 参数位置 | 说明                  | 类型       |</p>
-<p>|---------|---------------------|-----------|</p>
-<p>| 第1个参数 | 当前遍历的数组元素         | any       |</p>
-<p>| 第2个参数 | 当前元素的索引（从0开始）   | number    |</p>
-<p>| 第3个参数 | 正在遍历的数组本身        | Array     |</p>
-<h3 id="运行示例">运行示例</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">const</span> letters = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>];</span><br><span class="line"></span><br><span class="line">letters.<span class="title function_">forEach</span>(<span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(item, index, array);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出结果：</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">a 0 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">b 1 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">c 2 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">d 3 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line">d <span class="number">3</span> [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## <span class="variable constant_">DOM</span> 文档模型</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 核心概念</span><br><span class="line"></span><br><span class="line">- **文档(<span class="title class_">Document</span>)**：整个页面的根节点，通过 <span class="string">`document`</span> 对象访问</span><br><span class="line"></span><br><span class="line">- **元素(<span class="title class_">Element</span>)**：<span class="variable constant_">HTML</span> 标签对应的对象（如 <span class="string">`&lt;div&gt;`</span>、<span class="string">`&lt;p&gt;`</span>）</span><br><span class="line"></span><br><span class="line">- **节点(<span class="title class_">Node</span>)**：文档中的所有组成部分（包括元素、文本、注释等）</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 元素获取方法</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">| 方法名                  | 返回类型       | 使用场景               |</span><br><span class="line"></span><br><span class="line">|-------------------------|----------------|------------------------|</span><br><span class="line"></span><br><span class="line">| <span class="string">`getElementById()`</span>      | 单个元素对象   | 精确查找唯一元素       |</span><br><span class="line"></span><br><span class="line">| <span class="string">`getElementsByTagName()`</span> | <span class="variable constant_">HTML</span>集合       | 批量操作同类型元素     |</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过ID获取单个元素</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">const header = document.getElementById(&#x27;mainHeader&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过标签名获取所有段落</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">const paragraphs = document.getElementsByTagName(&#x27;p&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure>
-<h3 id="注意事项">注意事项</h3>
-<ol>
-<li>
-<p><strong>加载顺序</strong>：脚本应放在<body>底部或使用DOMContentLoaded事件</body></p>
-</li>
-<li>
-<p><strong>方法规范</strong>：注意方法名大小写（如<code>getElementById</code>的最后一个’d’小写）</p>
-</li>
-<li>
-<p><strong>返回类型</strong>：</p>
-<ul>
-<li>
-<p><code>null</code> 表示元素未找到</p>
-</li>
-<li>
-<p>集合需通过索引访问具体元素（如<code>paragraphs[0]</code>）</p>
-</li>
-</ul>
-</li>
-</ol>
-<h3 id="调试技巧">调试技巧</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 查看元素详细信息</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">dir</span>(header);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出示例：</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">HTMLHeadingElement &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  id: &#x27;mainHeader&#x27;,</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  classList: DOMTokenList [ ],</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  ...</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>document.getElementsbyTageName(div[1])返回第二个元素值</p>
-<p>获取父元素中的子元素：</p>
-<p>1-可以给父元素定ID，在父元素中查找元素(</p>
-<p>这是html中的元素<code>&lt;ul id=&quot;a&quot;&gt;   </code></p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementByid</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>( ul.<span class="title function_">getElementsByTageName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;ul&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(ul[<span class="number">0</span>].<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>通过类名获取元素（HTML5）</p>
-<p><code>document.getElmentsByClassName('box');</code></p>
-<p>指定选择器的第一个元素对象（选择器需要加符号申明）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">document.querySelector(&#x27;.box&#x27;)//获取第一个类选择器,也可获取第一个标签选择器</span><br><span class="line"></span><br><span class="line">//所有元素对象</span><br><span class="line"></span><br><span class="line">document.querySelectorAll(&#x27;.box&#x27;)//获取第所有类选择器</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>获取body元素</p>
-<p><code>document.body;</code></p>
-<p>获取html元素</p>
-<p><code>document.documentElement;</code></p>
+    <title>【picoCTF】Forbidden Paths 禁止路径</title>
+    <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径">👀Forbidden Paths 禁止路径</h3>
+<p>题目截图：</p>
+<p><img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"></p>
+<p>访问实例可以得到</p>
+<p><img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
+<h3 id="🤔思路：">🤔思路：</h3>
+<p>由题已经知道</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line"></span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code></p>
+<p>最后尝试：<code>../../../flag.txt</code></p>
+<h3 id="🚩获得flag">🚩获得flag:</h3>
+<p>尝试：<code>../../../flag.txt</code></p>
+<p>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code></p>
+<p><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png" alt></p>
 ]]></content>
       <categories>
-        <category>学习</category>
+        <category>picoCTF</category>
       </categories>
       <tags>
-        <tag>前端</tag>
-        <tag>js</tag>
+        <tag>CTF</tag>
+        <tag>题目</tag>
       </tags>
   </entry>
   <entry>
@@ -1253,6 +1141,118 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       </categories>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端JS：关于DOM元素</title>
+    <url>/2025/03/27/%E5%89%8D%E7%AB%AFJS%EF%BC%9A%E5%85%B3%E4%BA%8EDOM%E5%85%83%E7%B4%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念">核心概念</h2>
+<h3 id="元素-Element-vs-节点-Node">元素(Element) vs 节点(Node)</h3>
+<ul>
+<li>
+<p>元素：HTML文档中的具体标签（如 <code>&lt;div&gt;</code> <code>&lt;button&gt;</code>）</p>
+</li>
+<li>
+<p>节点：文档中的所有组成部分（包括元素、文本、注释等）</p>
+</li>
+<li>
+<p>关系：元素是节点的一种特殊类型</p>
+</li>
+</ul>
+<h3 id="常用DOM操作">常用DOM操作</h3>
+<ol>
+<li>
+<p><strong>禁用元素</strong>：<code>element.disabled = true</code> 适用于表单元素</p>
+</li>
+<li>
+<p><strong>内容操作</strong>：<code>innerHTML</code> / <code>textContent</code></p>
+</li>
+<li>
+<p><strong>样式控制</strong>：<code>style.property</code> / <code>classList</code></p>
+</li>
+<li>
+<p><strong>事件处理</strong>：<code>addEventListener</code></p>
+</li>
+</ol>
+<h2 id="实战案例">实战案例</h2>
+<h3 id="案例1：动态表格生成">案例1：动态表格生成</h3>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 1. 创建表格骨架</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> table = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;table&#x27;</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 批量生成数据行</span></span><br><span class="line"></span><br><span class="line">users.<span class="title function_">forEach</span>(<span class="function"><span class="params">user</span> =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> row = table.<span class="title function_">insertRow</span>();</span><br><span class="line"></span><br><span class="line">  row.<span class="property">innerHTML</span> = <span class="string">`&lt;td&gt;<span class="subst">$&#123;user.name&#125;</span>&lt;/td&gt;&lt;td&gt;<span class="subst">$&#123;user.age&#125;</span>&lt;/td&gt;`</span>;</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 添加到页面</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(table);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="案例2：颜色切换器">案例2：颜色切换器</h3>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;color-picker&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#ff0000&quot;</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#00ff00&quot;</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;button&#x27;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">btn</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  btn.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">backgroundColor</span> = btn.<span class="property">dataset</span>.<span class="property">color</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="常见问题">常见问题</h2>
+<ol>
+<li>
+<p><strong>元素找不到</strong>：检查选择器拼写/元素加载时机</p>
+</li>
+<li>
+<p><strong>事件不触发</strong>：确认元素已渲染后再绑定事件</p>
+</li>
+<li>
+<p><strong>样式不生效</strong>：优先使用class操作代替直接style修改</p>
+</li>
+</ol>
+<h2 id="进阶练习">进阶练习</h2>
+<p>| 练习项目 | 关键技能 | 实现思路 |</p>
+<p>|---------|---------|---------|</p>
+<p>| 留言板 | 节点创建/事件委托 | 1. 获取输入 2. 创建元素 3. 添加删除功能 |</p>
+<p>| 全选功能 | 属性批量操作 | 1. 获取所有复选框 2. 联动全选状态 |</p>
+<p>| 分类筛选 | 数据过滤/显示控制 | 1. 数据分类 2. 显示切换动画 |</p>
+<p>流程图示例（全选功能）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">flowchart TD</span><br><span class="line"></span><br><span class="line">    A[点击全选按钮] --&gt; B&#123;全选状态&#125;</span><br><span class="line"></span><br><span class="line">    B --&gt;|true| C[设置所有checkbox.checked=true]</span><br><span class="line"></span><br><span class="line">    B --&gt;|false| D[设置所有checkbox.checked=false]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>对象.disabled = true 禁用按钮/搜索框</p>
+<h2 id="循环方法对比">循环方法对比</h2>
+<h3 id="基本用法">基本用法</h3>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// forEach写法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line">arr.<span class="title function_">forEach</span>(alert);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 传统for循环写法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> k = <span class="number">0</span>, length = arr.<span class="property">length</span>; k &lt; length; k++) &#123;</span><br><span class="line"></span><br><span class="line">  <span class="title function_">alert</span>(arr[k]); <span class="comment">// 注意变量名一致性</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="ForEach参数解析">ForEach参数解析</h3>
+<p>| 参数位置 | 说明                  | 类型       |</p>
+<p>|---------|---------------------|-----------|</p>
+<p>| 第1个参数 | 当前遍历的数组元素         | any       |</p>
+<p>| 第2个参数 | 当前元素的索引（从0开始）   | number    |</p>
+<p>| 第3个参数 | 正在遍历的数组本身        | Array     |</p>
+<h3 id="运行示例">运行示例</h3>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">const</span> letters = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>];</span><br><span class="line"></span><br><span class="line">letters.<span class="title function_">forEach</span>(<span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(item, index, array);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出结果：</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">a 0 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">b 1 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">c 2 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">d 3 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line">d <span class="number">3</span> [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## <span class="variable constant_">DOM</span> 文档模型</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 核心概念</span><br><span class="line"></span><br><span class="line">- **文档(<span class="title class_">Document</span>)**：整个页面的根节点，通过 <span class="string">`document`</span> 对象访问</span><br><span class="line"></span><br><span class="line">- **元素(<span class="title class_">Element</span>)**：<span class="variable constant_">HTML</span> 标签对应的对象（如 <span class="string">`&lt;div&gt;`</span>、<span class="string">`&lt;p&gt;`</span>）</span><br><span class="line"></span><br><span class="line">- **节点(<span class="title class_">Node</span>)**：文档中的所有组成部分（包括元素、文本、注释等）</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 元素获取方法</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">| 方法名                  | 返回类型       | 使用场景               |</span><br><span class="line"></span><br><span class="line">|-------------------------|----------------|------------------------|</span><br><span class="line"></span><br><span class="line">| <span class="string">`getElementById()`</span>      | 单个元素对象   | 精确查找唯一元素       |</span><br><span class="line"></span><br><span class="line">| <span class="string">`getElementsByTagName()`</span> | <span class="variable constant_">HTML</span>集合       | 批量操作同类型元素     |</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过ID获取单个元素</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">const header = document.getElementById(&#x27;mainHeader&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过标签名获取所有段落</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">const paragraphs = document.getElementsByTagName(&#x27;p&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure>
+<h3 id="注意事项">注意事项</h3>
+<ol>
+<li>
+<p><strong>加载顺序</strong>：脚本应放在<body>底部或使用DOMContentLoaded事件</body></p>
+</li>
+<li>
+<p><strong>方法规范</strong>：注意方法名大小写（如<code>getElementById</code>的最后一个’d’小写）</p>
+</li>
+<li>
+<p><strong>返回类型</strong>：</p>
+<ul>
+<li>
+<p><code>null</code> 表示元素未找到</p>
+</li>
+<li>
+<p>集合需通过索引访问具体元素（如<code>paragraphs[0]</code>）</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="调试技巧">调试技巧</h3>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 查看元素详细信息</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">dir</span>(header);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出示例：</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">HTMLHeadingElement &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  id: &#x27;mainHeader&#x27;,</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  classList: DOMTokenList [ ],</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  ...</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>document.getElementsbyTageName(div[1])返回第二个元素值</p>
+<p>获取父元素中的子元素：</p>
+<p>1-可以给父元素定ID，在父元素中查找元素(</p>
+<p>这是html中的元素<code>&lt;ul id=&quot;a&quot;&gt;   </code></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementByid</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>( ul.<span class="title function_">getElementsByTageName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;ul&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(ul[<span class="number">0</span>].<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>通过类名获取元素（HTML5）</p>
+<p><code>document.getElmentsByClassName('box');</code></p>
+<p>指定选择器的第一个元素对象（选择器需要加符号申明）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">document.querySelector(&#x27;.box&#x27;)//获取第一个类选择器,也可获取第一个标签选择器</span><br><span class="line"></span><br><span class="line">//所有元素对象</span><br><span class="line"></span><br><span class="line">document.querySelectorAll(&#x27;.box&#x27;)//获取第所有类选择器</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>获取body元素</p>
+<p><code>document.body;</code></p>
+<p>获取html元素</p>
+<p><code>document.documentElement;</code></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>js</tag>
       </tags>
   </entry>
 </search>
