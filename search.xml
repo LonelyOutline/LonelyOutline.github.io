@@ -249,84 +249,63 @@
     <title>HTML基础内容（文档结构与核心知识）</title>
     <url>/2025/03/27/htlm%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9-%E5%9F%BA%E7%A1%80%E7%BB%93%E6%9E%84%E3%80%81%E7%9F%A5%E8%AF%86%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="基本文档结构">基本文档结构</h2>
-<pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;zh&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-    &lt;meta name=&quot;keywords&quot; content=&quot;HTML教程,网页基础&quot;&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;HTML文档结构与核心知识点详解&quot;&gt;
-    &lt;title&gt;HTML基础教程&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;!-- 页面内容 --&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;HTML教程,网页基础&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;HTML文档结构与核心知识点详解&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>HTML基础教程<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 页面内容 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h3 id="核心组成部分">核心组成部分</h3>
 <ol>
-<li><strong>文档声明</strong><br>
-<code>&lt;!DOCTYPE html&gt;</code> 声明HTML5文档类型</li>
-<li><strong>根元素</strong><br>
-<code>&lt;html&gt;</code> 标签包含整个文档内容</li>
-<li><strong>头部区域</strong><br>
-<code>&lt;head&gt;</code> 包含元数据和页面标题</li>
-<li><strong>主体内容</strong><br>
-<code>&lt;body&gt;</code> 包含所有可见内容</li>
+<li><strong>文档声明</strong></li>
 </ol>
+<p><code>&lt;!DOCTYPE html&gt;</code> 声明HTML5文档类型</p>
+<ol start="2">
+<li><strong>根元素</strong></li>
+</ol>
+<p><code>&lt;html&gt;</code> 标签包含整个文档内容</p>
+<ol start="3">
+<li><strong>头部区域</strong></li>
+</ol>
+<p><code>&lt;head&gt;</code> 包含元数据和页面标题</p>
+<ol start="4">
+<li><strong>主体内容</strong></li>
+</ol>
+<p><code>&lt;body&gt;</code> 包含所有可见内容</p>
 <h2 id="元数据配置">元数据配置</h2>
 <h3 id="文件头和文件体">文件头和文件体</h3>
 <ul>
-<li><code>&lt;head&gt;</code> 文件头</li>
-<li><code>&lt;/head&gt;</code> 文件尾</li>
-<li><code>&lt;body&gt;</code> 文件体</li>
-<li>主要内容</li>
-<li><code>&lt;/body&gt;</code> 结束</li>
-<li><code>&lt;/html&gt;</code></li>
+<li>
+<p><code>&lt;head&gt;</code> 文件头</p>
+</li>
+<li>
+<p><code>&lt;/head&gt;</code> 文件尾</p>
+</li>
+<li>
+<p><code>&lt;body&gt;</code> 文件体</p>
+</li>
+<li>
+<p>主要内容</p>
+</li>
+<li>
+<p><code>&lt;/body&gt;</code> 结束</p>
+</li>
+<li>
+<p><code>&lt;/html&gt;</code></p>
+</li>
 </ul>
 <h3 id="元数据">元数据</h3>
 <ul>
-<li><code>keyword</code>：向搜索引擎说明你的网页的关键词</li>
-<li><code>description</code>：向搜索引擎描述网页内容的摘要信息</li>
+<li>
+<p><code>keyword</code>：向搜索引擎说明你的网页的关键词</p>
+</li>
+<li>
+<p><code>description</code>：向搜索引擎描述网页内容的摘要信息</p>
+</li>
 </ul>
 <h3 id="元数据配置-2">元数据配置</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>作用</th>
-<th>示例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>charset</code></td>
-<td>指定字符编码</td>
-<td><code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code></td>
-</tr>
-<tr>
-<td><code>name=&quot;keywords&quot;</code></td>
-<td>搜索引擎关键词</td>
-<td><code>&lt;meta name=&quot;keywords&quot; content=&quot;HTML,教程&quot;&gt;</code></td>
-</tr>
-<tr>
-<td><code>name=&quot;description&quot;</code></td>
-<td>页面描述</td>
-<td><code>&lt;meta name=&quot;description&quot; content=&quot;HTML基础教程&quot;&gt;</code></td>
-</tr>
-<tr>
-<td><code>name=&quot;viewport&quot;</code></td>
-<td>移动端适配</td>
-<td><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;</code></td>
-</tr>
-</tbody>
-</table>
-<pre><code class="language-html">&lt;!-- 典型元数据配置 --&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;meta name=&quot;keywords&quot; content=&quot;网页开发,前端技术&quot;&gt;
-&lt;meta name=&quot;description&quot; content=&quot;HTML文档结构详解教程&quot;&gt;
-&lt;title&gt;页面标题&lt;/title&gt;
-</code></pre>
+<p>| 属性 | 作用 | 示例 |</p>
+<p>|------|------|------|</p>
+<p>| <code>charset</code> | 指定字符编码 | <code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code> |</p>
+<p>| <code>name=&quot;keywords&quot;</code> | 搜索引擎关键词 | <code>&lt;meta name=&quot;keywords&quot; content=&quot;HTML,教程&quot;&gt;</code> |</p>
+<p>| <code>name=&quot;description&quot;</code> | 页面描述 | <code>&lt;meta name=&quot;description&quot; content=&quot;HTML基础教程&quot;&gt;</code> |</p>
+<p>| <code>name=&quot;viewport&quot;</code> | 移动端适配 | <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;</code> |</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 典型元数据配置 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网页开发,前端技术&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;HTML文档结构详解教程&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>页面标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h3 id="HTML的属性">HTML的属性</h3>
 <ul>
 <li><code>lang</code>(语言)=“zh(中文)/en(英文)</li>
@@ -335,17 +314,20 @@
 <h2 id="URL链接">URL链接</h2>
 <h3 id="协议和域名">协议和域名</h3>
 <ul>
-<li><code>http</code>资源访问
+<li>
+<p><code>http</code>资源访问</p>
 <ul>
 <li><code>https://www.xxxx.com/</code></li>
 </ul>
 </li>
-<li><code>FTP</code>文件下载
+<li>
+<p><code>FTP</code>文件下载</p>
 <ul>
 <li><code>ftp://ftp.xxxxx/文件夹/文件</code></li>
 </ul>
 </li>
-<li><code>MAILTO</code>邮箱地址
+<li>
+<p><code>MAILTO</code>邮箱地址</p>
 <ul>
 <li><code>mailto:xxxxxx@xx.com</code></li>
 </ul>
@@ -355,13 +337,21 @@
 <h2 id="文件路径">文件路径</h2>
 <h3 id="相对路径">相对路径</h3>
 <ul>
-<li>相对当前文件寻找需要的文件的路径</li>
-<li><code>&quot;..&quot;</code>：返回上一层寻找文件</li>
+<li>
+<p>相对当前文件寻找需要的文件的路径</p>
+</li>
+<li>
+<p><code>&quot;..&quot;</code>：返回上一层寻找文件</p>
+</li>
 </ul>
 <h3 id="绝对路径">绝对路径</h3>
 <ul>
-<li>从根目录下寻找需要的文件</li>
-<li><code>&lt;主机+服务器+目录+文件名&gt;</code></li>
+<li>
+<p>从根目录下寻找需要的文件</p>
+</li>
+<li>
+<p><code>&lt;主机+服务器+目录+文件名&gt;</code></p>
+</li>
 </ul>
 <hr>
 <h2 id="注释">注释</h2>
@@ -370,9 +360,15 @@
 </ul>
 <h2 id="图像格式">图像格式</h2>
 <ul>
-<li><code>jpeg(JPG)</code>：网页上更加实用，有损压缩，色彩丰富，较小</li>
-<li><code>PNG</code>：无损压缩（同时支持有损，透明，交错，动画）</li>
-<li><code>GIF</code>：简单动画，背景图片</li>
+<li>
+<p><code>jpeg(JPG)</code>：网页上更加实用，有损压缩，色彩丰富，较小</p>
+</li>
+<li>
+<p><code>PNG</code>：无损压缩（同时支持有损，透明，交错，动画）</p>
+</li>
+<li>
+<p><code>GIF</code>：简单动画，背景图片</p>
+</li>
 </ul>
 <h3 id="img的使用">img的使用</h3>
 <ul>
@@ -384,8 +380,12 @@
 </ul>
 <h3 id="属性">属性</h3>
 <ul>
-<li><code>target</code>：当值等于_blank时会在一个新窗口中打开</li>
-<li><code>title</code>：提示性文本，当鼠标放在入口时会显示该段提示</li>
+<li>
+<p><code>target</code>：当值等于_blank时会在一个新窗口中打开</p>
+</li>
+<li>
+<p><code>title</code>：提示性文本，当鼠标放在入口时会显示该段提示</p>
+</li>
 </ul>
 <h2 id="锚点">锚点</h2>
 <h3 id="定义">定义</h3>
@@ -399,19 +399,30 @@
 </ul>
 <h4 id="全局属性">全局属性</h4>
 <ul>
-<li><code>spellcheck='true/false'</code> 对可编辑元素(非密码)进行检查</li>
-<li><code>contenteditable='true/false'</code> 使元素内容可编辑(p/div/…)
+<li>
+<p><code>spellcheck='true/false'</code> 对可编辑元素(非密码)进行检查</p>
+</li>
+<li>
+<p><code>contenteditable='true/false'</code> 使元素内容可编辑(p/div/…)</p>
 <ul>
 <li><code>contenteditable=&quot;plaintext-only&quot;</code> 只能输入纯文本</li>
 </ul>
 </li>
-<li><code>accesskey=&quot;key&quot;</code> 使元素获取焦点的快捷键(Alt+key/Alt+shift+key)</li>
-<li><code>center</code> 标签自带居中样式。</li>
+<li>
+<p><code>accesskey=&quot;key&quot;</code> 使元素获取焦点的快捷键(Alt+key/Alt+shift+key)</p>
+</li>
+<li>
+<p><code>center</code> 标签自带居中样式。</p>
+</li>
 </ul>
 <h3 id="文档声明">文档声明</h3>
 <ul>
-<li><code>DOCTYPE</code> 声明文档html格式</li>
-<li><code>meta</code></li>
+<li>
+<p><code>DOCTYPE</code> 声明文档html格式</p>
+</li>
+<li>
+<p><code>meta</code></p>
+</li>
 </ul>
 <h3 id="背景">背景</h3>
 <ul>
@@ -423,11 +434,14 @@
 </ul>
 <h2 id="二级菜单">二级菜单</h2>
 <ul>
-<li><code>&lt;ul&gt;</code>
+<li>
+<p><code>&lt;ul&gt;</code></p>
 <ul>
-<li><code>&lt;li&gt;</code>
+<li>
+<p><code>&lt;li&gt;</code></p>
 <ul>
-<li><code>&lt;ul&gt;</code> 默认为none ,当鼠标移动到父级元素上时 ul改为block( li:hover)
+<li>
+<p><code>&lt;ul&gt;</code> 默认为none ,当鼠标移动到父级元素上时 ul改为block( li:hover)</p>
 <ul>
 <li><code>&lt;li&gt;</code></li>
 </ul>
@@ -439,8 +453,12 @@
 </ul>
 <h2 id="通栏和版心">通栏和版心</h2>
 <ul>
-<li>通栏:占全屏的元素</li>
-<li>版心:两边会留空间的元素</li>
+<li>
+<p>通栏:占全屏的元素</p>
+</li>
+<li>
+<p>版心:两边会留空间的元素</p>
+</li>
 </ul>
 <h3 id="设定一个类名作为版心">设定一个类名作为版心</h3>
 <ul>
@@ -448,48 +466,97 @@
 </ul>
 <h2 id="布局区域标签-语义化">布局区域标签(语义化)</h2>
 <ul>
-<li>这些语义化标准主要是针对搜索引擎的</li>
-<li>IE9中需要转换成块元素</li>
-<li>移动端没有这些兼容性问题</li>
+<li>
+<p>这些语义化标准主要是针对搜索引擎的</p>
+</li>
+<li>
+<p>IE9中需要转换成块元素</p>
+</li>
+<li>
+<p>移动端没有这些兼容性问题</p>
+</li>
 </ul>
 <h3 id="标签">标签</h3>
 <ul>
-<li><code>&lt;header&gt;</code> 头部标签</li>
-<li><code>&lt;nav&gt;</code> 导航栏</li>
-<li><code>&lt;article&gt;</code> 标签规定独立的自包含内容(帖子，文章，评论)</li>
-<li><code>&lt;section&gt;</code> 定义某个区域(大号的div)</li>
-<li><code>&lt;aside&gt;</code> 侧边栏</li>
-<li><code>&lt;footer&gt;</code> 尾部标签</li>
-<li><code>&lt;figure&gt;</code> 标签规定独立的流内容（图像、图表、代码等等）
+<li>
+<p><code>&lt;header&gt;</code> 头部标签</p>
+</li>
+<li>
+<p><code>&lt;nav&gt;</code> 导航栏</p>
+</li>
+<li>
+<p><code>&lt;article&gt;</code> 标签规定独立的自包含内容(帖子，文章，评论)</p>
+</li>
+<li>
+<p><code>&lt;section&gt;</code> 定义某个区域(大号的div)</p>
+</li>
+<li>
+<p><code>&lt;aside&gt;</code> 侧边栏</p>
+</li>
+<li>
+<p><code>&lt;footer&gt;</code> 尾部标签</p>
+</li>
+<li>
+<p><code>&lt;figure&gt;</code> 标签规定独立的流内容（图像、图表、代码等等）</p>
 <ul>
 <li><code>&lt;figcaption&gt;</code> 在figure 标签中设置标题</li>
 </ul>
 </li>
-<li><code>&lt;label&gt;</code> 可以关联</li>
+<li>
+<p><code>&lt;label&gt;</code> 可以关联</p>
+</li>
 </ul>
 <h2 id="多媒体标签">多媒体标签</h2>
 <h3 id="视频播放">视频播放</h3>
 <ul>
-<li><code>&lt;video src='文件地址'&gt;</code> 视频播放,只支持 MP4,WetbM,Ogg</li>
-<li>标签内容可以写 ‘您的浏览器不支持 video 标签’ ,当未正常播放的时候会显示。</li>
+<li>
+<p><code>&lt;video src='文件地址'&gt;</code> 视频播放,只支持 MP4,WetbM,Ogg</p>
+</li>
+<li>
+<p>标签内容可以写 ‘您的浏览器不支持 video 标签’ ,当未正常播放的时候会显示。</p>
+</li>
 </ul>
 <h3 id="属性-3">属性</h3>
 <ul>
-<li><code>autoplay = 'autoplay'</code> 视频自动播放(谷歌浏览器需要muted属性)</li>
-<li><code>controls = &quot;controls&quot;</code> 显示播放控件(播放暂停进度条等…)</li>
-<li><code>height/width</code> 设置播放器高宽</li>
-<li><code>loop = 'loop'</code> 是否循环播放</li>
-<li><code>preload = auto/none</code> 是否预加载视频</li>
-<li><code>poster = imgurl(图片地址)</code> 加载等待的图片</li>
-<li><code>muted = muted</code> 静音播放</li>
+<li>
+<p><code>autoplay = 'autoplay'</code> 视频自动播放(谷歌浏览器需要muted属性)</p>
+</li>
+<li>
+<p><code>controls = &quot;controls&quot;</code> 显示播放控件(播放暂停进度条等…)</p>
+</li>
+<li>
+<p><code>height/width</code> 设置播放器高宽</p>
+</li>
+<li>
+<p><code>loop = 'loop'</code> 是否循环播放</p>
+</li>
+<li>
+<p><code>preload = auto/none</code> 是否预加载视频</p>
+</li>
+<li>
+<p><code>poster = imgurl(图片地址)</code> 加载等待的图片</p>
+</li>
+<li>
+<p><code>muted = muted</code> 静音播放</p>
+</li>
 </ul>
 <h3 id="音频播放">音频播放</h3>
 <ul>
-<li><code>&lt;audio src=''&gt;</code> 音频播放， 支持 MP3、Wav、Ogg 格式</li>
-<li><code>autoplay = 'autoplay'</code> 视频自动播放（谷歌禁用此属性）</li>
-<li><code>controls = &quot;controls&quot;</code> 显示播放控件(播放暂停进度条等…)</li>
-<li><code>loop = 'loop'</code> 是否循环播放</li>
-<li><code>src = URL(文件路径)</code></li>
+<li>
+<p><code>&lt;audio src=''&gt;</code> 音频播放， 支持 MP3、Wav、Ogg 格式</p>
+</li>
+<li>
+<p><code>autoplay = 'autoplay'</code> 视频自动播放（谷歌禁用此属性）</p>
+</li>
+<li>
+<p><code>controls = &quot;controls&quot;</code> 显示播放控件(播放暂停进度条等…)</p>
+</li>
+<li>
+<p><code>loop = 'loop'</code> 是否循环播放</p>
+</li>
+<li>
+<p><code>src = URL(文件路径)</code></p>
+</li>
 </ul>
 <h3 id="引入源文件">引入源文件</h3>
 <ul>
@@ -498,9 +565,14 @@
 <h2 id="表单">表单</h2>
 <h3 id="选项列表-数据列表">选项列表(数据列表)</h3>
 <ul>
-<li>在文本框中输入数据，会弹出 datalist 中相关文本</li>
-<li><code>&lt;input type='text' list='mylist'&gt;</code></li>
-<li><code>&lt;datalist id='mylist'&gt;</code>
+<li>
+<p>在文本框中输入数据，会弹出 datalist 中相关文本</p>
+</li>
+<li>
+<p><code>&lt;input type='text' list='mylist'&gt;</code></p>
+</li>
+<li>
+<p><code>&lt;datalist id='mylist'&gt;</code></p>
 <ul>
 <li><code>&lt;option value=''&gt;选项</code></li>
 </ul>
@@ -512,62 +584,49 @@
 </ul>
 <h3 id="type属性值">type属性值</h3>
 <ul>
-<li><code>email</code> 限制用户只能输入Email 类型  multiple 属性可以填写多个邮箱用 ‘,’ 隔开</li>
-<li><code>url</code> 限制用户只能输入 URL 类型</li>
-<li><code>date</code> 限制用户只能输入 日期 类型</li>
-<li><code>time</code> 限制用户只能输入 时间 类型</li>
-<li><code>month</code> 限制用户只能输入 月分 类型</li>
-<li><code>week</code> 限制用户只能输入 周 类型</li>
-<li><code>number</code> 限制用户只能输入 数字 类型</li>
-<li><code>tel</code> 手机号码</li>
-<li><code>search</code> 搜索框</li>
-<li><code>color</code> 生成颜色选择器</li>
+<li>
+<p><code>email</code> 限制用户只能输入Email 类型  multiple 属性可以填写多个邮箱用 ‘,’ 隔开</p>
+</li>
+<li>
+<p><code>url</code> 限制用户只能输入 URL 类型</p>
+</li>
+<li>
+<p><code>date</code> 限制用户只能输入 日期 类型</p>
+</li>
+<li>
+<p><code>time</code> 限制用户只能输入 时间 类型</p>
+</li>
+<li>
+<p><code>month</code> 限制用户只能输入 月分 类型</p>
+</li>
+<li>
+<p><code>week</code> 限制用户只能输入 周 类型</p>
+</li>
+<li>
+<p><code>number</code> 限制用户只能输入 数字 类型</p>
+</li>
+<li>
+<p><code>tel</code> 手机号码</p>
+</li>
+<li>
+<p><code>search</code> 搜索框</p>
+</li>
+<li>
+<p><code>color</code> 生成颜色选择器</p>
+</li>
 </ul>
 <h3 id="注意">注意</h3>
 <ul>
 <li>验证内容是否符合通过添加 form 表单域后 点击按钮 验证</li>
 </ul>
 <h3 id="表单验证属性">表单验证属性</h3>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>作用</th>
-<th>示例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>required</code></td>
-<td>必填字段</td>
-<td><code>&lt;input required&gt;</code></td>
-</tr>
-<tr>
-<td><code>pattern</code></td>
-<td>正则验证</td>
-<td><code>&lt;input pattern=&quot;\d+&quot;&gt;</code></td>
-</tr>
-<tr>
-<td><code>placeholder</code></td>
-<td>输入提示</td>
-<td><code>&lt;input placeholder=&quot;请输入&quot;&gt;</code></td>
-</tr>
-<tr>
-<td><code>min/max</code></td>
-<td>数值范围</td>
-<td><code>&lt;input type=&quot;number&quot; min=&quot;1&quot;&gt;</code></td>
-</tr>
-</tbody>
-</table>
-<pre><code class="language-html">&lt;!-- 带验证的登录表单示例 --&gt;
-&lt;form&gt;
-    &lt;input type=&quot;email&quot; 
-           placeholder=&quot;请输入邮箱&quot;
-           required
-           pattern=&quot;[a-z0-9._%+-]+@[a-z0-9.-]+\.com&quot;&gt;
-    &lt;input type=&quot;password&quot; minlength=&quot;6&quot; required&gt;
-&lt;/form&gt;
-</code></pre>
+<p>| 属性 | 作用 | 示例 |</p>
+<p>|------|------|------|</p>
+<p>| <code>required</code> | 必填字段 | <code>&lt;input required&gt;</code> |</p>
+<p>| <code>pattern</code> | 正则验证 | <code>&lt;input pattern=&quot;\d+&quot;&gt;</code> |</p>
+<p>| <code>placeholder</code> | 输入提示 | <code>&lt;input placeholder=&quot;请输入&quot;&gt;</code> |</p>
+<p>| <code>min/max</code> | 数值范围 | <code>&lt;input type=&quot;number&quot; min=&quot;1&quot;&gt;</code> |</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 带验证的登录表单示例 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">form</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;email&quot;</span> </span></span><br><span class="line"><span class="tag"></span></span><br><span class="line"><span class="tag">           <span class="attr">placeholder</span>=<span class="string">&quot;请输入邮箱&quot;</span></span></span><br><span class="line"><span class="tag"></span></span><br><span class="line"><span class="tag">           <span class="attr">required</span></span></span><br><span class="line"><span class="tag"></span></span><br><span class="line"><span class="tag">           <span class="attr">pattern</span>=<span class="string">&quot;[a-z0-9._%+-]+@[a-z0-9.-]+\.com&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">minlength</span>=<span class="string">&quot;6&quot;</span> <span class="attr">required</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h3 id="autofocus">autofocus</h3>
 <ul>
 <li><code>autofocus = 'autofocus'</code> 自动聚焦属性</li>
@@ -583,19 +642,33 @@
 <h2 id="表格">表格</h2>
 <h3 id="定义表格">定义表格</h3>
 <ul>
-<li><code>&lt;table&gt;</code>:定义表格</li>
-<li><code>&lt;tr&gt;</code>:table标签的子标签，代表一列、</li>
-<li><code>&lt;td&gt;</code>:tr标签的子标签，代表一个单元格</li>
+<li>
+<p><code>&lt;table&gt;</code>:定义表格</p>
+</li>
+<li>
+<p><code>&lt;tr&gt;</code>:table标签的子标签，代表一列、</p>
+</li>
+<li>
+<p><code>&lt;td&gt;</code>:tr标签的子标签，代表一个单元格</p>
+</li>
 </ul>
 <h3 id="table属性">table属性</h3>
 <ul>
-<li><code>border</code>:边框粗细程度（属性值为数值）</li>
-<li><code>cellspacing</code>:定义单元格的间距（属性值为数值）</li>
+<li>
+<p><code>border</code>:边框粗细程度（属性值为数值）</p>
+</li>
+<li>
+<p><code>cellspacing</code>:定义单元格的间距（属性值为数值）</p>
+</li>
 </ul>
 <h3 id="td属性">td属性</h3>
 <ul>
-<li><code>colspan</code>:定义单元格的跨列大小（属性值为数值）</li>
-<li><code>rowspan</code>:定义单元格的跨行大小（属性值为数值）</li>
+<li>
+<p><code>colspan</code>:定义单元格的跨列大小（属性值为数值）</p>
+</li>
+<li>
+<p><code>rowspan</code>:定义单元格的跨行大小（属性值为数值）</p>
+</li>
 </ul>
 <h3 id="属性-4">属性</h3>
 <ul>
@@ -619,10 +692,7 @@
 <h3 id="🤔思路：">🤔思路：</h3>
 <p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>
 题目内容：</p>
-<pre><code class="language-language">您能否识别组件并利用易受攻击的组件？
-该网站在此处运行。你能成为 ？admin
-您可以使用密码登录以开始使用。testTest123!
-</code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
 <p>启动实例访问：</p>
 <h4 id="第一步">@第一步</h4>
 <p>访问网站看到的界面是这样的<br>
@@ -634,8 +704,8 @@
 <img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png" alt><br>
 登录成功！<br>
 <img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png" alt><br>
-好吧被忽悠了，让我们在看看控制台有没有线索？<br>
-在应用程序中能看到cookie有token令牌<br>
+好吧被忽悠了，让我们在看看控制台有没有线索？</p>
+<p>在应用程序中能看到cookie有token令牌<br>
 <img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png" alt></p>
 <p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br>
 <img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png" alt><br>
@@ -688,49 +758,16 @@
 </ul>
 <h3 id="第一步！了解vue页面的基本概念：">第一步！了解vue页面的基本概念：</h3>
 <h4 id="基本三件套；script-template-style">基本三件套；script-template-style</h4>
-<p>这种结构被称为“单文件组件”(SFC)</p>
-<pre><code class="language-html">&lt;script setup&gt;
-// 这里写 JavaScript 代码
-// 比如：定义变量、函数、导入其他文件等
-&lt;/script&gt;
-
-&lt;template&gt;
-&lt;!-- 这里写页面结构，类似 HTML --&gt;
-&lt;!-- 就是用户看到的内容 --&gt;
-&lt;/template&gt;
-
-&lt;style&gt;
-/* 这里写样式，就是 CSS */
-/* 控制页面长什么样子 */
-&lt;/style&gt;
-</code></pre>
+<p>这种结构被称为&quot;单文件组件&quot;(SFC)</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 这里写 JavaScript 代码</span></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 比如：定义变量、函数、导入其他文件等</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 这里写页面结构，类似 HTML --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 就是用户看到的内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="comment">/* 这里写样式，就是 CSS */</span></span></span><br><span class="line"><span class="language-css"><span class="comment">/* 控制页面长什么样子 */</span></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h4 id="关于-script-setup-：">关于 script setup ：</h4>
 <p>概念：是 Vue 3 引入的一种语法糖，基于 Composition API，使得代码更加简洁和易于理解。它允许我们在&lt;‘script’&gt;标签中直接使用 setup 函数的功能。</p>
-<pre><code class="language-javascript">// 导入需要的东西，就像拿工具一样
-import &#123; ref &#125; from 'vue'  
-// ref 用来创建可以改变的变量
-import &#123; useRouter &#125; from 'vue-router' 
-// 用来实现页面跳转
-
-// 创建变量
-const count = ref(0)  // 这个值可以改变，改变时页面会自动更新
-// 创建函数
-const addCount = () =&gt; &#123;
-  count.value = count.value + 1  // 改变值的方法
-&#125;
-</code></pre>
-<p><strong><code>大致了解作用，用到再详解</code></strong><br>
-解释：<br>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 导入需要的东西，就像拿工具一样</span></span><br><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>  </span><br><span class="line"><span class="comment">// ref 用来创建可以改变的变量</span></span><br><span class="line"><span class="keyword">import</span> &#123; useRouter &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span> </span><br><span class="line"><span class="comment">// 用来实现页面跳转</span></span><br><span class="line"><span class="comment">// 创建变量</span></span><br><span class="line"><span class="keyword">const</span> count = <span class="title function_">ref</span>(<span class="number">0</span>)  <span class="comment">// 这个值可以改变，改变时页面会自动更新</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建函数</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">addCount</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">  count.<span class="property">value</span> = count.<span class="property">value</span> + <span class="number">1</span>  <span class="comment">// 改变值的方法</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong><code>大致了解作用，用到再详解</code></strong></p>
+<p>解释：<br>
 Q: 什么是ref?<br>
 A: 参考<a href="https://cn.vuejs.org/api/">API 参考 | Vue.js</a></p>
-<pre><code class="language-answer">- ref 的作用：
-- 让数据变成&quot;响应式&quot;的
-- 当数据改变时，页面会自动更新
-
-- 举个生活例子：
-- 没有 ref ：就像手动计分板，改变分数需要手动更新显示
-- 使用 ref ：就像电子计分板，改变分数时显示会自动更新
-</code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- ref 的作用：</span><br><span class="line">- 让数据变成&quot;响应式&quot;的</span><br><span class="line">- 当数据改变时，页面会自动更新</span><br><span class="line"></span><br><span class="line">- 举个生活例子：</span><br><span class="line">- 没有 ref ：就像手动计分板，改变分数需要手动更新显示</span><br><span class="line">- 使用 ref ：就像电子计分板，改变分数时显示会自动更新</span><br></pre></td></tr></table></figure>
 <p>Q：什么是’vue-router’<br>
 A：这是vue-router官方提供的路由管理，可以更好地管理页面跳转和路由。具体学习在<a href="https://router.vuejs.org/zh/introduction.html">介绍 | Vue Router</a></p>
 <hr>
@@ -738,172 +775,41 @@ A：这是vue-router官方提供的路由管理，可以更好地管理页面跳
 <p>我想制作一个左右布局的页面，左侧是导航栏：<br>
 那么，我就先在复用组件中创建一个导航栏/components/sidebar<br>
 我使用的是<a href="https://element-plus.org/zh-CN/">Element Plus(组件官网)</a>组件。</p>
-<pre><code class="language-html">
-&lt;script setup&gt;
-// 导入所需的 Vue 功能
-import &#123; ref, inject &#125; from 'vue'  // 增加 inject 导入
-import &#123; useRouter, useRoute &#125; from 'vue-router'  // 用于路由导航
-import &#123; watch &#125; from 'vue'
-
-// 导入 Element Plus 的图标组件
-import &#123;
-  HomeFilled,
-  Document,
-  Picture,
-  Setting,
-  Moon,
-  Sunny
-&#125; from '@element-plus/icons-vue'
-// @element-plus/icons-vue 是 Element Plus 提供的图标库
-
-&lt;/script&gt;
-
-&lt;template&gt;
-  &lt;el-menu
-    class=&quot;sidebar-menu&quot;&gt;
-
-    &lt;!-- 首页菜单项 --&gt;
-    &lt;el-menu-item index=&quot;/&quot;&gt;
-      &lt;el-icon&gt;&lt;HomeFilled /&gt;&lt;/el-icon&gt;
-      &lt;template #title&gt;首页&lt;/template&gt;
-    &lt;/el-menu-item&gt;
-
-    &lt;!-- 文章管理菜单项 --&gt;
-    &lt;el-menu-item index=&quot;/posts&quot;&gt;
-      &lt;el-icon&gt;&lt;Document /&gt;&lt;/el-icon&gt;
-      &lt;template #title&gt;文章管理&lt;/template&gt;
-    &lt;/el-menu-item&gt;
-
-    &lt;!-- 图片管理菜单项 --&gt;
-    &lt;el-menu-item index=&quot;/images&quot;&gt;
-      &lt;el-icon&gt;&lt;Picture /&gt;&lt;/el-icon&gt;
-      &lt;template #title&gt;图片管理&lt;/template&gt;
-    &lt;/el-menu-item&gt;
-    
-    &lt;!-- 设置菜单项 --&gt;
-    &lt;el-menu-item index=&quot;/settings&quot;&gt;
-      &lt;el-icon&gt;&lt;Setting /&gt;&lt;/el-icon&gt;
-      &lt;template #title&gt;设置&lt;/template&gt;
-    &lt;/el-menu-item&gt;
-  &lt;/el-menu&gt;
-&lt;/template&gt;
-
-&lt;style scoped&gt;
-.sidebar-menu &#123;
-  height: 100vh;
-  border-right: none;
-  transition: all 0.3s;
-&#125;
-
-.sidebar-menu:not(.el-menu--collapse) &#123;
-  width: 200px;
-&#125;
-
-.logo &#123;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 0;
-  border-bottom: 1px solid #f2f2f2;
-  transition: all 0.3s;
-&#125;
-
-.logo-small &#123;
-  height: 30px;
-  transition: all 0.3s;
-&#125;
-
-.el-menu-item &#123;
-  border-left: 3px solid transparent;
-&#125;
-
-.el-menu-item.is-active &#123;
-  background-color: var(--el-menu-hover-bg-color);
-  border-left: 3px solid var(--el-menu-active-color);
-&#125;
-
-.el-menu-item:hover &#123;
-  background-color: var(--el-menu-hover-bg-color);
-&#125;
-
-.theme-switch &#123;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  padding: 0 20px;
-  transition: all 0.3s;
-&#125;
-
-.theme-switch.collapsed &#123;
-  padding: 0 20px;
-  display: flex;
-  justify-content: center;
-&#125;
-
-.theme-switch.dark &#123;
-  color: #e5e7eb;
-&#125;
-
-.switch-btn &#123;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 6px;
-  transition: all 0.3s;
-&#125;
-
-.switch-btn:hover &#123;
-  background-color: var(--el-menu-hover-bg-color);
-&#125;
-
-.switch-btn .el-icon &#123;
-  margin-right: 10px;
-  font-size: 18px;
-&#125;
-
-.theme-switch.collapsed .switch-btn .el-icon &#123;
-  margin-right: 0;
-&#125;
-&lt;/style&gt;
-</code></pre>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 导入所需的 Vue 功能</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; ref, inject &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>  <span class="comment">// 增加 inject 导入</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; useRouter, useRoute &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span>  <span class="comment">// 用于路由导航</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; watch &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 导入 Element Plus 的图标组件</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">HomeFilled</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Document</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Picture</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Setting</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Moon</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Sunny</span></span></span><br><span class="line"><span class="language-javascript">&#125; <span class="keyword">from</span> <span class="string">&#x27;@element-plus/icons-vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// @element-plus/icons-vue 是 Element Plus 提供的图标库</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">el-menu</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-menu&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 首页菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">HomeFilled</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 文章管理菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/posts&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Document</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>文章管理<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 图片管理菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/images&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Picture</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>图片管理<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!-- 设置菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/settings&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Setting</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>设置<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">el-menu</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">scoped</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.sidebar-menu</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-right</span>: none;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.sidebar-menu</span><span class="selector-pseudo">:not</span>(<span class="selector-class">.el-menu--collapse</span>) &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.logo</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#f2f2f2</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.logo-small</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-left</span>: <span class="number">3px</span> solid transparent;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span><span class="selector-class">.is-active</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-left</span>: <span class="number">3px</span> solid <span class="built_in">var</span>(--el-menu-active-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">bottom</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.collapsed</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.dark</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">color</span>: <span class="number">#e5e7eb</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-radius</span>: <span class="number">6px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span> <span class="selector-class">.el-icon</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.collapsed</span> <span class="selector-class">.switch-btn</span> <span class="selector-class">.el-icon</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">margin-right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>然后引入到APP.vue中：</p>
-<pre><code class="language-html">&lt;script setup&gt;
-import Sidebar from './components/Sidebar.vue';
-&lt;!-- 导入sidebar组件 --&gt;
-import './style.css'
-import &#123; ref, onMounted, onUnmounted &#125; from 'vue'
-&lt;/script&gt;
-
-&lt;template&gt;
-  &lt;div id=&quot;app&quot;&gt;
-    &lt;el-container class=&quot;container&quot;&gt;
-      &lt;!-- 侧边栏 --&gt;
-      &lt;el-aside :width=&quot;isCollapse ? '64px' : '200px'&quot; class=&quot;aside-container&quot;&gt;
-        &lt;Sidebar :is-collapse=&quot;isCollapse&quot; @toggle-collapse=&quot;isCollapse = !isCollapse&quot; /&gt;
-      &lt;/el-aside&gt;
-      
-      &lt;!-- 主内容区 --&gt;
-      &lt;el-container class=&quot;main-container&quot;&gt;
-        &lt;el-main&gt;
-          &lt;router-view&gt;&lt;/router-view&gt;
-        &lt;/el-main&gt;
-      &lt;/el-container&gt;
-    &lt;/el-container&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
-&lt;style&gt;
-&lt;/style&gt;
-</code></pre>
-]]></content>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-handlebars"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import Sidebar from &#x27;./components/Sidebar.vue&#x27;;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars"><span class="comment">&lt;!-- 导入sidebar组件 --&gt;</span></span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import &#x27;./style.css&#x27;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import &#123; ref, onMounted, onUnmounted &#125; from &#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars"></span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-container</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!-- 侧边栏 --&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-aside</span> <span class="attr">:width</span>=<span class="string">&quot;isCollapse ? &#x27;64px&#x27; : &#x27;200px&#x27;&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aside-container&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Sidebar</span> <span class="attr">:is-collapse</span>=<span class="string">&quot;isCollapse&quot;</span> @<span class="attr">toggle-collapse</span>=<span class="string">&quot;isCollapse = !isCollapse&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">el-aside</span>&gt;</span></span><br><span class="line">      </span><br><span class="line">      <span class="comment">&lt;!-- 主内容区 --&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-container</span> <span class="attr">class</span>=<span class="string">&quot;main-container&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">el-main</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">router-view</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">el-main</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">el-container</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-container</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>web开发</category>
       </categories>
       <tags>
         <tag>前端</tag>
         <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【picoCTF】Forbidden Paths 禁止路径</title>
+    <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径">👀Forbidden Paths 禁止路径</h3>
+<p>题目截图：<br>
+<img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"><br>
+访问实例可以得到<br>
+<img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
+<h3 id="🤔思路：">🤔思路：</h3>
+<p>由题已经知道</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br></pre></td></tr></table></figure>
+<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>
+最后尝试：<code>../../../flag.txt</code></p>
+<h3 id="🚩获得flag">🚩获得flag:</h3>
+<p>尝试：<code>../../../flag.txt</code><br>
+flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br>
+<img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png" alt></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>题目</tag>
       </tags>
   </entry>
   <entry>
@@ -922,32 +828,6 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       </tags>
   </entry>
   <entry>
-    <title>【picoCTF】Forbidden Paths 禁止路径</title>
-    <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径">👀Forbidden Paths 禁止路径</h3>
-<p>题目截图：</p>
-<p><img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"></p>
-<p>访问实例可以得到</p>
-<p><img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
-<h3 id="🤔思路：">🤔思路：</h3>
-<p>由题已经知道</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line"></span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code></p>
-<p>最后尝试：<code>../../../flag.txt</code></p>
-<h3 id="🚩获得flag">🚩获得flag:</h3>
-<p>尝试：<code>../../../flag.txt</code></p>
-<p>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code></p>
-<p><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png" alt></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>初识vue</title>
     <url>/2025/04/13/%E5%88%9D%E8%AF%86vue/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="如何构建-Vue-项目">如何构建 Vue 项目</h3>
@@ -955,18 +835,10 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
 <p><code>npm create vite@latest frontend -- --template vue</code></p>
 <p><strong>参数说明：</strong></p>
 <ul>
-<li>
-<p>npm create：使用 npm 创建新项目。</p>
-</li>
-<li>
-<p>vite@latest：使用最新版本的 Vite 脚手架。</p>
-</li>
-<li>
-<p>frontend：项目名称，将在当前目录创建一个名为 frontend 的文件夹。</p>
-</li>
-<li>
-<p>--template vue：使用 Vue 模板创建项目。</p>
-</li>
+<li>npm create：使用 npm 创建新项目。</li>
+<li>vite@latest：使用最新版本的 Vite 脚手架。</li>
+<li>frontend：项目名称，将在当前目录创建一个名为 frontend 的文件夹。</li>
+<li>--template vue：使用 Vue 模板创建项目。</li>
 </ul>
 <h4 id="项目结构">项目结构</h4>
 <p>创建后会生成一个名为 frontend 的文件夹，用于存放前端内容。以下是 frontend 文件夹下的常见文件和文件夹及其作用：</p>
@@ -974,27 +846,13 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
 <li>
 <p><strong>/src</strong>：项目的核心源代码目录。</p>
 <ul>
-<li>
-<p><strong>/src/assets</strong>：存放静态资源，如图片、样式文件等。</p>
-</li>
-<li>
-<p><strong>/src/components</strong>：存放可复用的 Vue 组件。</p>
-</li>
-<li>
-<p><strong>/src/views</strong>：存放页面级的 Vue 组件，通常对应路由。</p>
-</li>
-<li>
-<p><strong>/src/router</strong>：存放路由配置文件，用于管理页面跳转。</p>
-</li>
-<li>
-<p><strong>/src/store</strong>：存放 Vuex 状态管理相关代码（如果使用 Vuex）。</p>
-</li>
-<li>
-<p><strong>/src/main.js</strong>：项目的入口文件，用于初始化 Vue 应用。</p>
-</li>
-<li>
-<p><strong>/src/App.vue</strong>：项目的根组件，包含全局布局和样式。</p>
-</li>
+<li><strong>/src/assets</strong>：存放静态资源，如图片、样式文件等。</li>
+<li><strong>/src/components</strong>：存放可复用的 Vue 组件。</li>
+<li><strong>/src/views</strong>：存放页面级的 Vue 组件，通常对应路由。</li>
+<li><strong>/src/router</strong>：存放路由配置文件，用于管理页面跳转。</li>
+<li><strong>/src/store</strong>：存放 Vuex 状态管理相关代码（如果使用 Vuex）。</li>
+<li><strong>/src/main.js</strong>：项目的入口文件，用于初始化 Vue 应用。</li>
+<li><strong>/src/App.vue</strong>：项目的根组件，包含全局布局和样式。</li>
 </ul>
 </li>
 <li>
@@ -1011,102 +869,58 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
 </li>
 </ul>
 <h4 id="安装依赖">安装依赖</h4>
-<p>运行以下命令安装项目依赖：</p>
-<p><code>npm install</code></p>
+<p>运行以下命令安装项目依赖：<br>
+<code>npm install</code></p>
 <h3 id="运行检查">运行检查</h3>
-<p>运行代码确定可以运行</p>
-<p><code>npm run dev</code></p>
+<p>运行代码确定可以运行<br>
+<code>npm run dev</code></p>
 <h4 id="构建后的目录结构示例">构建后的目录结构示例</h4>
 <p><img src="https://bu.dusays.com/2025/04/13/67fb781fe3155.png" alt="构建后"></p>
 <h3 id="安装推荐依赖">安装推荐依赖</h3>
 <h4 id="1-功能性依赖">1. 功能性依赖</h4>
 <ul>
-<li>
-<p><strong>vue-router</strong>：Vue 官方的路由管理器，用于实现页面导航和路由控制，支持路由嵌套、参数传递等功能。</p>
-</li>
-<li>
-<p><strong>pinia</strong>：Vue 官方推荐的状态管理库，用于管理全局状态，比 Vuex 更轻量和简单。</p>
-</li>
-<li>
-<p><strong>axios</strong>：流行的 HTTP 客户端，用于与后端 API 进行通信，支持请求拦截、响应处理等功能。</p>
-</li>
-<li>
-<p><strong>element-plus</strong>：Vue 3 的 UI 组件库，提供丰富的预制组件，支持主题定制。</p>
-</li>
-<li>
-<p><strong>@element-plus/icons-vue</strong>：Element Plus 的图标库，提供常用的图标组件。</p>
-</li>
+<li><strong>vue-router</strong>：Vue 官方的路由管理器，用于实现页面导航和路由控制，支持路由嵌套、参数传递等功能。</li>
+<li><strong>pinia</strong>：Vue 官方推荐的状态管理库，用于管理全局状态，比 Vuex 更轻量和简单。</li>
+<li><strong>axios</strong>：流行的 HTTP 客户端，用于与后端 API 进行通信，支持请求拦截、响应处理等功能。</li>
+<li><strong>element-plus</strong>：Vue 3 的 UI 组件库，提供丰富的预制组件，支持主题定制。</li>
+<li><strong>@element-plus/icons-vue</strong>：Element Plus 的图标库，提供常用的图标组件。</li>
 </ul>
-<p>安装命令：</p>
-<p><code>npm install vue-router pinia axios element-plus @element-plus/icons-vue</code></p>
+<p>安装命令：<br>
+<code>npm install vue-router pinia axios element-plus @element-plus/icons-vue</code></p>
 <h4 id="2-开发工具依赖">2. 开发工具依赖</h4>
 <ul>
-<li>
-<p><strong>sass</strong>：CSS 预处理器，用于编写更灵活的样式代码。</p>
-</li>
-<li>
-<p><strong>unplugin-auto-import</strong>：自动导入 API，减少手动导入的繁琐操作。</p>
-</li>
-<li>
-<p><strong>unplugin-vue-components</strong>：自动导入组件，提升开发效率。</p>
-</li>
+<li><strong>sass</strong>：CSS 预处理器，用于编写更灵活的样式代码。</li>
+<li><strong>unplugin-auto-import</strong>：自动导入 API，减少手动导入的繁琐操作。</li>
+<li><strong>unplugin-vue-components</strong>：自动导入组件，提升开发效率。</li>
 </ul>
-<p>安装命令：</p>
-<p><code>npm install -D sass unplugin-auto-import unplugin-vue-components</code></p>
+<p>安装命令：<br>
+<code>npm install -D sass unplugin-auto-import unplugin-vue-components</code></p>
 <h4 id="3-功能增强依赖">3. 功能增强依赖</h4>
 <ul>
-<li>
-<p><strong>dayjs</strong>：轻量级的日期处理库，用于格式化、解析和操作日期。</p>
-</li>
-<li>
-<p><strong>lodash-es</strong>：工具函数库，提供丰富的函数用于数组、对象等操作。</p>
-</li>
-<li>
-<p><strong>js-cookie</strong>：用于处理浏览器 Cookie 的库。</p>
-</li>
-<li>
-<p><strong>nprogress</strong>：页面加载进度条库，用于增强用户体验。</p>
-</li>
+<li><strong>dayjs</strong>：轻量级的日期处理库，用于格式化、解析和操作日期。</li>
+<li><strong>lodash-es</strong>：工具函数库，提供丰富的函数用于数组、对象等操作。</li>
+<li><strong>js-cookie</strong>：用于处理浏览器 Cookie 的库。</li>
+<li><strong>nprogress</strong>：页面加载进度条库，用于增强用户体验。</li>
 </ul>
-<p>安装命令：</p>
-<p><code>npm install dayjs lodash-es js-cookie nprogress</code></p>
+<p>安装命令：<br>
+<code>npm install dayjs lodash-es js-cookie nprogress</code></p>
 <hr>
 <h3 id="开始开发页面">开始开发页面</h3>
 <p>安装完依赖后，就可以开发页面啦！以下是开发过程中的一些常见步骤：</p>
 <ol>
-<li>
-<p><strong>配置路由</strong>： 在 /src/router/index.js 中配置页面路由，使用 vue-router 定义页面路径和对应的组件。</p>
-</li>
-<li>
-<p><strong>管理状态</strong>： 在 /src/store 中使用 pinia 创建和管理全局状态，方便组件间共享数据。</p>
-</li>
-<li>
-<p><strong>使用 UI 组件库</strong>： 导入 element-plus 组件库，使用其提供的预制组件快速构建页面。</p>
-</li>
-<li>
-<p><strong>开发组件</strong>： 在 /src/components 中创建可复用的 Vue 组件，提升代码复用性。</p>
-</li>
-<li>
-<p><strong>页面开发</strong>： 在 /src/views 中开发页面级组件，结合路由实现页面跳转。</p>
-</li>
-<li>
-<p><strong>样式开发</strong>： 使用 sass 编写样式文件，存放在 /src/assets 中，统一管理项目样式。</p>
-</li>
-<li>
-<p><strong>API 请求</strong>： 使用 axios 与后端 API 进行通信，处理数据请求和响应。</p>
-</li>
-<li>
-<p><strong>工具函数</strong>： 使用 lodash-es 提供的工具函数简化代码逻辑。</p>
-</li>
-<li>
-<p><strong>日期处理</strong>： 使用 dayjs 处理日期相关的逻辑，如格式化、计算等。</p>
-</li>
-<li>
-<p><strong>用户体验优化</strong>： 使用 nprogress 添加页面加载进度条，提升用户体验。</p>
-</li>
+<li><strong>配置路由</strong>： 在 /src/router/index.js 中配置页面路由，使用 vue-router 定义页面路径和对应的组件。</li>
+<li><strong>管理状态</strong>： 在 /src/store 中使用 pinia 创建和管理全局状态，方便组件间共享数据。</li>
+<li><strong>使用 UI 组件库</strong>： 导入 element-plus 组件库，使用其提供的预制组件快速构建页面。</li>
+<li><strong>开发组件</strong>： 在 /src/components 中创建可复用的 Vue 组件，提升代码复用性。</li>
+<li><strong>页面开发</strong>： 在 /src/views 中开发页面级组件，结合路由实现页面跳转。</li>
+<li><strong>样式开发</strong>： 使用 sass 编写样式文件，存放在 /src/assets 中，统一管理项目样式。</li>
+<li><strong>API 请求</strong>： 使用 axios 与后端 API 进行通信，处理数据请求和响应。</li>
+<li><strong>工具函数</strong>： 使用 lodash-es 提供的工具函数简化代码逻辑。</li>
+<li><strong>日期处理</strong>： 使用 dayjs 处理日期相关的逻辑，如格式化、计算等。</li>
+<li><strong>用户体验优化</strong>： 使用 nprogress 添加页面加载进度条，提升用户体验。</li>
 </ol>
 <h4 id="打包vue项目：">打包vue项目：</h4>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">npm run build</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure>
 <p>这会将vue项目打包成静态资源，也可以使用electron打包成桌面程序</p>
 ]]></content>
       <categories>
@@ -1123,18 +937,12 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
 <p>图片镜像服务<br>
 可以提取一些图片使用</p>
-<pre><code class="language-网址">https://image.baidu.com/search/down?url=
-</code></pre>
-<pre><code class="language-网址">https://img.noobzone.ru/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://images.weserv.nl/?url=
-</code></pre>
-<pre><code class="language-网址">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=
-</code></pre>
-<pre><code class="language-网址">https://pic1.xuehuaimg.com/proxy/
-</code></pre>
-<pre><code class="language-网址">https://search.pstatic.net/common?src=
-</code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://image.baidu.com/search/down?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://img.noobzone.ru/getimg.php?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://images.weserv.nl/?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://pic1.xuehuaimg.com/proxy/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://search.pstatic.net/common?src=</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -1149,103 +957,116 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念">核心概念</h2>
 <h3 id="元素-Element-vs-节点-Node">元素(Element) vs 节点(Node)</h3>
 <ul>
-<li>
-<p>元素：HTML文档中的具体标签（如 <code>&lt;div&gt;</code> <code>&lt;button&gt;</code>）</p>
-</li>
-<li>
-<p>节点：文档中的所有组成部分（包括元素、文本、注释等）</p>
-</li>
-<li>
-<p>关系：元素是节点的一种特殊类型</p>
-</li>
+<li>元素：HTML文档中的具体标签（如 <code>&lt;div&gt;</code> <code>&lt;button&gt;</code>）</li>
+<li>节点：文档中的所有组成部分（包括元素、文本、注释等）</li>
+<li>关系：元素是节点的一种特殊类型</li>
 </ul>
 <h3 id="常用DOM操作">常用DOM操作</h3>
 <ol>
-<li>
-<p><strong>禁用元素</strong>：<code>element.disabled = true</code> 适用于表单元素</p>
-</li>
-<li>
-<p><strong>内容操作</strong>：<code>innerHTML</code> / <code>textContent</code></p>
-</li>
-<li>
-<p><strong>样式控制</strong>：<code>style.property</code> / <code>classList</code></p>
-</li>
-<li>
-<p><strong>事件处理</strong>：<code>addEventListener</code></p>
-</li>
+<li><strong>禁用元素</strong>：<code>element.disabled = true</code> 适用于表单元素</li>
+<li><strong>内容操作</strong>：<code>innerHTML</code> / <code>textContent</code></li>
+<li><strong>样式控制</strong>：<code>style.property</code> / <code>classList</code></li>
+<li><strong>事件处理</strong>：<code>addEventListener</code></li>
 </ol>
 <h2 id="实战案例">实战案例</h2>
 <h3 id="案例1：动态表格生成">案例1：动态表格生成</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 1. 创建表格骨架</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> table = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;table&#x27;</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 批量生成数据行</span></span><br><span class="line"></span><br><span class="line">users.<span class="title function_">forEach</span>(<span class="function"><span class="params">user</span> =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> row = table.<span class="title function_">insertRow</span>();</span><br><span class="line"></span><br><span class="line">  row.<span class="property">innerHTML</span> = <span class="string">`&lt;td&gt;<span class="subst">$&#123;user.name&#125;</span>&lt;/td&gt;&lt;td&gt;<span class="subst">$&#123;user.age&#125;</span>&lt;/td&gt;`</span>;</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 添加到页面</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(table);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 创建表格骨架</span></span><br><span class="line"><span class="keyword">const</span> table = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;table&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 批量生成数据行</span></span><br><span class="line">users.<span class="title function_">forEach</span>(<span class="function"><span class="params">user</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> row = table.<span class="title function_">insertRow</span>();</span><br><span class="line">  row.<span class="property">innerHTML</span> = <span class="string">`&lt;td&gt;<span class="subst">$&#123;user.name&#125;</span>&lt;/td&gt;&lt;td&gt;<span class="subst">$&#123;user.age&#125;</span>&lt;/td&gt;`</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 添加到页面</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(table);</span><br></pre></td></tr></table></figure>
 <h3 id="案例2：颜色切换器">案例2：颜色切换器</h3>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;color-picker&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#ff0000&quot;</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#00ff00&quot;</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;button&#x27;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">btn</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  btn.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">backgroundColor</span> = btn.<span class="property">dataset</span>.<span class="property">color</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;color-picker&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#ff0000&quot;</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#00ff00&quot;</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;button&#x27;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">btn</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">  btn.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">backgroundColor</span> = btn.<span class="property">dataset</span>.<span class="property">color</span>;</span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h2 id="常见问题">常见问题</h2>
 <ol>
-<li>
-<p><strong>元素找不到</strong>：检查选择器拼写/元素加载时机</p>
-</li>
-<li>
-<p><strong>事件不触发</strong>：确认元素已渲染后再绑定事件</p>
-</li>
-<li>
-<p><strong>样式不生效</strong>：优先使用class操作代替直接style修改</p>
-</li>
+<li><strong>元素找不到</strong>：检查选择器拼写/元素加载时机</li>
+<li><strong>事件不触发</strong>：确认元素已渲染后再绑定事件</li>
+<li><strong>样式不生效</strong>：优先使用class操作代替直接style修改</li>
 </ol>
 <h2 id="进阶练习">进阶练习</h2>
-<p>| 练习项目 | 关键技能 | 实现思路 |</p>
-<p>|---------|---------|---------|</p>
-<p>| 留言板 | 节点创建/事件委托 | 1. 获取输入 2. 创建元素 3. 添加删除功能 |</p>
-<p>| 全选功能 | 属性批量操作 | 1. 获取所有复选框 2. 联动全选状态 |</p>
-<p>| 分类筛选 | 数据过滤/显示控制 | 1. 数据分类 2. 显示切换动画 |</p>
+<table>
+<thead>
+<tr>
+<th>练习项目</th>
+<th>关键技能</th>
+<th>实现思路</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>留言板</td>
+<td>节点创建/事件委托</td>
+<td>1. 获取输入 2. 创建元素 3. 添加删除功能</td>
+</tr>
+<tr>
+<td>全选功能</td>
+<td>属性批量操作</td>
+<td>1. 获取所有复选框 2. 联动全选状态</td>
+</tr>
+<tr>
+<td>分类筛选</td>
+<td>数据过滤/显示控制</td>
+<td>1. 数据分类 2. 显示切换动画</td>
+</tr>
+</tbody>
+</table>
 <p>流程图示例（全选功能）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">flowchart TD</span><br><span class="line"></span><br><span class="line">    A[点击全选按钮] --&gt; B&#123;全选状态&#125;</span><br><span class="line"></span><br><span class="line">    B --&gt;|true| C[设置所有checkbox.checked=true]</span><br><span class="line"></span><br><span class="line">    B --&gt;|false| D[设置所有checkbox.checked=false]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">flowchart TD</span><br><span class="line">    A[点击全选按钮] --&gt; B&#123;全选状态&#125;</span><br><span class="line">    B --&gt;|true| C[设置所有checkbox.checked=true]</span><br><span class="line">    B --&gt;|false| D[设置所有checkbox.checked=false]</span><br></pre></td></tr></table></figure>
 <p>对象.disabled = true 禁用按钮/搜索框</p>
 <h2 id="循环方法对比">循环方法对比</h2>
 <h3 id="基本用法">基本用法</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// forEach写法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line">arr.<span class="title function_">forEach</span>(alert);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 传统for循环写法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> k = <span class="number">0</span>, length = arr.<span class="property">length</span>; k &lt; length; k++) &#123;</span><br><span class="line"></span><br><span class="line">  <span class="title function_">alert</span>(arr[k]); <span class="comment">// 注意变量名一致性</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// forEach写法</span></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line">arr.<span class="title function_">forEach</span>(alert);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 传统for循环写法</span></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> k = <span class="number">0</span>, length = arr.<span class="property">length</span>; k &lt; length; k++) &#123;</span><br><span class="line">  <span class="title function_">alert</span>(arr[k]); <span class="comment">// 注意变量名一致性</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="ForEach参数解析">ForEach参数解析</h3>
-<p>| 参数位置 | 说明                  | 类型       |</p>
-<p>|---------|---------------------|-----------|</p>
-<p>| 第1个参数 | 当前遍历的数组元素         | any       |</p>
-<p>| 第2个参数 | 当前元素的索引（从0开始）   | number    |</p>
-<p>| 第3个参数 | 正在遍历的数组本身        | Array     |</p>
+<table>
+<thead>
+<tr>
+<th>参数位置</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1个参数</td>
+<td>当前遍历的数组元素</td>
+<td>any</td>
+</tr>
+<tr>
+<td>第2个参数</td>
+<td>当前元素的索引（从0开始）</td>
+<td>number</td>
+</tr>
+<tr>
+<td>第3个参数</td>
+<td>正在遍历的数组本身</td>
+<td>Array</td>
+</tr>
+</tbody>
+</table>
 <h3 id="运行示例">运行示例</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">const</span> letters = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>];</span><br><span class="line"></span><br><span class="line">letters.<span class="title function_">forEach</span>(<span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(item, index, array);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出结果：</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">a 0 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">b 1 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">c 2 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">d 3 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line">d <span class="number">3</span> [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## <span class="variable constant_">DOM</span> 文档模型</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 核心概念</span><br><span class="line"></span><br><span class="line">- **文档(<span class="title class_">Document</span>)**：整个页面的根节点，通过 <span class="string">`document`</span> 对象访问</span><br><span class="line"></span><br><span class="line">- **元素(<span class="title class_">Element</span>)**：<span class="variable constant_">HTML</span> 标签对应的对象（如 <span class="string">`&lt;div&gt;`</span>、<span class="string">`&lt;p&gt;`</span>）</span><br><span class="line"></span><br><span class="line">- **节点(<span class="title class_">Node</span>)**：文档中的所有组成部分（包括元素、文本、注释等）</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 元素获取方法</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">| 方法名                  | 返回类型       | 使用场景               |</span><br><span class="line"></span><br><span class="line">|-------------------------|----------------|------------------------|</span><br><span class="line"></span><br><span class="line">| <span class="string">`getElementById()`</span>      | 单个元素对象   | 精确查找唯一元素       |</span><br><span class="line"></span><br><span class="line">| <span class="string">`getElementsByTagName()`</span> | <span class="variable constant_">HTML</span>集合       | 批量操作同类型元素     |</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过ID获取单个元素</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">const header = document.getElementById(&#x27;mainHeader&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过标签名获取所有段落</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">const paragraphs = document.getElementsByTagName(&#x27;p&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> letters = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>];</span><br><span class="line">letters.<span class="title function_">forEach</span>(<span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(item, index, array);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出结果：</span></span><br><span class="line"><span class="comment">a 0 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">b 1 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">c 2 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">d 3 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line">## <span class="variable constant_">DOM</span> 文档模型</span><br><span class="line"></span><br><span class="line">### 核心概念</span><br><span class="line">- **文档(<span class="title class_">Document</span>)**：整个页面的根节点，通过 <span class="string">`document`</span> 对象访问</span><br><span class="line">- **元素(<span class="title class_">Element</span>)**：<span class="variable constant_">HTML</span> 标签对应的对象（如 <span class="string">`&lt;div&gt;`</span>、<span class="string">`&lt;p&gt;`</span>）</span><br><span class="line">- **节点(<span class="title class_">Node</span>)**：文档中的所有组成部分（包括元素、文本、注释等）</span><br><span class="line"></span><br><span class="line">### 元素获取方法</span><br><span class="line">| 方法名                  | 返回类型       | 使用场景               |</span><br><span class="line">|-------------------------|----------------|------------------------|</span><br><span class="line">| <span class="string">`getElementById()`</span>      | 单个元素对象   | 精确查找唯一元素       |</span><br><span class="line">| <span class="string">`getElementsByTagName()`</span> | <span class="variable constant_">HTML</span>集合       | 批量操作同类型元素     |</span><br><span class="line"></span><br><span class="line"><span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string">// 通过ID获取单个元素</span></span><br><span class="line"><span class="string">const header = document.getElementById(&#x27;mainHeader&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过标签名获取所有段落</span></span><br><span class="line"><span class="string">const paragraphs = document.getElementsByTagName(&#x27;p&#x27;);</span></span><br></pre></td></tr></table></figure>
 <h3 id="注意事项">注意事项</h3>
 <ol>
-<li>
-<p><strong>加载顺序</strong>：脚本应放在<body>底部或使用DOMContentLoaded事件</body></p>
-</li>
-<li>
-<p><strong>方法规范</strong>：注意方法名大小写（如<code>getElementById</code>的最后一个’d’小写）</p>
-</li>
-<li>
-<p><strong>返回类型</strong>：</p>
+<li><strong>加载顺序</strong>：脚本应放在<body>底部或使用DOMContentLoaded事件</body></li>
+<li><strong>方法规范</strong>：注意方法名大小写（如<code>getElementById</code>的最后一个’d’小写）</li>
+<li><strong>返回类型</strong>：
 <ul>
-<li>
-<p><code>null</code> 表示元素未找到</p>
-</li>
-<li>
-<p>集合需通过索引访问具体元素（如<code>paragraphs[0]</code>）</p>
-</li>
+<li><code>null</code> 表示元素未找到</li>
+<li>集合需通过索引访问具体元素（如<code>paragraphs[0]</code>）</li>
 </ul>
 </li>
 </ol>
 <h3 id="调试技巧">调试技巧</h3>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 查看元素详细信息</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">dir</span>(header);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出示例：</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">HTMLHeadingElement &#123;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  id: &#x27;mainHeader&#x27;,</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  classList: DOMTokenList [ ],</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">  ...</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 查看元素详细信息</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">dir</span>(header);</span><br><span class="line"><span class="comment">/* 输出示例：</span></span><br><span class="line"><span class="comment">HTMLHeadingElement &#123;</span></span><br><span class="line"><span class="comment">  id: &#x27;mainHeader&#x27;,</span></span><br><span class="line"><span class="comment">  classList: DOMTokenList [ ],</span></span><br><span class="line"><span class="comment">  ...</span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br></pre></td></tr></table></figure>
 <p>document.getElementsbyTageName(div[1])返回第二个元素值</p>
-<p>获取父元素中的子元素：</p>
-<p>1-可以给父元素定ID，在父元素中查找元素(</p>
+<p>获取父元素中的子元素：<br>
+1-可以给父元素定ID，在父元素中查找元素(</p>
 <p>这是html中的元素<code>&lt;ul id=&quot;a&quot;&gt;   </code></p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementByid</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>( ul.<span class="title function_">getElementsByTageName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;ul&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(ul[<span class="number">0</span>].<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>通过类名获取元素（HTML5）</p>
-<p><code>document.getElmentsByClassName('box');</code></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementByid</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>( ul.<span class="title function_">getElementsByTageName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;ul&#x27;</span>)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(ul[<span class="number">0</span>].<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<p>通过类名获取元素（HTML5）<br>
+<code>document.getElmentsByClassName('box');</code></p>
 <p>指定选择器的第一个元素对象（选择器需要加符号申明）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">document.querySelector(&#x27;.box&#x27;)//获取第一个类选择器,也可获取第一个标签选择器</span><br><span class="line"></span><br><span class="line">//所有元素对象</span><br><span class="line"></span><br><span class="line">document.querySelectorAll(&#x27;.box&#x27;)//获取第所有类选择器</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>获取body元素</p>
-<p><code>document.body;</code></p>
-<p>获取html元素</p>
-<p><code>document.documentElement;</code></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.box&#x27;</span>)<span class="comment">//获取第一个类选择器,也可获取第一个标签选择器</span></span><br><span class="line"><span class="comment">//所有元素对象</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;.box&#x27;</span>)<span class="comment">//获取第所有类选择器</span></span><br></pre></td></tr></table></figure>
+<p>获取body元素<br>
+<code>document.body;</code></p>
+<p>获取html元素<br>
+<code>document.documentElement;</code></p>
 ]]></content>
       <categories>
         <category>学习</category>
