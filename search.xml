@@ -6,132 +6,230 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>学习视频是<a href="https://www.bilibili.com/video/BV14u41147YH/?p=3&amp;share_source=copy_web&amp;vd_source=4ca6502fdd0fdc55a0f1f51bb8261e49">【【Kurt】Blender零基础入门教程 | Blender中文区新手必刷教程(已完结)】</a></p>
 <h2 id="一、视图操作">一、视图操作</h2>
 <ul>
-<li><strong>数字键</strong>：
+<li>
+<p><strong>数字键</strong>：</p>
 <ul>
-<li>数字键 1（主键盘）：切换到前视图。</li>
-<li>数字键 3（主键盘）：切换到侧视图。</li>
-<li>数字键 7（主键盘）：切换到顶视图。</li>
-<li>数字键 5（主键盘）：在正交视图和透视视图之间切换。</li>
+<li>
+<p>数字键 1（主键盘）：切换到前视图。</p>
+</li>
+<li>
+<p>数字键 3（主键盘）：切换到侧视图。</p>
+</li>
+<li>
+<p>数字键 7（主键盘）：切换到顶视图。</p>
+</li>
+<li>
+<p>数字键 5（主键盘）：在正交视图和透视视图之间切换。</p>
+</li>
 </ul>
 </li>
-<li><strong>鼠标操作</strong>：
+<li>
+<p><strong>鼠标操作</strong>：</p>
 <ul>
-<li>鼠标滚轮：放大或缩小视图。</li>
-<li>按住鼠标中键并拖动：平移视图。</li>
-<li>按住鼠标中键并按住Shift键拖动：旋转视图。</li>
+<li>
+<p>鼠标滚轮：放大或缩小视图。</p>
+</li>
+<li>
+<p>按住鼠标中键并拖动：平移视图。</p>
+</li>
+<li>
+<p>按住鼠标中键并按住Shift键拖动：旋转视图。</p>
+</li>
 </ul>
 </li>
-<li><strong>其他快捷键</strong>：
+<li>
+<p><strong>其他快捷键</strong>：</p>
 <ul>
-<li>Numpad .：聚焦到选中的对象。</li>
-<li>Shift + C：重置视图到默认的场景中心。</li>
+<li>
+<p>Numpad .：聚焦到选中的对象。</p>
+</li>
+<li>
+<p>Shift + C：重置视图到默认的场景中心。</p>
+</li>
 </ul>
 </li>
 </ul>
 <h2 id="二、选择操作">二、选择操作</h2>
 <ul>
-<li><strong>单个对象选择</strong>：
+<li>
+<p><strong>单个对象选择</strong>：</p>
 <ul>
-<li>鼠标左键：在3D视图中选择对象。</li>
-<li>Shift + 鼠标左键：添加或移除对象的选择。</li>
+<li>
+<p>鼠标左键：在3D视图中选择对象。</p>
+</li>
+<li>
+<p>Shift + 鼠标左键：添加或移除对象的选择。</p>
+</li>
 </ul>
 </li>
-<li><strong>多个对象选择</strong>：
+<li>
+<p><strong>多个对象选择</strong>：</p>
 <ul>
-<li>Ctrl + 鼠标左键：框选多个对象。</li>
-<li>B：框选工具，用鼠标拖动一个框来选择框内的对象。</li>
-<li>C：圈选工具，用鼠标画圈来选择圈内的对象。</li>
+<li>
+<p>Ctrl + 鼠标左键：框选多个对象。</p>
+</li>
+<li>
+<p>B：框选工具，用鼠标拖动一个框来选择框内的对象。</p>
+</li>
+<li>
+<p>C：圈选工具，用鼠标画圈来选择圈内的对象。</p>
+</li>
 </ul>
 </li>
-<li><strong>其他选择</strong>：
+<li>
+<p><strong>其他选择</strong>：</p>
 <ul>
-<li>A：全选或取消全选。</li>
-<li>Alt + 鼠标左键：选择边缘环（在编辑模式下，用于选择边缘环）。</li>
+<li>
+<p>A：全选或取消全选。</p>
+</li>
+<li>
+<p>Alt + 鼠标左键：选择边缘环（在编辑模式下，用于选择边缘环）。</p>
+</li>
 </ul>
 </li>
 </ul>
 <h2 id="三、物体模式操作">三、物体模式操作</h2>
 <ul>
-<li><strong>移动、旋转和缩放</strong>：
+<li>
+<p><strong>移动、旋转和缩放</strong>：</p>
 <ul>
-<li>G：移动物体。</li>
-<li>R：旋转物体。</li>
-<li>S：缩放物体。</li>
-<li>在执行移动、旋转或缩放操作后，可以按X、Y或Z键来限制操作到特定的轴。</li>
+<li>
+<p>G：移动物体。</p>
+</li>
+<li>
+<p>R：旋转物体。</p>
+</li>
+<li>
+<p>S：缩放物体。</p>
+</li>
+<li>
+<p>在执行移动、旋转或缩放操作后，可以按X、Y或Z键来限制操作到特定的轴。</p>
+</li>
 </ul>
 </li>
-<li><strong>复制和删除</strong>：
+<li>
+<p><strong>复制和删除</strong>：</p>
 <ul>
-<li>Shift + D：复制选中的物体。</li>
-<li>X：删除选中的物体。</li>
+<li>
+<p>Shift + D：复制选中的物体。</p>
+</li>
+<li>
+<p>X：删除选中的物体。</p>
+</li>
 </ul>
 </li>
-<li><strong>其他操作</strong>：
+<li>
+<p><strong>其他操作</strong>：</p>
 <ul>
-<li>Tab：在物体模式和编辑模式之间切换。</li>
-<li>H：隐藏选中的物体。</li>
-<li>Alt + H：显示所有隐藏的物体。</li>
+<li>
+<p>Tab：在物体模式和编辑模式之间切换。</p>
+</li>
+<li>
+<p>H：隐藏选中的物体。</p>
+</li>
+<li>
+<p>Alt + H：显示所有隐藏的物体。</p>
+</li>
 </ul>
 </li>
 </ul>
 <h2 id="四、编辑模式操作（以网格编辑为例）">四、编辑模式操作（以网格编辑为例）</h2>
 <ul>
-<li><strong>顶点、边和面的切换</strong>：
+<li>
+<p><strong>顶点、边和面的切换</strong>：</p>
 <ul>
-<li>1（数字键区）：切换到顶点选择模式。</li>
-<li>2（数字键区）：切换到边选择模式。</li>
-<li>3（数字键区）：切换到面选择模式。</li>
+<li>
+<p>1（数字键区）：切换到顶点选择模式。</p>
+</li>
+<li>
+<p>2（数字键区）：切换到边选择模式。</p>
+</li>
+<li>
+<p>3（数字键区）：切换到面选择模式。</p>
+</li>
 </ul>
 </li>
-<li><strong>创建和删除</strong>：
+<li>
+<p><strong>创建和删除</strong>：</p>
 <ul>
-<li>F：创建新的面或边。</li>
-<li>X：删除选中的顶点、边或面。</li>
+<li>
+<p>F：创建新的面或边。</p>
+</li>
+<li>
+<p>X：删除选中的顶点、边或面。</p>
+</li>
 </ul>
 </li>
-<li><strong>其他操作</strong>：
+<li>
+<p><strong>其他操作</strong>：</p>
 <ul>
-<li>E：挤出选中的顶点、边或面。</li>
-<li>Ctrl + R：添加循环边。</li>
-<li>Ctrl + B：倒角操作。</li>
+<li>
+<p>E：挤出选中的顶点、边或面。</p>
+</li>
+<li>
+<p>Ctrl + R：添加循环边。</p>
+</li>
+<li>
+<p>Ctrl + B：倒角操作。</p>
+</li>
 </ul>
 </li>
 </ul>
 <h2 id="五、渲染和动画">五、渲染和动画</h2>
 <ul>
-<li><strong>渲染</strong>：
+<li>
+<p><strong>渲染</strong>：</p>
 <ul>
-<li>F12：渲染当前场景。</li>
-<li>Shift + F12：渲染并保存当前场景。</li>
+<li>
+<p>F12：渲染当前场景。</p>
+</li>
+<li>
+<p>Shift + F12：渲染并保存当前场景。</p>
+</li>
 </ul>
 </li>
-<li><strong>动画</strong>：
+<li>
+<p><strong>动画</strong>：</p>
 <ul>
-<li>I：插入关键帧。</li>
-<li>Alt + A：在3D视图中播放动画。</li>
+<li>
+<p>I：插入关键帧。</p>
+</li>
+<li>
+<p>Alt + A：在3D视图中播放动画。</p>
+</li>
 </ul>
 </li>
 </ul>
 <h2 id="六、其他常用快捷键">六、其他常用快捷键</h2>
 <ul>
-<li>Ctrl + Z：撤销操作。</li>
-<li>Ctrl + Shift + Z：重做操作。</li>
-<li>Ctrl + S：保存文件。</li>
-<li>Ctrl + O：打开文件。</li>
-<li>Ctrl + N：重置场景。<br>
-<img src="https://bu.dusays.com/2025/04/06/67f23a31d9c6e.png" alt></li>
+<li>
+<p>Ctrl + Z：撤销操作。</p>
+</li>
+<li>
+<p>Ctrl + Shift + Z：重做操作。</p>
+</li>
+<li>
+<p>Ctrl + S：保存文件。</p>
+</li>
+<li>
+<p>Ctrl + O：打开文件。</p>
+</li>
+<li>
+<p>Ctrl + N：重置场景。</p>
+</li>
 </ul>
+<p><img src="https://bu.dusays.com/2025/04/06/67f23a31d9c6e.png" alt></p>
 <h1>2025/4/6 学习内容</h1>
-<p><img src="https://bu.dusays.com/2025/04/06/67f23ccb41f5b.png" alt="快捷键"><br>
-案例一：<br>
-参考图：<br>
-<img src="https://bu.dusays.com/2025/04/06/67f23ef854ae8.png" alt="珍珠少女"></p>
-<p>花费一个小时的成果：<br>
-<img src="https://bu.dusays.com/2025/04/06/67f28ae149950.png" alt="自己做的"><br>
-还是非常像的哈哈哈</p>
-<p>渲染方式的优缺点<br>
-渲染有 eexee和cycles两种内置的渲染器<br>
-<img src="https://bu.dusays.com/2025/04/06/67f264075cc8e.png" alt></p>
+<p><img src="https://bu.dusays.com/2025/04/06/67f23ccb41f5b.png" alt="快捷键"></p>
+<p>案例一：</p>
+<p>参考图：</p>
+<p><img src="https://bu.dusays.com/2025/04/06/67f23ef854ae8.png" alt="珍珠少女"></p>
+<p>花费一个小时的成果：</p>
+<p><img src="https://bu.dusays.com/2025/04/06/67f28ae149950.png" alt="自己做的"></p>
+<p>还是非常像的哈哈哈</p>
+<p>渲染方式的优缺点</p>
+<p>渲染有 eexee和cycles两种内置的渲染器</p>
+<p><img src="https://bu.dusays.com/2025/04/06/67f264075cc8e.png" alt></p>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -139,110 +237,6 @@
       <tags>
         <tag>blender</tag>
         <tag>建模</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CTF入门第一章</title>
-    <url>/2025/03/30/ctf%E5%85%A5%E9%97%A8%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="CTF-知识体系分类整理">CTF 知识体系分类整理</h2>
-<h2 id="一、Web-安全">一、Web 安全</h2>
-<p>【核心漏洞类型】</p>
-<table>
-<thead>
-<tr>
-<th>Web 安全核心漏洞类型</th>
-<th>Web 安全核心漏洞类型</th>
-<th>Web 安全核心漏洞类型</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>SQL 注入</td>
-<td>XSS 跨站脚本</td>
-<td>文件上传漏洞</td>
-</tr>
-<tr>
-<td>文件包含漏洞</td>
-<td>XXE XML 外部实体注入</td>
-<td>SSRF 服务器端请求伪造</td>
-</tr>
-<tr>
-<td>RCE 远程代码执行</td>
-<td>代码审计技术</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="二、密码学">二、密码学</h2>
-<p>【主要分支】</p>
-<ul>
-<li>编码技术</li>
-<li>现代密码学</li>
-<li>古典密码学</li>
-</ul>
-<h2 id="三、逆向工程">三、逆向工程</h2>
-<table>
-<thead>
-<tr>
-<th>核心技术</th>
-<th>常见场景</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>可执行文件分析</td>
-<td>算法破解获取 flag</td>
-</tr>
-<tr>
-<td>ASM 汇编语言</td>
-<td>反调试对抗</td>
-</tr>
-<tr>
-<td>IDA Pro 工具使用</td>
-<td>代码混淆处理</td>
-</tr>
-<tr>
-<td>壳处理技术</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="四、二进制安全">四、二进制安全</h2>
-<p>【核心方向】</p>
-<ul>
-<li>堆溢出漏洞</li>
-<li>栈溢出漏洞</li>
-<li>漏洞利用 exp 编写</li>
-<li>安全保护机制绕过</li>
-</ul>
-<h2 id="五、杂项技术">五、杂项技术</h2>
-<table>
-<thead>
-<tr>
-<th>涵盖范围</th>
-<th>涵盖范围</th>
-<th>涵盖范围</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>隐写技术</td>
-<td>信息收集</td>
-<td>流量分析</td>
-</tr>
-<tr>
-<td>压缩包处理</td>
-<td>内存取证</td>
-<td>其他未归类技术</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
       </tags>
   </entry>
   <entry>
@@ -684,6 +678,110 @@
       </tags>
   </entry>
   <entry>
+    <title>CTF入门第一章</title>
+    <url>/2025/03/30/ctf%E5%85%A5%E9%97%A8%E7%AC%AC%E4%B8%80%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="CTF-知识体系分类整理">CTF 知识体系分类整理</h2>
+<h2 id="一、Web-安全">一、Web 安全</h2>
+<p>【核心漏洞类型】</p>
+<table>
+<thead>
+<tr>
+<th>Web 安全核心漏洞类型</th>
+<th>Web 安全核心漏洞类型</th>
+<th>Web 安全核心漏洞类型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SQL 注入</td>
+<td>XSS 跨站脚本</td>
+<td>文件上传漏洞</td>
+</tr>
+<tr>
+<td>文件包含漏洞</td>
+<td>XXE XML 外部实体注入</td>
+<td>SSRF 服务器端请求伪造</td>
+</tr>
+<tr>
+<td>RCE 远程代码执行</td>
+<td>代码审计技术</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="二、密码学">二、密码学</h2>
+<p>【主要分支】</p>
+<ul>
+<li>编码技术</li>
+<li>现代密码学</li>
+<li>古典密码学</li>
+</ul>
+<h2 id="三、逆向工程">三、逆向工程</h2>
+<table>
+<thead>
+<tr>
+<th>核心技术</th>
+<th>常见场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>可执行文件分析</td>
+<td>算法破解获取 flag</td>
+</tr>
+<tr>
+<td>ASM 汇编语言</td>
+<td>反调试对抗</td>
+</tr>
+<tr>
+<td>IDA Pro 工具使用</td>
+<td>代码混淆处理</td>
+</tr>
+<tr>
+<td>壳处理技术</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="四、二进制安全">四、二进制安全</h2>
+<p>【核心方向】</p>
+<ul>
+<li>堆溢出漏洞</li>
+<li>栈溢出漏洞</li>
+<li>漏洞利用 exp 编写</li>
+<li>安全保护机制绕过</li>
+</ul>
+<h2 id="五、杂项技术">五、杂项技术</h2>
+<table>
+<thead>
+<tr>
+<th>涵盖范围</th>
+<th>涵盖范围</th>
+<th>涵盖范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>隐写技术</td>
+<td>信息收集</td>
+<td>流量分析</td>
+</tr>
+<tr>
+<td>压缩包处理</td>
+<td>内存取证</td>
+<td>其他未归类技术</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【picoCTF】JAuth  J</title>
     <url>/2025/04/19/picoctfjauth--j/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J">👀JAuth  J</h3>
@@ -720,29 +818,6 @@
       <tags>
         <tag>CTF</tag>
         <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python包的概念</title>
-    <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包">自定义pyothon包</h2>
-<ol>
-<li>
-<p>包的文件夹中需要包含__init__.py，才可以被其他python文件引用。</p>
-<ul>
-<li>什么是__init__.py文件?<br>
-- 可以对包进行初始化，比如改变环境变量等等。<br>
-- 管理包公共接口，比如在</li>
-</ul>
-</li>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -813,18 +888,26 @@ flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br>
       </tags>
   </entry>
   <entry>
-    <title>关于博客</title>
-    <url>/2025/03/27/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##hexo文件构造<br>
-在博客的根目录下以下文件夹，以及他们对应的作用：<br>
-public ：这个是博客装换成静态页面所存储的文件夹<br>
-source : 这个是博客的数据存放位置，存放着文章，页面信息等内容</p>
+    <title>python包的概念</title>
+    <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包">自定义pyothon包</h2>
+<ol>
+<li>
+<p>包的文件夹中需要包含__init__.py，才可以被其他python文件引用。</p>
+<ul>
+<li>什么是__init__.py文件?<br>
+- 可以对包进行初始化，比如改变环境变量等等。<br>
+- 管理包公共接口，比如在</li>
+</ul>
+</li>
+<li></li>
+</ol>
 ]]></content>
       <categories>
-        <category>其他</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>其他</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -929,6 +1012,40 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       <tags>
         <tag>前端</tag>
         <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于博客</title>
+    <url>/2025/03/27/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>##hexo文件构造<br>
+在博客的根目录下以下文件夹，以及他们对应的作用：<br>
+public ：这个是博客装换成静态页面所存储的文件夹<br>
+source : 这个是博客的数据存放位置，存放着文章，页面信息等内容</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>碎碎念</title>
+    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
+<p>图片镜像服务<br>
+可以提取一些图片使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://image.baidu.com/search/down?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://img.noobzone.ru/getimg.php?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://images.weserv.nl/?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://pic1.xuehuaimg.com/proxy/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://search.pstatic.net/common?src=</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -1149,25 +1266,6 @@ source : 这个是博客的数据存放位置，存放着文章，页面信息�
       </categories>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>碎碎念</title>
-    <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg" alt></p>
-<p>图片镜像服务<br>
-可以提取一些图片使用</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://image.baidu.com/search/down?url=</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://img.noobzone.ru/getimg.php?url=</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://images.weserv.nl/?url=</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://pic1.xuehuaimg.com/proxy/</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://search.pstatic.net/common?src=</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
 </search>
