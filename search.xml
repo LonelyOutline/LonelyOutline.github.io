@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2025都发生了什么？</title>
+    <url>/2025/04/26/a/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="2025年度时间"><a href="#2025年度时间" class="headerlink" title="2025年度时间~"></a>2025年度时间~</h1><div class="timeline undefined"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2025</p>
+</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>03-22</p>
+</div></div><div class="timeline-item-content"><p>参与华为展会志愿者完结~</p>
+</div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>04-25</p>
+</div></div><div class="timeline-item-content"><p>18点去D被淋成落汤鸡…😇</p>
+</div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>04-26</p>
+</div></div><div class="timeline-item-content"><p>舍友连考科目一四次89分，再创记录！😿</p>
+</div></div></div>]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>blender的学习</title>
     <url>/2025/04/05/blender%E7%9A%84%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>学习视频是<a href="https://www.bilibili.com/video/BV14u41147YH/?p=3&share_source=copy_web&vd_source=4ca6502fdd0fdc55a0f1f51bb8261e49">【【Kurt】Blender零基础入门教程 | Blender中文区新手必刷教程(已完结)】</a></p>
@@ -177,22 +196,381 @@
       </tags>
   </entry>
   <entry>
-    <title>2025都发生了什么？</title>
-    <url>/2025/04/26/a/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="2025年度时间"><a href="#2025年度时间" class="headerlink" title="2025年度时间~"></a>2025年度时间~</h1><div class="timeline undefined"><div class="timeline-item headline"><div class="timeline-item-title"><div class="item-circle"><p>2025</p>
-</div></div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>03-22</p>
-</div></div><div class="timeline-item-content"><p>参与华为展会志愿者完结~</p>
-</div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>04-25</p>
-</div></div><div class="timeline-item-content"><p>18点去D被淋成落汤鸡…😇</p>
-</div></div><div class="timeline-item"><div class="timeline-item-title"><div class="item-circle"><p>04-26</p>
-</div></div><div class="timeline-item-content"><p>舍友连考科目一四次89分，再创记录！😿</p>
-</div></div></div>]]></content>
+    <title>【picoCTF】JAuth  J</title>
+    <url>/2025/04/19/picoctfjauth--j/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
+<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
+<p>启动实例访问：</p>
+<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
+<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
+<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
+<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
+<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
+]]></content>
       <categories>
-        <category>日记</category>
+        <category>picoCTF</category>
       </categories>
       <tags>
-        <tag>日常</tag>
-        <tag>总结</tag>
+        <tag>CTF</tag>
+        <tag>题目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python包的概念</title>
+    <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包"><a href="#自定义pyothon包" class="headerlink" title="自定义pyothon包"></a>自定义pyothon包</h2><ol>
+<li><p>包的文件夹中需要包含__init__.py，才可以被其他python文件引用。</p>
+<ul>
+<li>什么是__init__.py文件?</li>
+</ul>
+<pre><code> - 可以对包进行初始化，比如改变环境变量等等。
+
+ - 管理包公共接口，比如在
+</code></pre>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【picoCTF】Forbidden Paths 禁止路径</title>
+    <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径"><a href="#👀Forbidden-Paths-禁止路径" class="headerlink" title="👀Forbidden Paths 禁止路径"></a>👀Forbidden Paths 禁止路径</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"><br>访问实例可以得到<br><img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
+<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>由题已经知道</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br></pre></td></tr></table></figure>
+<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>最后尝试：<code>../../../flag.txt</code></p>
+<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>尝试：<code>../../../flag.txt</code><br>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png"></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>题目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue的第一个项目！</title>
+    <url>/2025/04/13/vue%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="知识回顾："><a href="#知识回顾：" class="headerlink" title="知识回顾："></a>知识回顾：</h3><h4 id="vue项目结构说明："><a href="#vue项目结构说明：" class="headerlink" title="vue项目结构说明："></a>vue项目结构说明：</h4><ul>
+<li>App.vue : 应用的根组件，所有页面的容器</li>
+<li>components : 存放可复用的组件</li>
+<li>router : 路由配置，控制页面跳转</li>
+<li>views : 存放页面级组件</li>
+</ul>
+<h3 id="第一步！了解vue页面的基本概念："><a href="#第一步！了解vue页面的基本概念：" class="headerlink" title="第一步！了解vue页面的基本概念："></a>第一步！了解vue页面的基本概念：</h3><h4 id="基本三件套；script-template-style"><a href="#基本三件套；script-template-style" class="headerlink" title="基本三件套；script-template-style"></a>基本三件套；script-template-style</h4><p>这种结构被称为”单文件组件”(SFC)</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 这里写 JavaScript 代码</span></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 比如：定义变量、函数、导入其他文件等</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 这里写页面结构，类似 HTML --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 就是用户看到的内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="comment">/* 这里写样式，就是 CSS */</span></span></span><br><span class="line"><span class="language-css"><span class="comment">/* 控制页面长什么样子 */</span></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="关于-script-setup-："><a href="#关于-script-setup-：" class="headerlink" title="关于 script setup ："></a>关于 script setup ：</h4><p>概念：是 Vue 3 引入的一种语法糖，基于 Composition API，使得代码更加简洁和易于理解。它允许我们在&lt;’script’&gt;标签中直接使用 setup 函数的功能。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 导入需要的东西，就像拿工具一样</span></span><br><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>  </span><br><span class="line"><span class="comment">// ref 用来创建可以改变的变量</span></span><br><span class="line"><span class="keyword">import</span> &#123; useRouter &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span> </span><br><span class="line"><span class="comment">// 用来实现页面跳转</span></span><br><span class="line"><span class="comment">// 创建变量</span></span><br><span class="line"><span class="keyword">const</span> count = <span class="title function_">ref</span>(<span class="number">0</span>)  <span class="comment">// 这个值可以改变，改变时页面会自动更新</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建函数</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">addCount</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">  count.<span class="property">value</span> = count.<span class="property">value</span> + <span class="number">1</span>  <span class="comment">// 改变值的方法</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong><code>大致了解作用，用到再详解</code></strong></p>
+<p>解释：<br>Q: 什么是ref?<br>A: 参考<a href="https://cn.vuejs.org/api/">API 参考 | Vue.js</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- ref 的作用：</span><br><span class="line">- 让数据变成&quot;响应式&quot;的</span><br><span class="line">- 当数据改变时，页面会自动更新</span><br><span class="line"></span><br><span class="line">- 举个生活例子：</span><br><span class="line">- 没有 ref ：就像手动计分板，改变分数需要手动更新显示</span><br><span class="line">- 使用 ref ：就像电子计分板，改变分数时显示会自动更新</span><br></pre></td></tr></table></figure>
+
+<p>Q：什么是’vue-router’<br>A：这是vue-router官方提供的路由管理，可以更好地管理页面跳转和路由。具体学习在<a href="https://router.vuejs.org/zh/introduction.html">介绍 | Vue Router</a></p>
+<hr>
+
+<h3 id="第二步！开始来搭建页面吧！"><a href="#第二步！开始来搭建页面吧！" class="headerlink" title="第二步！开始来搭建页面吧！"></a>第二步！开始来搭建页面吧！</h3><p>我想制作一个左右布局的页面，左侧是导航栏：<br>那么，我就先在复用组件中创建一个导航栏&#x2F;components&#x2F;sidebar<br>我使用的是<a href="https://element-plus.org/zh-CN/">Element Plus(组件官网)</a>组件。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 导入所需的 Vue 功能</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; ref, inject &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>  <span class="comment">// 增加 inject 导入</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; useRouter, useRoute &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span>  <span class="comment">// 用于路由导航</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; watch &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 导入 Element Plus 的图标组件</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">HomeFilled</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Document</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Picture</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Setting</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Moon</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Sunny</span></span></span><br><span class="line"><span class="language-javascript">&#125; <span class="keyword">from</span> <span class="string">&#x27;@element-plus/icons-vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// @element-plus/icons-vue 是 Element Plus 提供的图标库</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">el-menu</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-menu&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 首页菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">HomeFilled</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 文章管理菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/posts&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Document</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>文章管理<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 图片管理菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/images&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Picture</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>图片管理<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!-- 设置菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/settings&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Setting</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>设置<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">el-menu</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">scoped</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.sidebar-menu</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-right</span>: none;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.sidebar-menu</span><span class="selector-pseudo">:not</span>(<span class="selector-class">.el-menu--collapse</span>) &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.logo</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#f2f2f2</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.logo-small</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-left</span>: <span class="number">3px</span> solid transparent;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span><span class="selector-class">.is-active</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-left</span>: <span class="number">3px</span> solid <span class="built_in">var</span>(--el-menu-active-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">bottom</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.collapsed</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.dark</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">color</span>: <span class="number">#e5e7eb</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-radius</span>: <span class="number">6px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span> <span class="selector-class">.el-icon</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.collapsed</span> <span class="selector-class">.switch-btn</span> <span class="selector-class">.el-icon</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">margin-right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后引入到APP.vue中：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-handlebars"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import Sidebar from &#x27;./components/Sidebar.vue&#x27;;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars"><span class="comment">&lt;!-- 导入sidebar组件 --&gt;</span></span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import &#x27;./style.css&#x27;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import &#123; ref, onMounted, onUnmounted &#125; from &#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars"></span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-container</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!-- 侧边栏 --&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-aside</span> <span class="attr">:width</span>=<span class="string">&quot;isCollapse ? &#x27;64px&#x27; : &#x27;200px&#x27;&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aside-container&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Sidebar</span> <span class="attr">:is-collapse</span>=<span class="string">&quot;isCollapse&quot;</span> @<span class="attr">toggle-collapse</span>=<span class="string">&quot;isCollapse = !isCollapse&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">el-aside</span>&gt;</span></span><br><span class="line">      </span><br><span class="line">      <span class="comment">&lt;!-- 主内容区 --&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-container</span> <span class="attr">class</span>=<span class="string">&quot;main-container&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">el-main</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">router-view</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">el-main</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">el-container</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-container</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>web开发</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初识vue</title>
+    <url>/2025/04/13/%E5%88%9D%E8%AF%86vue/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="如何构建-Vue-项目"><a href="#如何构建-Vue-项目" class="headerlink" title="如何构建 Vue 项目"></a>如何构建 Vue 项目</h3><h4 id="使用-Vite-脚手架构建-Vue-项目"><a href="#使用-Vite-脚手架构建-Vue-项目" class="headerlink" title="使用 Vite 脚手架构建 Vue 项目"></a>使用 Vite 脚手架构建 Vue 项目</h4><p><code>npm create vite@latest frontend -- --template vue</code></p>
+<p><strong>参数说明：</strong></p>
+<ul>
+<li>npm create：使用 npm 创建新项目。</li>
+<li>vite@latest：使用最新版本的 Vite 脚手架。</li>
+<li>frontend：项目名称，将在当前目录创建一个名为 frontend 的文件夹。</li>
+<li>--template vue：使用 Vue 模板创建项目。</li>
+</ul>
+<h4 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h4><p>创建后会生成一个名为 frontend 的文件夹，用于存放前端内容。以下是 frontend 文件夹下的常见文件和文件夹及其作用：</p>
+<ul>
+<li><p><strong>&#x2F;src</strong>：项目的核心源代码目录。</p>
+<ul>
+<li><strong>&#x2F;src&#x2F;assets</strong>：存放静态资源，如图片、样式文件等。</li>
+<li><strong>&#x2F;src&#x2F;components</strong>：存放可复用的 Vue 组件。</li>
+<li><strong>&#x2F;src&#x2F;views</strong>：存放页面级的 Vue 组件，通常对应路由。</li>
+<li><strong>&#x2F;src&#x2F;router</strong>：存放路由配置文件，用于管理页面跳转。</li>
+<li><strong>&#x2F;src&#x2F;store</strong>：存放 Vuex 状态管理相关代码（如果使用 Vuex）。</li>
+<li><strong>&#x2F;src&#x2F;main.js</strong>：项目的入口文件，用于初始化 Vue 应用。</li>
+<li><strong>&#x2F;src&#x2F;App.vue</strong>：项目的根组件，包含全局布局和样式。</li>
+</ul>
+</li>
+<li><p><strong>&#x2F;public</strong>：存放公共资源，如 favicon、静态 HTML 文件等。这些文件会被直接复制到构建后的输出目录。</p>
+</li>
+<li><p><strong>&#x2F;node_modules</strong>：存放项目依赖的第三方模块。此文件夹由 npm install 命令自动生成，通常不需要手动修改。</p>
+</li>
+<li><p><strong>&#x2F;dist</strong>：项目构建后的输出目录。运行构建命令（如 npm run build）后，生成的静态资源会存放在这个文件夹中，用于部署到服务器。</p>
+</li>
+<li><p><strong>index.html</strong>：Vue 的入口页面，位于项目根目录。它是项目的模板文件，Vite 会根据此文件生成最终的 HTML 文件。</p>
+</li>
+</ul>
+<h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><p>运行以下命令安装项目依赖：<br><code>npm install</code></p>
+<h3 id="运行检查"><a href="#运行检查" class="headerlink" title="运行检查"></a>运行检查</h3><p>运行代码确定可以运行<br><code>npm run dev</code></p>
+<h4 id="构建后的目录结构示例"><a href="#构建后的目录结构示例" class="headerlink" title="构建后的目录结构示例"></a>构建后的目录结构示例</h4><p><img src="https://bu.dusays.com/2025/04/13/67fb781fe3155.png" alt="构建后"></p>
+<h3 id="安装推荐依赖"><a href="#安装推荐依赖" class="headerlink" title="安装推荐依赖"></a>安装推荐依赖</h3><h4 id="1-功能性依赖"><a href="#1-功能性依赖" class="headerlink" title="1. 功能性依赖"></a>1. 功能性依赖</h4><ul>
+<li><strong>vue-router</strong>：Vue 官方的路由管理器，用于实现页面导航和路由控制，支持路由嵌套、参数传递等功能。</li>
+<li><strong>pinia</strong>：Vue 官方推荐的状态管理库，用于管理全局状态，比 Vuex 更轻量和简单。</li>
+<li><strong>axios</strong>：流行的 HTTP 客户端，用于与后端 API 进行通信，支持请求拦截、响应处理等功能。</li>
+<li><strong>element-plus</strong>：Vue 3 的 UI 组件库，提供丰富的预制组件，支持主题定制。</li>
+<li><strong>@element-plus&#x2F;icons-vue</strong>：Element Plus 的图标库，提供常用的图标组件。</li>
+</ul>
+<p>安装命令：<br><code>npm install vue-router pinia axios element-plus @element-plus/icons-vue</code></p>
+<h4 id="2-开发工具依赖"><a href="#2-开发工具依赖" class="headerlink" title="2. 开发工具依赖"></a>2. 开发工具依赖</h4><ul>
+<li><strong>sass</strong>：CSS 预处理器，用于编写更灵活的样式代码。</li>
+<li><strong>unplugin-auto-import</strong>：自动导入 API，减少手动导入的繁琐操作。</li>
+<li><strong>unplugin-vue-components</strong>：自动导入组件，提升开发效率。</li>
+</ul>
+<p>安装命令：<br><code>npm install -D sass unplugin-auto-import unplugin-vue-components</code></p>
+<h4 id="3-功能增强依赖"><a href="#3-功能增强依赖" class="headerlink" title="3. 功能增强依赖"></a>3. 功能增强依赖</h4><ul>
+<li><strong>dayjs</strong>：轻量级的日期处理库，用于格式化、解析和操作日期。</li>
+<li><strong>lodash-es</strong>：工具函数库，提供丰富的函数用于数组、对象等操作。</li>
+<li><strong>js-cookie</strong>：用于处理浏览器 Cookie 的库。</li>
+<li><strong>nprogress</strong>：页面加载进度条库，用于增强用户体验。</li>
+</ul>
+<p>安装命令：<br><code>npm install dayjs lodash-es js-cookie nprogress</code></p>
+<hr>
+<h3 id="开始开发页面"><a href="#开始开发页面" class="headerlink" title="开始开发页面"></a>开始开发页面</h3><p>安装完依赖后，就可以开发页面啦！以下是开发过程中的一些常见步骤：</p>
+<ol>
+<li><strong>配置路由</strong>： 在 &#x2F;src&#x2F;router&#x2F;index.js 中配置页面路由，使用 vue-router 定义页面路径和对应的组件。</li>
+<li><strong>管理状态</strong>： 在 &#x2F;src&#x2F;store 中使用 pinia 创建和管理全局状态，方便组件间共享数据。</li>
+<li><strong>使用 UI 组件库</strong>： 导入 element-plus 组件库，使用其提供的预制组件快速构建页面。</li>
+<li><strong>开发组件</strong>： 在 &#x2F;src&#x2F;components 中创建可复用的 Vue 组件，提升代码复用性。</li>
+<li><strong>页面开发</strong>： 在 &#x2F;src&#x2F;views 中开发页面级组件，结合路由实现页面跳转。</li>
+<li><strong>样式开发</strong>： 使用 sass 编写样式文件，存放在 &#x2F;src&#x2F;assets 中，统一管理项目样式。  </li>
+<li><strong>API 请求</strong>： 使用 axios 与后端 API 进行通信，处理数据请求和响应。</li>
+<li><strong>工具函数</strong>： 使用 lodash-es 提供的工具函数简化代码逻辑。</li>
+<li><strong>日期处理</strong>： 使用 dayjs 处理日期相关的逻辑，如格式化、计算等。</li>
+<li><strong>用户体验优化</strong>： 使用 nprogress 添加页面加载进度条，提升用户体验。</li>
+</ol>
+<h4 id="打包vue项目："><a href="#打包vue项目：" class="headerlink" title="打包vue项目："></a>打包vue项目：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<p>这会将vue项目打包成静态资源，也可以使用electron打包成桌面程序</p>
+]]></content>
+      <categories>
+        <category>web开发</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端JS：关于DOM元素</title>
+    <url>/2025/03/27/%E5%89%8D%E7%AB%AFJS%EF%BC%9A%E5%85%B3%E4%BA%8EDOM%E5%85%83%E7%B4%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="元素-Element-vs-节点-Node"><a href="#元素-Element-vs-节点-Node" class="headerlink" title="元素(Element) vs 节点(Node)"></a>元素(Element) vs 节点(Node)</h3><ul>
+<li>元素：HTML文档中的具体标签（如 <code>&lt;div&gt;</code> <code>&lt;button&gt;</code>）</li>
+<li>节点：文档中的所有组成部分（包括元素、文本、注释等）</li>
+<li>关系：元素是节点的一种特殊类型</li>
+</ul>
+<h3 id="常用DOM操作"><a href="#常用DOM操作" class="headerlink" title="常用DOM操作"></a>常用DOM操作</h3><ol>
+<li><strong>禁用元素</strong>：<code>element.disabled = true</code> 适用于表单元素</li>
+<li><strong>内容操作</strong>：<code>innerHTML</code> &#x2F; <code>textContent</code></li>
+<li><strong>样式控制</strong>：<code>style.property</code> &#x2F; <code>classList</code></li>
+<li><strong>事件处理</strong>：<code>addEventListener</code></li>
+</ol>
+<h2 id="实战案例"><a href="#实战案例" class="headerlink" title="实战案例"></a>实战案例</h2><h3 id="案例1：动态表格生成"><a href="#案例1：动态表格生成" class="headerlink" title="案例1：动态表格生成"></a>案例1：动态表格生成</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 创建表格骨架</span></span><br><span class="line"><span class="keyword">const</span> table = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;table&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 批量生成数据行</span></span><br><span class="line">users.<span class="title function_">forEach</span>(<span class="function"><span class="params">user</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> row = table.<span class="title function_">insertRow</span>();</span><br><span class="line">  row.<span class="property">innerHTML</span> = <span class="string">`&lt;td&gt;<span class="subst">$&#123;user.name&#125;</span>&lt;/td&gt;&lt;td&gt;<span class="subst">$&#123;user.age&#125;</span>&lt;/td&gt;`</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 添加到页面</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(table);</span><br></pre></td></tr></table></figure>
+
+<h3 id="案例2：颜色切换器"><a href="#案例2：颜色切换器" class="headerlink" title="案例2：颜色切换器"></a>案例2：颜色切换器</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;color-picker&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#ff0000&quot;</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#00ff00&quot;</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;button&#x27;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">btn</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">  btn.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">backgroundColor</span> = btn.<span class="property">dataset</span>.<span class="property">color</span>;</span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol>
+<li><strong>元素找不到</strong>：检查选择器拼写&#x2F;元素加载时机</li>
+<li><strong>事件不触发</strong>：确认元素已渲染后再绑定事件</li>
+<li><strong>样式不生效</strong>：优先使用class操作代替直接style修改</li>
+</ol>
+<h2 id="进阶练习"><a href="#进阶练习" class="headerlink" title="进阶练习"></a>进阶练习</h2><table>
+<thead>
+<tr>
+<th>练习项目</th>
+<th>关键技能</th>
+<th>实现思路</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>留言板</td>
+<td>节点创建&#x2F;事件委托</td>
+<td>1. 获取输入 2. 创建元素 3. 添加删除功能</td>
+</tr>
+<tr>
+<td>全选功能</td>
+<td>属性批量操作</td>
+<td>1. 获取所有复选框 2. 联动全选状态</td>
+</tr>
+<tr>
+<td>分类筛选</td>
+<td>数据过滤&#x2F;显示控制</td>
+<td>1. 数据分类 2. 显示切换动画</td>
+</tr>
+</tbody></table>
+<p>流程图示例（全选功能）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">flowchart TD</span><br><span class="line">    A[点击全选按钮] --&gt; B&#123;全选状态&#125;</span><br><span class="line">    B --&gt;|true| C[设置所有checkbox.checked=true]</span><br><span class="line">    B --&gt;|false| D[设置所有checkbox.checked=false]</span><br></pre></td></tr></table></figure>
+<p>对象.disabled &#x3D; true 禁用按钮&#x2F;搜索框</p>
+<h2 id="循环方法对比"><a href="#循环方法对比" class="headerlink" title="循环方法对比"></a>循环方法对比</h2><h3 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// forEach写法</span></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line">arr.<span class="title function_">forEach</span>(alert);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 传统for循环写法</span></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> k = <span class="number">0</span>, length = arr.<span class="property">length</span>; k &lt; length; k++) &#123;</span><br><span class="line">  <span class="title function_">alert</span>(arr[k]); <span class="comment">// 注意变量名一致性</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="ForEach参数解析"><a href="#ForEach参数解析" class="headerlink" title="ForEach参数解析"></a>ForEach参数解析</h3><table>
+<thead>
+<tr>
+<th>参数位置</th>
+<th>说明</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第1个参数</td>
+<td>当前遍历的数组元素</td>
+<td>any</td>
+</tr>
+<tr>
+<td>第2个参数</td>
+<td>当前元素的索引（从0开始）</td>
+<td>number</td>
+</tr>
+<tr>
+<td>第3个参数</td>
+<td>正在遍历的数组本身</td>
+<td>Array</td>
+</tr>
+</tbody></table>
+<h3 id="运行示例"><a href="#运行示例" class="headerlink" title="运行示例"></a>运行示例</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> letters = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>];</span><br><span class="line">letters.<span class="title function_">forEach</span>(<span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(item, index, array);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出结果：</span></span><br><span class="line"><span class="comment">a 0 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">b 1 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">c 2 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">d 3 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line">## <span class="variable constant_">DOM</span> 文档模型</span><br><span class="line"></span><br><span class="line">### 核心概念</span><br><span class="line">- **文档(<span class="title class_">Document</span>)**：整个页面的根节点，通过 <span class="string">`document`</span> 对象访问</span><br><span class="line">- **元素(<span class="title class_">Element</span>)**：<span class="variable constant_">HTML</span> 标签对应的对象（如 <span class="string">`&lt;div&gt;`</span>、<span class="string">`&lt;p&gt;`</span>）</span><br><span class="line">- **节点(<span class="title class_">Node</span>)**：文档中的所有组成部分（包括元素、文本、注释等）</span><br><span class="line"></span><br><span class="line">### 元素获取方法</span><br><span class="line">| 方法名                  | 返回类型       | 使用场景               |</span><br><span class="line">|-------------------------|----------------|------------------------|</span><br><span class="line">| <span class="string">`getElementById()`</span>      | 单个元素对象   | 精确查找唯一元素       |</span><br><span class="line">| <span class="string">`getElementsByTagName()`</span> | <span class="variable constant_">HTML</span>集合       | 批量操作同类型元素     |</span><br><span class="line"></span><br><span class="line"><span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string">// 通过ID获取单个元素</span></span><br><span class="line"><span class="string">const header = document.getElementById(&#x27;mainHeader&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过标签名获取所有段落</span></span><br><span class="line"><span class="string">const paragraphs = document.getElementsByTagName(&#x27;p&#x27;);</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ol>
+<li><strong>加载顺序</strong>：脚本应放在<body>底部或使用DOMContentLoaded事件</body></li>
+<li><strong>方法规范</strong>：注意方法名大小写（如<code>getElementById</code>的最后一个’d’小写）</li>
+<li><strong>返回类型</strong>：<ul>
+<li><code>null</code> 表示元素未找到</li>
+<li>集合需通过索引访问具体元素（如<code>paragraphs[0]</code>）</li>
+</ul>
+</li>
+</ol>
+<h3 id="调试技巧"><a href="#调试技巧" class="headerlink" title="调试技巧"></a>调试技巧</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 查看元素详细信息</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">dir</span>(header);</span><br><span class="line"><span class="comment">/* 输出示例：</span></span><br><span class="line"><span class="comment">HTMLHeadingElement &#123;</span></span><br><span class="line"><span class="comment">  id: &#x27;mainHeader&#x27;,</span></span><br><span class="line"><span class="comment">  classList: DOMTokenList [ ],</span></span><br><span class="line"><span class="comment">  ...</span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br></pre></td></tr></table></figure>
+<p>document.getElementsbyTageName(div[1])返回第二个元素值</p>
+<p>获取父元素中的子元素：<br>1-可以给父元素定ID，在父元素中查找元素(</p>
+<p>这是html中的元素<code>&lt;ul id=&quot;a&quot;&gt;   </code></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementByid</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>( ul.<span class="title function_">getElementsByTageName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;ul&#x27;</span>)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(ul[<span class="number">0</span>].<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>通过类名获取元素（HTML5）<br><code>document.getElmentsByClassName(&#39;box&#39;);</code></p>
+<p>指定选择器的第一个元素对象（选择器需要加符号申明）</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.box&#x27;</span>)<span class="comment">//获取第一个类选择器,也可获取第一个标签选择器</span></span><br><span class="line"><span class="comment">//所有元素对象</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;.box&#x27;</span>)<span class="comment">//获取第所有类选择器</span></span><br></pre></td></tr></table></figure>
+
+<p>获取body元素<br><code>document.body;</code></p>
+<p>获取html元素<br><code>document.documentElement;</code></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基础知识篇！</title>
+    <url>/2025/04/23/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AF%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、拆包组包：让数据提取更丝滑"><a href="#一、拆包组包：让数据提取更丝滑" class="headerlink" title="一、拆包组包：让数据提取更丝滑"></a>一、拆包组包：让数据提取更丝滑</h2><h3 id="1-元组拆包：一键提取多个值"><a href="#1-元组拆包：一键提取多个值" class="headerlink" title="1. 元组拆包：一键提取多个值"></a>1. 元组拆包：一键提取多个值</h3><p>刚学 Python 时，从元组取数据我还傻傻地用索引，比如<code>r = rgb[0]</code>。后来发现直接拆包更香：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">rgb = (<span class="number">12</span>, <span class="number">45</span>, <span class="number">32</span>)</span><br><span class="line">r, g, b = rgb  <span class="comment"># 一行搞定三个变量赋值，和`r=rgb[0]`说拜拜～</span></span><br><span class="line"><span class="built_in">print</span>(r, g, b)  <span class="comment"># 输出：12 45 32</span></span><br></pre></td></tr></table></figure>
+
+<p>不过要注意哦，变量数量必须和容器长度完全一致，不然会报错。比如你写<code>x, y = (1,2,3)</code>，Python 会直接甩给你一个<code>ValueError</code>，这点一定要记牢。</p>
+<h3 id="2-交换值：一行代码实现变量互换"><a href="#2-交换值：一行代码实现变量互换" class="headerlink" title="2. 交换值：一行代码实现变量互换"></a>2. 交换值：一行代码实现变量互换</h3><p>以前交换两个变量的值，我会用临时变量<code>temp</code>过渡，直到发现 Python 的神奇操作：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a, b = <span class="number">1</span>, <span class="number">2</span></span><br><span class="line">a, b = b, a  <span class="comment"># 直接交换，背后其实是先把b,a装成元组，再拆包给a,b</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;a=<span class="subst">&#123;a&#125;</span>, b=<span class="subst">&#123;b&#125;</span>&quot;</span>)  <span class="comment"># 输出：a=2, b=1</span></span><br></pre></td></tr></table></figure>
+
+<p>这行代码其实藏了个小魔法：右边的<code>b,a</code>是装包成元组<code>(b,a)</code>，左边的<code>a,b</code>则是拆包操作，相当于<code>(a,b) = (b,a)</code>，是不是很巧妙？</p>
+<h3 id="3-灵活取部分数据：按需提取不浪费"><a href="#3-灵活取部分数据：按需提取不浪费" class="headerlink" title="3. 灵活取部分数据：按需提取不浪费"></a>3. 灵活取部分数据：按需提取不浪费</h3><p>如果只想拿元组里的部分数据，拆包也能搞定。比如取前两个值，剩下的存到列表：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = (<span class="number">100</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">40</span>, <span class="number">20</span>)</span><br><span class="line">x, y, *rest = a  <span class="comment"># x=100, y=80, rest=[60,40,20]</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;前两个值：<span class="subst">&#123;x&#125;</span>, <span class="subst">&#123;y&#125;</span>，剩余：<span class="subst">&#123;rest&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>不管是取头尾还是中间部分，都可以用<code>*</code>来灵活组合，Python 在这方面真的很自由～</p>
+<h3 id="4-拆包在函数中的应用"><a href="#4-拆包在函数中的应用" class="headerlink" title="4. 拆包在函数中的应用"></a>4. 拆包在函数中的应用</h3><p>调用函数时，如果参数刚好在元组或字典里，直接拆包就能传参：</p>
+<ul>
+<li><p><strong>元组拆包传参</strong>（用<code>*</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">get_sum</span>(<span class="params">x, y, z</span>):</span><br><span class="line">    <span class="keyword">return</span> x + y + z</span><br><span class="line">nums = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="built_in">print</span>(get_sum(*nums))  <span class="comment"># 相当于传入1,2,3，输出6</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>字典拆包传参</strong>（用<code>**</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">user_info</span>(<span class="params">name, age, addr</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;姓名：<span class="subst">&#123;name&#125;</span>，年龄：<span class="subst">&#123;age&#125;</span>，地址：<span class="subst">&#123;addr&#125;</span>&quot;</span>)</span><br><span class="line">info = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;张三&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">21</span>, <span class="string">&quot;addr&quot;</span>: <span class="string">&quot;成都&quot;</span>&#125;</span><br><span class="line">user_info(**info)  <span class="comment"># 直接展开字典为关键字参数</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>这里的<code>*</code>和<code>**</code>在函数调用时就像 “解包器”，把容器里的数据变成函数需要的参数形式。</p>
+<h2 id="二、函数参数：搞懂这几类就够用了"><a href="#二、函数参数：搞懂这几类就够用了" class="headerlink" title="二、函数参数：搞懂这几类就够用了"></a>二、函数参数：搞懂这几类就够用了</h2><h3 id="1-形参与实参：定义-vs-调用的区别"><a href="#1-形参与实参：定义-vs-调用的区别" class="headerlink" title="1. 形参与实参：定义 vs 调用的区别"></a>1. 形参与实参：定义 vs 调用的区别</h3><ul>
+<li><strong>形参</strong>：定义函数时写的参数，比如<code>def fun(a, b):</code>里的<code>a</code>和<code>b</code>，相当于提前占个位置。</li>
+<li><strong>实参</strong>：调用函数时传的具体值，比如<code>fun(1, 2)</code>里的<code>1</code>和<code>2</code>，是真正传给函数的数据。</li>
+</ul>
+<h3 id="2-位置参数：严格按顺序来"><a href="#2-位置参数：严格按顺序来" class="headerlink" title="2. 位置参数：严格按顺序来"></a>2. 位置参数：严格按顺序来</h3><p>这是最基础的参数类型，调用时必须按定义顺序传参，多一个少一个都不行：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">add(<span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 正确，返回5</span></span><br><span class="line"><span class="comment"># add(2)  # 报错，少传参数</span></span><br><span class="line"><span class="comment"># add(2, 3, 4)  # 报错，多传参数</span></span><br></pre></td></tr></table></figure>
+
+
+<p>就像排队买票，必须按顺序来，一个萝卜一个坑。</p>
+<h3 id="3-关键字参数：可以打乱顺序的-“懒人参数”"><a href="#3-关键字参数：可以打乱顺序的-“懒人参数”" class="headerlink" title="3. 关键字参数：可以打乱顺序的 “懒人参数”"></a>3. 关键字参数：可以打乱顺序的 “懒人参数”</h3><p>调用时直接指定参数名，顺序就不重要了，适合参数多的时候避免搞错位置：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">greet</span>(<span class="params">name, age</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;你好，<span class="subst">&#123;name&#125;</span>，今年<span class="subst">&#123;age&#125;</span>岁啦！&quot;</span>)</span><br><span class="line">greet(age=<span class="number">21</span>, name=<span class="string">&quot;张三&quot;</span>)  <span class="comment"># 和greet(&quot;张三&quot;, 21)效果一样</span></span><br></pre></td></tr></table></figure>
+
+<p>写代码时如果记不清参数顺序，用关键字参数准没错。</p>
+<h3 id="4-默认参数：给参数一个-“备胎值”"><a href="#4-默认参数：给参数一个-“备胎值”" class="headerlink" title="4. 默认参数：给参数一个 “备胎值”"></a>4. 默认参数：给参数一个 “备胎值”</h3><p>定义函数时可以给参数设默认值，调用时如果没传这个参数，就用默认值：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">say_hello</span>(<span class="params">name, msg=<span class="string">&quot;你好&quot;</span></span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;msg&#125;</span>，<span class="subst">&#123;name&#125;</span>！&quot;</span>)</span><br><span class="line">say_hello(<span class="string">&quot;李四&quot;</span>)  <span class="comment"># 没传msg，用默认值“你好”，输出：你好，李四！</span></span><br><span class="line">say_hello(<span class="string">&quot;王五&quot;</span>, <span class="string">&quot;Hi&quot;</span>)  <span class="comment"># 传了msg，用传入的值，输出：Hi，王五！</span></span><br></pre></td></tr></table></figure>
+
+<p>比如写一个发送邮件的函数，默认收件人可以设为自己，每次调用不用重复写，省事～。</p>
+<h3 id="5-不定长参数：处理不确定数量的输入"><a href="#5-不定长参数：处理不确定数量的输入" class="headerlink" title="5. 不定长参数：处理不确定数量的输入"></a>5. 不定长参数：处理不确定数量的输入</h3><ul>
+<li><p><strong><code>*args</code></strong>：接收任意多个未命名参数，存成元组。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">print_args</span>(<span class="params">*args</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;接收到的参数：&quot;</span>, args)</span><br><span class="line">print_args(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 输出：(1, 2, 3)</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong><code>**kwargs</code></strong>：接收任意多个关键字参数，存成字典。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">    <span class="keyword">def</span> <span class="title function_">print_kwargs</span>(<span class="params">**kwargs</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;接收到的关键字参数：&quot;</span>, kwargs)</span><br><span class="line">    print_kwargs(name=<span class="string">&quot;张三&quot;</span>, age=<span class="number">21</span>)  <span class="comment"># 输出：&#123;&#x27;name&#x27;: &#x27;张三&#x27;, &#x27;age&#x27;: 21&#125;</span></span><br><span class="line">    ```  </span><br><span class="line"></span><br><span class="line">这两个参数在写工具函数时特别有用，比如日志记录函数，不管传多少参数都能接住。</span><br><span class="line"></span><br><span class="line"><span class="comment">## 三、面向对象：从 “过程” 到 “对象” 的思维转变</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 1\. 对象是什么？像一个会 “变身” 的字典</span></span><br><span class="line"></span><br><span class="line">刚开始学面向对象时觉得抽象，后来发现对象就像一个 “智能字典”：</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">*   字典用`key:value`存数据，对象用 “属性” 存数据，但需要先 “实例化” 才能用（比如`zhangsan = Student()`）。</span><br><span class="line">*   对象还能有 “方法”（函数），比如`zhangsan.play()`，而字典没有这种行为能力。</span><br><span class="line"></span><br><span class="line"><span class="comment">### 2\. 类属性 vs 实例属性：共享 vs 专属</span></span><br><span class="line">*   **类属性**：定义在类里，所有实例共享，比如班级名称。</span><br><span class="line">    ```python</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">        school = <span class="string">&quot;加州大学&quot;</span>  <span class="comment"># 类属性，所有学生都属于这个学校</span></span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, age</span>):</span><br><span class="line">            <span class="variable language_">self</span>.name = name  <span class="comment"># 实例属性，每个学生名字不同</span></span><br><span class="line">            <span class="variable language_">self</span>.age = age</span><br><span class="line">    zhangsan = Student(<span class="string">&quot;张三&quot;</span>, <span class="number">21</span>)</span><br><span class="line">    <span class="built_in">print</span>(zhangsan.school)  <span class="comment"># 输出：加州大学（共享类属性）</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>实例属性</strong>：在<code>__init__</code>方法里用<code>self</code>定义，每个实例独立，比如每个学生的姓名和年龄。</p>
+</li>
+</ul>
+<h3 id="3-魔术方法：让对象更-“听话”"><a href="#3-魔术方法：让对象更-“听话”" class="headerlink" title="3. 魔术方法：让对象更 “听话”"></a>3. 魔术方法：让对象更 “听话”</h3><p>Python 里有很多以<code>__</code>开头和结尾的魔术方法，能赋予对象特殊能力：</p>
+<ul>
+<li><code>__str__</code>：定义对象打印时的显示内容，比如<code>print(zhangsan)</code>会返回你定义的字符串。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;学生：<span class="subst">&#123;self.name&#125;</span>，年龄<span class="subst">&#123;self.age&#125;</span>&quot;</span></span><br><span class="line"><span class="built_in">print</span>(zhangsan)  <span class="comment"># 直接打印对象，输出：学生：张三，年龄21</span></span><br></pre></td></tr></table></figure></li>
+<li><code>__call__</code>：让对象可以像函数一样被调用，比如<code>zhangsan()</code>会执行你定义的逻辑。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__call__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;self.name&#125;</span>正在调用对象！&quot;</span>)</span><br><span class="line">zhangsan()  <span class="comment"># 输出：张三正在调用对象！</span></span><br></pre></td></tr></table></figure>
+这些魔术方法就像给对象加了 “快捷键”，用起来超方便。</li>
+</ul>
+<h2 id="四、模块与包：代码模块化的-“收纳盒”"><a href="#四、模块与包：代码模块化的-“收纳盒”" class="headerlink" title="四、模块与包：代码模块化的 “收纳盒”"></a>四、模块与包：代码模块化的 “收纳盒”</h2><h3 id="1-什么是模块？把代码分门别类存起来"><a href="#1-什么是模块？把代码分门别类存起来" class="headerlink" title="1. 什么是模块？把代码分门别类存起来"></a>1. 什么是模块？把代码分门别类存起来</h3><p>如果把一个 Python 文件（<code>.py</code>）看作一个 “工具盒”，里面装着函数、类等工具，这就是模块。比如把常用的数据库操作写成<code>db_utils.py</code>，下次直接导入就能用，不用重复写代码。</p>
+<h3 id="2-导入模块的三种方式"><a href="#2-导入模块的三种方式" class="headerlink" title="2. 导入模块的三种方式"></a>2. 导入模块的三种方式</h3><ul>
+<li><p><strong>完整导入</strong>（<code>import 模块名</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="built_in">print</span>(math.pi)  <span class="comment"># 用模块名.属性调用，避免命名冲突</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>按需导入</strong>（<code>from 模块 import 内容</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> pi, sqrt</span><br><span class="line"><span class="built_in">print</span>(pi)  <span class="comment"># 直接用，不用加模块名</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>改名导入</strong>（<code>import 模块 as 别名</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  <span class="comment"># 给长名字模块取别名，比如numpy常用np</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>点线面的选择与控制</title>
+    <url>/2025/04/26/%E7%82%B9%E7%BA%BF%E9%9D%A2%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E6%8E%A7%E5%88%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://www.bilibili.com/video/BV14u41147YH/?spm_id_from=333.788.videopod.episodes&vd_source=63d165ef1acc5aeae840f5075ad17447&p=6">【建模篇】2.1 点线面的选择与控制_哔哩哔哩_bilibili</a></p>
+<p>按Tab切换编辑模式，为了方便切换多种模式，在新版本的blender中按ctrl+Tab可以快速选择多种模式。旧版本可以在编辑&gt;偏好设置&gt;键位映射:打开拖动激活饼菜单。<br><img src="https://bu.dusays.com/2025/04/26/680c34efb4886.png" alt="激活饼菜单"><br>打开后<mark class="hl-label blue">长按TAB</mark> 可以打开一个饼菜单。</p>
+<p>在编辑模式下通过数字1、2、3可以切换点、线、面，按<u>shift</u> 可以多选模式</p>
+<p>框选有三种模式，按w可以快速切换模式<br><img src="https://bu.dusays.com/2025/04/26/680c37609af79.png" alt="框选模式"></p>
+<p>反选ctrl + i</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>blender</tag>
       </tags>
   </entry>
   <entry>
@@ -285,6 +663,61 @@
       </categories>
       <tags>
         <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站汇总</title>
+    <url>/2025/04/26/%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="flink"><div class="flink-name">网站</div><div class="flink-desc">值得推荐的网站</div> <div class="flink-list"><div class="anzhiyu-flink-list">
+            <div class="flink-list-item">
+              <a href="https://www.youtube.com/" title="Youtube" class="cf-friends-link" target="_blank">
+                <div class="flink-item-icon">
+                  <img class="no-lightbox cf-friends-avatar" src="https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="Youtube">
+                </div>
+                <div class="flink-item-info">
+                  <div class="flink-item-name">Youtube</div>
+                  <div class="flink-item-desc" title="视频网站">视频网站</div>
+                </div>
+              </a>
+            </div>
+            <div class="flink-list-item">
+              <a href="https://www.weibo.com/" title="Weibo" class="cf-friends-link" target="_blank">
+                <div class="flink-item-icon">
+                  <img class="no-lightbox cf-friends-avatar" src="https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="Weibo">
+                </div>
+                <div class="flink-item-info">
+                  <div class="flink-item-name">Weibo</div>
+                  <div class="flink-item-desc" title="中国最大社交分享平台">中国最大社交分享平台</div>
+                </div>
+              </a>
+            </div>
+            <div class="flink-list-item">
+              <a href="https://twitter.com/" title="Twitter" class="cf-friends-link" target="_blank">
+                <div class="flink-item-icon">
+                  <img class="no-lightbox cf-friends-avatar" src="https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="Twitter">
+                </div>
+                <div class="flink-item-info">
+                  <div class="flink-item-name">Twitter</div>
+                  <div class="flink-item-desc" title="社交分享平台">社交分享平台</div>
+                </div>
+              </a>
+            </div></div></div><div class="flink-name">学习</div><div class="flink-desc">值得推荐的网站</div> <div class="flink-list"><div class="anzhiyu-flink-list">
+            <div class="flink-list-item">
+              <a href="https://1024code.com/" title="1024Code" class="cf-friends-link" target="_blank">
+                <div class="flink-item-icon">
+                  <img class="no-lightbox cf-friends-avatar" src="https://1024code.com/icons/icon-144x144.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="1024Code">
+                </div>
+                <div class="flink-item-info">
+                  <div class="flink-item-name">1024Code</div>
+                  <div class="flink-item-desc" title="一个在线编程页面">一个在线编程页面</div>
+                </div>
+              </a>
+            </div></div></div></div>]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
       </tags>
   </entry>
   <entry>
@@ -605,86 +1038,8 @@
         <category>学习</category>
       </categories>
       <tags>
+        <tag>前端</tag>
         <tag>html</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python包的概念</title>
-    <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包"><a href="#自定义pyothon包" class="headerlink" title="自定义pyothon包"></a>自定义pyothon包</h2><ol>
-<li><p>包的文件夹中需要包含__init__.py，才可以被其他python文件引用。</p>
-<ul>
-<li>什么是__init__.py文件?</li>
-</ul>
-<pre><code> - 可以对包进行初始化，比如改变环境变量等等。
-
- - 管理包公共接口，比如在
-</code></pre>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【picoCTF】JAuth  J</title>
-    <url>/2025/04/19/picoctfjauth--j/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
-<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
-<p>启动实例访问：</p>
-<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
-<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
-<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
-<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
-<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue的第一个项目！</title>
-    <url>/2025/04/13/vue%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="知识回顾："><a href="#知识回顾：" class="headerlink" title="知识回顾："></a>知识回顾：</h3><h4 id="vue项目结构说明："><a href="#vue项目结构说明：" class="headerlink" title="vue项目结构说明："></a>vue项目结构说明：</h4><ul>
-<li>App.vue : 应用的根组件，所有页面的容器</li>
-<li>components : 存放可复用的组件</li>
-<li>router : 路由配置，控制页面跳转</li>
-<li>views : 存放页面级组件</li>
-</ul>
-<h3 id="第一步！了解vue页面的基本概念："><a href="#第一步！了解vue页面的基本概念：" class="headerlink" title="第一步！了解vue页面的基本概念："></a>第一步！了解vue页面的基本概念：</h3><h4 id="基本三件套；script-template-style"><a href="#基本三件套；script-template-style" class="headerlink" title="基本三件套；script-template-style"></a>基本三件套；script-template-style</h4><p>这种结构被称为”单文件组件”(SFC)</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 这里写 JavaScript 代码</span></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 比如：定义变量、函数、导入其他文件等</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 这里写页面结构，类似 HTML --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 就是用户看到的内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="comment">/* 这里写样式，就是 CSS */</span></span></span><br><span class="line"><span class="language-css"><span class="comment">/* 控制页面长什么样子 */</span></span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="关于-script-setup-："><a href="#关于-script-setup-：" class="headerlink" title="关于 script setup ："></a>关于 script setup ：</h4><p>概念：是 Vue 3 引入的一种语法糖，基于 Composition API，使得代码更加简洁和易于理解。它允许我们在&lt;’script’&gt;标签中直接使用 setup 函数的功能。</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 导入需要的东西，就像拿工具一样</span></span><br><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>  </span><br><span class="line"><span class="comment">// ref 用来创建可以改变的变量</span></span><br><span class="line"><span class="keyword">import</span> &#123; useRouter &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span> </span><br><span class="line"><span class="comment">// 用来实现页面跳转</span></span><br><span class="line"><span class="comment">// 创建变量</span></span><br><span class="line"><span class="keyword">const</span> count = <span class="title function_">ref</span>(<span class="number">0</span>)  <span class="comment">// 这个值可以改变，改变时页面会自动更新</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建函数</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">addCount</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">  count.<span class="property">value</span> = count.<span class="property">value</span> + <span class="number">1</span>  <span class="comment">// 改变值的方法</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong><code>大致了解作用，用到再详解</code></strong></p>
-<p>解释：<br>Q: 什么是ref?<br>A: 参考<a href="https://cn.vuejs.org/api/">API 参考 | Vue.js</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- ref 的作用：</span><br><span class="line">- 让数据变成&quot;响应式&quot;的</span><br><span class="line">- 当数据改变时，页面会自动更新</span><br><span class="line"></span><br><span class="line">- 举个生活例子：</span><br><span class="line">- 没有 ref ：就像手动计分板，改变分数需要手动更新显示</span><br><span class="line">- 使用 ref ：就像电子计分板，改变分数时显示会自动更新</span><br></pre></td></tr></table></figure>
-
-<p>Q：什么是’vue-router’<br>A：这是vue-router官方提供的路由管理，可以更好地管理页面跳转和路由。具体学习在<a href="https://router.vuejs.org/zh/introduction.html">介绍 | Vue Router</a></p>
-<hr>
-
-<h3 id="第二步！开始来搭建页面吧！"><a href="#第二步！开始来搭建页面吧！" class="headerlink" title="第二步！开始来搭建页面吧！"></a>第二步！开始来搭建页面吧！</h3><p>我想制作一个左右布局的页面，左侧是导航栏：<br>那么，我就先在复用组件中创建一个导航栏&#x2F;components&#x2F;sidebar<br>我使用的是<a href="https://element-plus.org/zh-CN/">Element Plus(组件官网)</a>组件。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 导入所需的 Vue 功能</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; ref, inject &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>  <span class="comment">// 增加 inject 导入</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; useRouter, useRoute &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span>  <span class="comment">// 用于路由导航</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; watch &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// 导入 Element Plus 的图标组件</span></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">HomeFilled</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Document</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Picture</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Setting</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Moon</span>,</span></span><br><span class="line"><span class="language-javascript">  <span class="title class_">Sunny</span></span></span><br><span class="line"><span class="language-javascript">&#125; <span class="keyword">from</span> <span class="string">&#x27;@element-plus/icons-vue&#x27;</span></span></span><br><span class="line"><span class="language-javascript"><span class="comment">// @element-plus/icons-vue 是 Element Plus 提供的图标库</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">el-menu</span> <span class="attr">class</span>=<span class="string">&quot;sidebar-menu&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 首页菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">HomeFilled</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 文章管理菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/posts&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Document</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>文章管理<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 图片管理菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/images&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Picture</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>图片管理<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!-- 设置菜单项 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-menu-item</span> <span class="attr">index</span>=<span class="string">&quot;/settings&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-icon</span>&gt;</span><span class="tag">&lt;<span class="name">Setting</span> /&gt;</span><span class="tag">&lt;/<span class="name">el-icon</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">template</span> #<span class="attr">title</span>&gt;</span>设置<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-menu-item</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">el-menu</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">scoped</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.sidebar-menu</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-right</span>: none;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.sidebar-menu</span><span class="selector-pseudo">:not</span>(<span class="selector-class">.el-menu--collapse</span>) &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.logo</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">60px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#f2f2f2</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.logo-small</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">height</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-left</span>: <span class="number">3px</span> solid transparent;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span><span class="selector-class">.is-active</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-left</span>: <span class="number">3px</span> solid <span class="built_in">var</span>(--el-menu-active-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.el-menu-item</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">bottom</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">left</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.collapsed</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.dark</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">color</span>: <span class="number">#e5e7eb</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">padding</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">border-radius</span>: <span class="number">6px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--el-menu-hover-bg-color);</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.switch-btn</span> <span class="selector-class">.el-icon</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css"><span class="selector-class">.theme-switch</span><span class="selector-class">.collapsed</span> <span class="selector-class">.switch-btn</span> <span class="selector-class">.el-icon</span> &#123;</span></span><br><span class="line"><span class="language-css">  <span class="attribute">margin-right</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>然后引入到APP.vue中：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-handlebars"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import Sidebar from &#x27;./components/Sidebar.vue&#x27;;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars"><span class="comment">&lt;!-- 导入sidebar组件 --&gt;</span></span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import &#x27;./style.css&#x27;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars">import &#123; ref, onMounted, onUnmounted &#125; from &#x27;vue&#x27;</span></span></span><br><span class="line"><span class="language-xml"><span class="language-handlebars"></span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-container</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!-- 侧边栏 --&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-aside</span> <span class="attr">:width</span>=<span class="string">&quot;isCollapse ? &#x27;64px&#x27; : &#x27;200px&#x27;&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aside-container&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Sidebar</span> <span class="attr">:is-collapse</span>=<span class="string">&quot;isCollapse&quot;</span> @<span class="attr">toggle-collapse</span>=<span class="string">&quot;isCollapse = !isCollapse&quot;</span> /&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">el-aside</span>&gt;</span></span><br><span class="line">      </span><br><span class="line">      <span class="comment">&lt;!-- 主内容区 --&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-container</span> <span class="attr">class</span>=<span class="string">&quot;main-container&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">el-main</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">router-view</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">el-main</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">el-container</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-container</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>web开发</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -888,306 +1243,6 @@
       </tags>
   </entry>
   <entry>
-    <title>初识vue</title>
-    <url>/2025/04/13/%E5%88%9D%E8%AF%86vue/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="如何构建-Vue-项目"><a href="#如何构建-Vue-项目" class="headerlink" title="如何构建 Vue 项目"></a>如何构建 Vue 项目</h3><h4 id="使用-Vite-脚手架构建-Vue-项目"><a href="#使用-Vite-脚手架构建-Vue-项目" class="headerlink" title="使用 Vite 脚手架构建 Vue 项目"></a>使用 Vite 脚手架构建 Vue 项目</h4><p><code>npm create vite@latest frontend -- --template vue</code></p>
-<p><strong>参数说明：</strong></p>
-<ul>
-<li>npm create：使用 npm 创建新项目。</li>
-<li>vite@latest：使用最新版本的 Vite 脚手架。</li>
-<li>frontend：项目名称，将在当前目录创建一个名为 frontend 的文件夹。</li>
-<li>--template vue：使用 Vue 模板创建项目。</li>
-</ul>
-<h4 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h4><p>创建后会生成一个名为 frontend 的文件夹，用于存放前端内容。以下是 frontend 文件夹下的常见文件和文件夹及其作用：</p>
-<ul>
-<li><p><strong>&#x2F;src</strong>：项目的核心源代码目录。</p>
-<ul>
-<li><strong>&#x2F;src&#x2F;assets</strong>：存放静态资源，如图片、样式文件等。</li>
-<li><strong>&#x2F;src&#x2F;components</strong>：存放可复用的 Vue 组件。</li>
-<li><strong>&#x2F;src&#x2F;views</strong>：存放页面级的 Vue 组件，通常对应路由。</li>
-<li><strong>&#x2F;src&#x2F;router</strong>：存放路由配置文件，用于管理页面跳转。</li>
-<li><strong>&#x2F;src&#x2F;store</strong>：存放 Vuex 状态管理相关代码（如果使用 Vuex）。</li>
-<li><strong>&#x2F;src&#x2F;main.js</strong>：项目的入口文件，用于初始化 Vue 应用。</li>
-<li><strong>&#x2F;src&#x2F;App.vue</strong>：项目的根组件，包含全局布局和样式。</li>
-</ul>
-</li>
-<li><p><strong>&#x2F;public</strong>：存放公共资源，如 favicon、静态 HTML 文件等。这些文件会被直接复制到构建后的输出目录。</p>
-</li>
-<li><p><strong>&#x2F;node_modules</strong>：存放项目依赖的第三方模块。此文件夹由 npm install 命令自动生成，通常不需要手动修改。</p>
-</li>
-<li><p><strong>&#x2F;dist</strong>：项目构建后的输出目录。运行构建命令（如 npm run build）后，生成的静态资源会存放在这个文件夹中，用于部署到服务器。</p>
-</li>
-<li><p><strong>index.html</strong>：Vue 的入口页面，位于项目根目录。它是项目的模板文件，Vite 会根据此文件生成最终的 HTML 文件。</p>
-</li>
-</ul>
-<h4 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h4><p>运行以下命令安装项目依赖：<br><code>npm install</code></p>
-<h3 id="运行检查"><a href="#运行检查" class="headerlink" title="运行检查"></a>运行检查</h3><p>运行代码确定可以运行<br><code>npm run dev</code></p>
-<h4 id="构建后的目录结构示例"><a href="#构建后的目录结构示例" class="headerlink" title="构建后的目录结构示例"></a>构建后的目录结构示例</h4><p><img src="https://bu.dusays.com/2025/04/13/67fb781fe3155.png" alt="构建后"></p>
-<h3 id="安装推荐依赖"><a href="#安装推荐依赖" class="headerlink" title="安装推荐依赖"></a>安装推荐依赖</h3><h4 id="1-功能性依赖"><a href="#1-功能性依赖" class="headerlink" title="1. 功能性依赖"></a>1. 功能性依赖</h4><ul>
-<li><strong>vue-router</strong>：Vue 官方的路由管理器，用于实现页面导航和路由控制，支持路由嵌套、参数传递等功能。</li>
-<li><strong>pinia</strong>：Vue 官方推荐的状态管理库，用于管理全局状态，比 Vuex 更轻量和简单。</li>
-<li><strong>axios</strong>：流行的 HTTP 客户端，用于与后端 API 进行通信，支持请求拦截、响应处理等功能。</li>
-<li><strong>element-plus</strong>：Vue 3 的 UI 组件库，提供丰富的预制组件，支持主题定制。</li>
-<li><strong>@element-plus&#x2F;icons-vue</strong>：Element Plus 的图标库，提供常用的图标组件。</li>
-</ul>
-<p>安装命令：<br><code>npm install vue-router pinia axios element-plus @element-plus/icons-vue</code></p>
-<h4 id="2-开发工具依赖"><a href="#2-开发工具依赖" class="headerlink" title="2. 开发工具依赖"></a>2. 开发工具依赖</h4><ul>
-<li><strong>sass</strong>：CSS 预处理器，用于编写更灵活的样式代码。</li>
-<li><strong>unplugin-auto-import</strong>：自动导入 API，减少手动导入的繁琐操作。</li>
-<li><strong>unplugin-vue-components</strong>：自动导入组件，提升开发效率。</li>
-</ul>
-<p>安装命令：<br><code>npm install -D sass unplugin-auto-import unplugin-vue-components</code></p>
-<h4 id="3-功能增强依赖"><a href="#3-功能增强依赖" class="headerlink" title="3. 功能增强依赖"></a>3. 功能增强依赖</h4><ul>
-<li><strong>dayjs</strong>：轻量级的日期处理库，用于格式化、解析和操作日期。</li>
-<li><strong>lodash-es</strong>：工具函数库，提供丰富的函数用于数组、对象等操作。</li>
-<li><strong>js-cookie</strong>：用于处理浏览器 Cookie 的库。</li>
-<li><strong>nprogress</strong>：页面加载进度条库，用于增强用户体验。</li>
-</ul>
-<p>安装命令：<br><code>npm install dayjs lodash-es js-cookie nprogress</code></p>
-<hr>
-<h3 id="开始开发页面"><a href="#开始开发页面" class="headerlink" title="开始开发页面"></a>开始开发页面</h3><p>安装完依赖后，就可以开发页面啦！以下是开发过程中的一些常见步骤：</p>
-<ol>
-<li><strong>配置路由</strong>： 在 &#x2F;src&#x2F;router&#x2F;index.js 中配置页面路由，使用 vue-router 定义页面路径和对应的组件。</li>
-<li><strong>管理状态</strong>： 在 &#x2F;src&#x2F;store 中使用 pinia 创建和管理全局状态，方便组件间共享数据。</li>
-<li><strong>使用 UI 组件库</strong>： 导入 element-plus 组件库，使用其提供的预制组件快速构建页面。</li>
-<li><strong>开发组件</strong>： 在 &#x2F;src&#x2F;components 中创建可复用的 Vue 组件，提升代码复用性。</li>
-<li><strong>页面开发</strong>： 在 &#x2F;src&#x2F;views 中开发页面级组件，结合路由实现页面跳转。</li>
-<li><strong>样式开发</strong>： 使用 sass 编写样式文件，存放在 &#x2F;src&#x2F;assets 中，统一管理项目样式。  </li>
-<li><strong>API 请求</strong>： 使用 axios 与后端 API 进行通信，处理数据请求和响应。</li>
-<li><strong>工具函数</strong>： 使用 lodash-es 提供的工具函数简化代码逻辑。</li>
-<li><strong>日期处理</strong>： 使用 dayjs 处理日期相关的逻辑，如格式化、计算等。</li>
-<li><strong>用户体验优化</strong>： 使用 nprogress 添加页面加载进度条，提升用户体验。</li>
-</ol>
-<h4 id="打包vue项目："><a href="#打包vue项目：" class="headerlink" title="打包vue项目："></a>打包vue项目：</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure>
-
-<p>这会将vue项目打包成静态资源，也可以使用electron打包成桌面程序</p>
-]]></content>
-      <categories>
-        <category>web开发</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【picoCTF】Forbidden Paths 禁止路径</title>
-    <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径"><a href="#👀Forbidden-Paths-禁止路径" class="headerlink" title="👀Forbidden Paths 禁止路径"></a>👀Forbidden Paths 禁止路径</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"><br>访问实例可以得到<br><img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
-<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>由题已经知道</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br></pre></td></tr></table></figure>
-<p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>最后尝试：<code>../../../flag.txt</code></p>
-<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>尝试：<code>../../../flag.txt</code><br>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png"></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前端JS：关于DOM元素</title>
-    <url>/2025/03/27/%E5%89%8D%E7%AB%AFJS%EF%BC%9A%E5%85%B3%E4%BA%8EDOM%E5%85%83%E7%B4%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="元素-Element-vs-节点-Node"><a href="#元素-Element-vs-节点-Node" class="headerlink" title="元素(Element) vs 节点(Node)"></a>元素(Element) vs 节点(Node)</h3><ul>
-<li>元素：HTML文档中的具体标签（如 <code>&lt;div&gt;</code> <code>&lt;button&gt;</code>）</li>
-<li>节点：文档中的所有组成部分（包括元素、文本、注释等）</li>
-<li>关系：元素是节点的一种特殊类型</li>
-</ul>
-<h3 id="常用DOM操作"><a href="#常用DOM操作" class="headerlink" title="常用DOM操作"></a>常用DOM操作</h3><ol>
-<li><strong>禁用元素</strong>：<code>element.disabled = true</code> 适用于表单元素</li>
-<li><strong>内容操作</strong>：<code>innerHTML</code> &#x2F; <code>textContent</code></li>
-<li><strong>样式控制</strong>：<code>style.property</code> &#x2F; <code>classList</code></li>
-<li><strong>事件处理</strong>：<code>addEventListener</code></li>
-</ol>
-<h2 id="实战案例"><a href="#实战案例" class="headerlink" title="实战案例"></a>实战案例</h2><h3 id="案例1：动态表格生成"><a href="#案例1：动态表格生成" class="headerlink" title="案例1：动态表格生成"></a>案例1：动态表格生成</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 创建表格骨架</span></span><br><span class="line"><span class="keyword">const</span> table = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;table&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 批量生成数据行</span></span><br><span class="line">users.<span class="title function_">forEach</span>(<span class="function"><span class="params">user</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">const</span> row = table.<span class="title function_">insertRow</span>();</span><br><span class="line">  row.<span class="property">innerHTML</span> = <span class="string">`&lt;td&gt;<span class="subst">$&#123;user.name&#125;</span>&lt;/td&gt;&lt;td&gt;<span class="subst">$&#123;user.age&#125;</span>&lt;/td&gt;`</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 添加到页面</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">body</span>.<span class="title function_">appendChild</span>(table);</span><br></pre></td></tr></table></figure>
-
-<h3 id="案例2：颜色切换器"><a href="#案例2：颜色切换器" class="headerlink" title="案例2：颜色切换器"></a>案例2：颜色切换器</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;color-picker&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#ff0000&quot;</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">data-color</span>=<span class="string">&quot;#00ff00&quot;</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;button&#x27;</span>).<span class="title function_">forEach</span>(<span class="function"><span class="params">btn</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">  btn.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">style</span>.<span class="property">backgroundColor</span> = btn.<span class="property">dataset</span>.<span class="property">color</span>;</span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol>
-<li><strong>元素找不到</strong>：检查选择器拼写&#x2F;元素加载时机</li>
-<li><strong>事件不触发</strong>：确认元素已渲染后再绑定事件</li>
-<li><strong>样式不生效</strong>：优先使用class操作代替直接style修改</li>
-</ol>
-<h2 id="进阶练习"><a href="#进阶练习" class="headerlink" title="进阶练习"></a>进阶练习</h2><table>
-<thead>
-<tr>
-<th>练习项目</th>
-<th>关键技能</th>
-<th>实现思路</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>留言板</td>
-<td>节点创建&#x2F;事件委托</td>
-<td>1. 获取输入 2. 创建元素 3. 添加删除功能</td>
-</tr>
-<tr>
-<td>全选功能</td>
-<td>属性批量操作</td>
-<td>1. 获取所有复选框 2. 联动全选状态</td>
-</tr>
-<tr>
-<td>分类筛选</td>
-<td>数据过滤&#x2F;显示控制</td>
-<td>1. 数据分类 2. 显示切换动画</td>
-</tr>
-</tbody></table>
-<p>流程图示例（全选功能）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">flowchart TD</span><br><span class="line">    A[点击全选按钮] --&gt; B&#123;全选状态&#125;</span><br><span class="line">    B --&gt;|true| C[设置所有checkbox.checked=true]</span><br><span class="line">    B --&gt;|false| D[设置所有checkbox.checked=false]</span><br></pre></td></tr></table></figure>
-<p>对象.disabled &#x3D; true 禁用按钮&#x2F;搜索框</p>
-<h2 id="循环方法对比"><a href="#循环方法对比" class="headerlink" title="循环方法对比"></a>循环方法对比</h2><h3 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// forEach写法</span></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line">arr.<span class="title function_">forEach</span>(alert);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 传统for循环写法</span></span><br><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> k = <span class="number">0</span>, length = arr.<span class="property">length</span>; k &lt; length; k++) &#123;</span><br><span class="line">  <span class="title function_">alert</span>(arr[k]); <span class="comment">// 注意变量名一致性</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="ForEach参数解析"><a href="#ForEach参数解析" class="headerlink" title="ForEach参数解析"></a>ForEach参数解析</h3><table>
-<thead>
-<tr>
-<th>参数位置</th>
-<th>说明</th>
-<th>类型</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>第1个参数</td>
-<td>当前遍历的数组元素</td>
-<td>any</td>
-</tr>
-<tr>
-<td>第2个参数</td>
-<td>当前元素的索引（从0开始）</td>
-<td>number</td>
-</tr>
-<tr>
-<td>第3个参数</td>
-<td>正在遍历的数组本身</td>
-<td>Array</td>
-</tr>
-</tbody></table>
-<h3 id="运行示例"><a href="#运行示例" class="headerlink" title="运行示例"></a>运行示例</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> letters = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>];</span><br><span class="line">letters.<span class="title function_">forEach</span>(<span class="function">(<span class="params">item, index, array</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(item, index, array);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 输出结果：</span></span><br><span class="line"><span class="comment">a 0 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">b 1 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">c 2 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">d 3 [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;, &#x27;d&#x27;]</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line">## <span class="variable constant_">DOM</span> 文档模型</span><br><span class="line"></span><br><span class="line">### 核心概念</span><br><span class="line">- **文档(<span class="title class_">Document</span>)**：整个页面的根节点，通过 <span class="string">`document`</span> 对象访问</span><br><span class="line">- **元素(<span class="title class_">Element</span>)**：<span class="variable constant_">HTML</span> 标签对应的对象（如 <span class="string">`&lt;div&gt;`</span>、<span class="string">`&lt;p&gt;`</span>）</span><br><span class="line">- **节点(<span class="title class_">Node</span>)**：文档中的所有组成部分（包括元素、文本、注释等）</span><br><span class="line"></span><br><span class="line">### 元素获取方法</span><br><span class="line">| 方法名                  | 返回类型       | 使用场景               |</span><br><span class="line">|-------------------------|----------------|------------------------|</span><br><span class="line">| <span class="string">`getElementById()`</span>      | 单个元素对象   | 精确查找唯一元素       |</span><br><span class="line">| <span class="string">`getElementsByTagName()`</span> | <span class="variable constant_">HTML</span>集合       | 批量操作同类型元素     |</span><br><span class="line"></span><br><span class="line"><span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string">// 通过ID获取单个元素</span></span><br><span class="line"><span class="string">const header = document.getElementById(&#x27;mainHeader&#x27;);</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">// 通过标签名获取所有段落</span></span><br><span class="line"><span class="string">const paragraphs = document.getElementsByTagName(&#x27;p&#x27;);</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ol>
-<li><strong>加载顺序</strong>：脚本应放在<body>底部或使用DOMContentLoaded事件</body></li>
-<li><strong>方法规范</strong>：注意方法名大小写（如<code>getElementById</code>的最后一个’d’小写）</li>
-<li><strong>返回类型</strong>：<ul>
-<li><code>null</code> 表示元素未找到</li>
-<li>集合需通过索引访问具体元素（如<code>paragraphs[0]</code>）</li>
-</ul>
-</li>
-</ol>
-<h3 id="调试技巧"><a href="#调试技巧" class="headerlink" title="调试技巧"></a>调试技巧</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 查看元素详细信息</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">dir</span>(header);</span><br><span class="line"><span class="comment">/* 输出示例：</span></span><br><span class="line"><span class="comment">HTMLHeadingElement &#123;</span></span><br><span class="line"><span class="comment">  id: &#x27;mainHeader&#x27;,</span></span><br><span class="line"><span class="comment">  classList: DOMTokenList [ ],</span></span><br><span class="line"><span class="comment">  ...</span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br></pre></td></tr></table></figure>
-<p>document.getElementsbyTageName(div[1])返回第二个元素值</p>
-<p>获取父元素中的子元素：<br>1-可以给父元素定ID，在父元素中查找元素(</p>
-<p>这是html中的元素<code>&lt;ul id=&quot;a&quot;&gt;   </code></p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementByid</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>( ul.<span class="title function_">getElementsByTageName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> ul=<span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;ul&#x27;</span>)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(ul[<span class="number">0</span>].<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>))</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-
-<p>通过类名获取元素（HTML5）<br><code>document.getElmentsByClassName(&#39;box&#39;);</code></p>
-<p>指定选择器的第一个元素对象（选择器需要加符号申明）</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.box&#x27;</span>)<span class="comment">//获取第一个类选择器,也可获取第一个标签选择器</span></span><br><span class="line"><span class="comment">//所有元素对象</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;.box&#x27;</span>)<span class="comment">//获取第所有类选择器</span></span><br></pre></td></tr></table></figure>
-
-<p>获取body元素<br><code>document.body;</code></p>
-<p>获取html元素<br><code>document.documentElement;</code></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>点线面的选择与控制</title>
-    <url>/2025/04/26/%E7%82%B9%E7%BA%BF%E9%9D%A2%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E6%8E%A7%E5%88%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://www.bilibili.com/video/BV14u41147YH/?spm_id_from=333.788.videopod.episodes&vd_source=63d165ef1acc5aeae840f5075ad17447&p=6">【建模篇】2.1 点线面的选择与控制_哔哩哔哩_bilibili</a></p>
-<p>按Tab切换编辑模式，为了方便切换多种模式，在新版本的blender中按ctrl+Tab可以快速选择多种模式。旧版本可以在编辑&gt;偏好设置&gt;键位映射:打开拖动激活饼菜单。<br><img src="https://bu.dusays.com/2025/04/26/680c34efb4886.png" alt="激活饼菜单"><br>打开后<mark class="hl-label blue">长按TAB</mark> 可以打开一个饼菜单。</p>
-<p>在编辑模式下通过数字1、2、3可以切换点、线、面，按<u>shift</u> 可以多选模式</p>
-<p>框选有三种模式，按w可以快速切换模式<br><img src="https://bu.dusays.com/2025/04/26/680c37609af79.png" alt="框选模式"></p>
-<p>反选ctrl + i</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基础知识篇！</title>
-    <url>/2025/04/23/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AF%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、拆包组包：让数据提取更丝滑"><a href="#一、拆包组包：让数据提取更丝滑" class="headerlink" title="一、拆包组包：让数据提取更丝滑"></a>一、拆包组包：让数据提取更丝滑</h2><h3 id="1-元组拆包：一键提取多个值"><a href="#1-元组拆包：一键提取多个值" class="headerlink" title="1. 元组拆包：一键提取多个值"></a>1. 元组拆包：一键提取多个值</h3><p>刚学 Python 时，从元组取数据我还傻傻地用索引，比如<code>r = rgb[0]</code>。后来发现直接拆包更香：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">rgb = (<span class="number">12</span>, <span class="number">45</span>, <span class="number">32</span>)</span><br><span class="line">r, g, b = rgb  <span class="comment"># 一行搞定三个变量赋值，和`r=rgb[0]`说拜拜～</span></span><br><span class="line"><span class="built_in">print</span>(r, g, b)  <span class="comment"># 输出：12 45 32</span></span><br></pre></td></tr></table></figure>
-
-<p>不过要注意哦，变量数量必须和容器长度完全一致，不然会报错。比如你写<code>x, y = (1,2,3)</code>，Python 会直接甩给你一个<code>ValueError</code>，这点一定要记牢。</p>
-<h3 id="2-交换值：一行代码实现变量互换"><a href="#2-交换值：一行代码实现变量互换" class="headerlink" title="2. 交换值：一行代码实现变量互换"></a>2. 交换值：一行代码实现变量互换</h3><p>以前交换两个变量的值，我会用临时变量<code>temp</code>过渡，直到发现 Python 的神奇操作：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a, b = <span class="number">1</span>, <span class="number">2</span></span><br><span class="line">a, b = b, a  <span class="comment"># 直接交换，背后其实是先把b,a装成元组，再拆包给a,b</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;a=<span class="subst">&#123;a&#125;</span>, b=<span class="subst">&#123;b&#125;</span>&quot;</span>)  <span class="comment"># 输出：a=2, b=1</span></span><br></pre></td></tr></table></figure>
-
-<p>这行代码其实藏了个小魔法：右边的<code>b,a</code>是装包成元组<code>(b,a)</code>，左边的<code>a,b</code>则是拆包操作，相当于<code>(a,b) = (b,a)</code>，是不是很巧妙？</p>
-<h3 id="3-灵活取部分数据：按需提取不浪费"><a href="#3-灵活取部分数据：按需提取不浪费" class="headerlink" title="3. 灵活取部分数据：按需提取不浪费"></a>3. 灵活取部分数据：按需提取不浪费</h3><p>如果只想拿元组里的部分数据，拆包也能搞定。比如取前两个值，剩下的存到列表：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = (<span class="number">100</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">40</span>, <span class="number">20</span>)</span><br><span class="line">x, y, *rest = a  <span class="comment"># x=100, y=80, rest=[60,40,20]</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;前两个值：<span class="subst">&#123;x&#125;</span>, <span class="subst">&#123;y&#125;</span>，剩余：<span class="subst">&#123;rest&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>不管是取头尾还是中间部分，都可以用<code>*</code>来灵活组合，Python 在这方面真的很自由～</p>
-<h3 id="4-拆包在函数中的应用"><a href="#4-拆包在函数中的应用" class="headerlink" title="4. 拆包在函数中的应用"></a>4. 拆包在函数中的应用</h3><p>调用函数时，如果参数刚好在元组或字典里，直接拆包就能传参：</p>
-<ul>
-<li><p><strong>元组拆包传参</strong>（用<code>*</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">get_sum</span>(<span class="params">x, y, z</span>):</span><br><span class="line">    <span class="keyword">return</span> x + y + z</span><br><span class="line">nums = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="built_in">print</span>(get_sum(*nums))  <span class="comment"># 相当于传入1,2,3，输出6</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>字典拆包传参</strong>（用<code>**</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">user_info</span>(<span class="params">name, age, addr</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;姓名：<span class="subst">&#123;name&#125;</span>，年龄：<span class="subst">&#123;age&#125;</span>，地址：<span class="subst">&#123;addr&#125;</span>&quot;</span>)</span><br><span class="line">info = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;张三&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">21</span>, <span class="string">&quot;addr&quot;</span>: <span class="string">&quot;成都&quot;</span>&#125;</span><br><span class="line">user_info(**info)  <span class="comment"># 直接展开字典为关键字参数</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>这里的<code>*</code>和<code>**</code>在函数调用时就像 “解包器”，把容器里的数据变成函数需要的参数形式。</p>
-<h2 id="二、函数参数：搞懂这几类就够用了"><a href="#二、函数参数：搞懂这几类就够用了" class="headerlink" title="二、函数参数：搞懂这几类就够用了"></a>二、函数参数：搞懂这几类就够用了</h2><h3 id="1-形参与实参：定义-vs-调用的区别"><a href="#1-形参与实参：定义-vs-调用的区别" class="headerlink" title="1. 形参与实参：定义 vs 调用的区别"></a>1. 形参与实参：定义 vs 调用的区别</h3><ul>
-<li><strong>形参</strong>：定义函数时写的参数，比如<code>def fun(a, b):</code>里的<code>a</code>和<code>b</code>，相当于提前占个位置。</li>
-<li><strong>实参</strong>：调用函数时传的具体值，比如<code>fun(1, 2)</code>里的<code>1</code>和<code>2</code>，是真正传给函数的数据。</li>
-</ul>
-<h3 id="2-位置参数：严格按顺序来"><a href="#2-位置参数：严格按顺序来" class="headerlink" title="2. 位置参数：严格按顺序来"></a>2. 位置参数：严格按顺序来</h3><p>这是最基础的参数类型，调用时必须按定义顺序传参，多一个少一个都不行：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">add(<span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 正确，返回5</span></span><br><span class="line"><span class="comment"># add(2)  # 报错，少传参数</span></span><br><span class="line"><span class="comment"># add(2, 3, 4)  # 报错，多传参数</span></span><br></pre></td></tr></table></figure>
-
-
-<p>就像排队买票，必须按顺序来，一个萝卜一个坑。</p>
-<h3 id="3-关键字参数：可以打乱顺序的-“懒人参数”"><a href="#3-关键字参数：可以打乱顺序的-“懒人参数”" class="headerlink" title="3. 关键字参数：可以打乱顺序的 “懒人参数”"></a>3. 关键字参数：可以打乱顺序的 “懒人参数”</h3><p>调用时直接指定参数名，顺序就不重要了，适合参数多的时候避免搞错位置：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">greet</span>(<span class="params">name, age</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;你好，<span class="subst">&#123;name&#125;</span>，今年<span class="subst">&#123;age&#125;</span>岁啦！&quot;</span>)</span><br><span class="line">greet(age=<span class="number">21</span>, name=<span class="string">&quot;张三&quot;</span>)  <span class="comment"># 和greet(&quot;张三&quot;, 21)效果一样</span></span><br></pre></td></tr></table></figure>
-
-<p>写代码时如果记不清参数顺序，用关键字参数准没错。</p>
-<h3 id="4-默认参数：给参数一个-“备胎值”"><a href="#4-默认参数：给参数一个-“备胎值”" class="headerlink" title="4. 默认参数：给参数一个 “备胎值”"></a>4. 默认参数：给参数一个 “备胎值”</h3><p>定义函数时可以给参数设默认值，调用时如果没传这个参数，就用默认值：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">say_hello</span>(<span class="params">name, msg=<span class="string">&quot;你好&quot;</span></span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;msg&#125;</span>，<span class="subst">&#123;name&#125;</span>！&quot;</span>)</span><br><span class="line">say_hello(<span class="string">&quot;李四&quot;</span>)  <span class="comment"># 没传msg，用默认值“你好”，输出：你好，李四！</span></span><br><span class="line">say_hello(<span class="string">&quot;王五&quot;</span>, <span class="string">&quot;Hi&quot;</span>)  <span class="comment"># 传了msg，用传入的值，输出：Hi，王五！</span></span><br></pre></td></tr></table></figure>
-
-<p>比如写一个发送邮件的函数，默认收件人可以设为自己，每次调用不用重复写，省事～。</p>
-<h3 id="5-不定长参数：处理不确定数量的输入"><a href="#5-不定长参数：处理不确定数量的输入" class="headerlink" title="5. 不定长参数：处理不确定数量的输入"></a>5. 不定长参数：处理不确定数量的输入</h3><ul>
-<li><p><strong><code>*args</code></strong>：接收任意多个未命名参数，存成元组。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">print_args</span>(<span class="params">*args</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;接收到的参数：&quot;</span>, args)</span><br><span class="line">print_args(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 输出：(1, 2, 3)</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong><code>**kwargs</code></strong>：接收任意多个关键字参数，存成字典。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">    <span class="keyword">def</span> <span class="title function_">print_kwargs</span>(<span class="params">**kwargs</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;接收到的关键字参数：&quot;</span>, kwargs)</span><br><span class="line">    print_kwargs(name=<span class="string">&quot;张三&quot;</span>, age=<span class="number">21</span>)  <span class="comment"># 输出：&#123;&#x27;name&#x27;: &#x27;张三&#x27;, &#x27;age&#x27;: 21&#125;</span></span><br><span class="line">    ```  </span><br><span class="line"></span><br><span class="line">这两个参数在写工具函数时特别有用，比如日志记录函数，不管传多少参数都能接住。</span><br><span class="line"></span><br><span class="line"><span class="comment">## 三、面向对象：从 “过程” 到 “对象” 的思维转变</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 1\. 对象是什么？像一个会 “变身” 的字典</span></span><br><span class="line"></span><br><span class="line">刚开始学面向对象时觉得抽象，后来发现对象就像一个 “智能字典”：</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">*   字典用`key:value`存数据，对象用 “属性” 存数据，但需要先 “实例化” 才能用（比如`zhangsan = Student()`）。</span><br><span class="line">*   对象还能有 “方法”（函数），比如`zhangsan.play()`，而字典没有这种行为能力。</span><br><span class="line"></span><br><span class="line"><span class="comment">### 2\. 类属性 vs 实例属性：共享 vs 专属</span></span><br><span class="line">*   **类属性**：定义在类里，所有实例共享，比如班级名称。</span><br><span class="line">    ```python</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">        school = <span class="string">&quot;加州大学&quot;</span>  <span class="comment"># 类属性，所有学生都属于这个学校</span></span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, age</span>):</span><br><span class="line">            <span class="variable language_">self</span>.name = name  <span class="comment"># 实例属性，每个学生名字不同</span></span><br><span class="line">            <span class="variable language_">self</span>.age = age</span><br><span class="line">    zhangsan = Student(<span class="string">&quot;张三&quot;</span>, <span class="number">21</span>)</span><br><span class="line">    <span class="built_in">print</span>(zhangsan.school)  <span class="comment"># 输出：加州大学（共享类属性）</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>实例属性</strong>：在<code>__init__</code>方法里用<code>self</code>定义，每个实例独立，比如每个学生的姓名和年龄。</p>
-</li>
-</ul>
-<h3 id="3-魔术方法：让对象更-“听话”"><a href="#3-魔术方法：让对象更-“听话”" class="headerlink" title="3. 魔术方法：让对象更 “听话”"></a>3. 魔术方法：让对象更 “听话”</h3><p>Python 里有很多以<code>__</code>开头和结尾的魔术方法，能赋予对象特殊能力：</p>
-<ul>
-<li><code>__str__</code>：定义对象打印时的显示内容，比如<code>print(zhangsan)</code>会返回你定义的字符串。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;学生：<span class="subst">&#123;self.name&#125;</span>，年龄<span class="subst">&#123;self.age&#125;</span>&quot;</span></span><br><span class="line"><span class="built_in">print</span>(zhangsan)  <span class="comment"># 直接打印对象，输出：学生：张三，年龄21</span></span><br></pre></td></tr></table></figure></li>
-<li><code>__call__</code>：让对象可以像函数一样被调用，比如<code>zhangsan()</code>会执行你定义的逻辑。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__call__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;self.name&#125;</span>正在调用对象！&quot;</span>)</span><br><span class="line">zhangsan()  <span class="comment"># 输出：张三正在调用对象！</span></span><br></pre></td></tr></table></figure>
-这些魔术方法就像给对象加了 “快捷键”，用起来超方便。</li>
-</ul>
-<h2 id="四、模块与包：代码模块化的-“收纳盒”"><a href="#四、模块与包：代码模块化的-“收纳盒”" class="headerlink" title="四、模块与包：代码模块化的 “收纳盒”"></a>四、模块与包：代码模块化的 “收纳盒”</h2><h3 id="1-什么是模块？把代码分门别类存起来"><a href="#1-什么是模块？把代码分门别类存起来" class="headerlink" title="1. 什么是模块？把代码分门别类存起来"></a>1. 什么是模块？把代码分门别类存起来</h3><p>如果把一个 Python 文件（<code>.py</code>）看作一个 “工具盒”，里面装着函数、类等工具，这就是模块。比如把常用的数据库操作写成<code>db_utils.py</code>，下次直接导入就能用，不用重复写代码。</p>
-<h3 id="2-导入模块的三种方式"><a href="#2-导入模块的三种方式" class="headerlink" title="2. 导入模块的三种方式"></a>2. 导入模块的三种方式</h3><ul>
-<li><p><strong>完整导入</strong>（<code>import 模块名</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="built_in">print</span>(math.pi)  <span class="comment"># 用模块名.属性调用，避免命名冲突</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>按需导入</strong>（<code>from 模块 import 内容</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> pi, sqrt</span><br><span class="line"><span class="built_in">print</span>(pi)  <span class="comment"># 直接用，不用加模块名</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>改名导入</strong>（<code>import 模块 as 别名</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  <span class="comment"># 给长名字模块取别名，比如numpy常用np</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>碎碎念</title>
     <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg"></p>
@@ -1208,61 +1263,6 @@
       </categories>
       <tags>
         <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站汇总</title>
-    <url>/2025/04/26/%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="flink"><div class="flink-name">网站</div><div class="flink-desc">值得推荐的网站</div> <div class="flink-list"><div class="anzhiyu-flink-list">
-            <div class="flink-list-item">
-              <a href="https://www.youtube.com/" title="Youtube" class="cf-friends-link" target="_blank">
-                <div class="flink-item-icon">
-                  <img class="no-lightbox cf-friends-avatar" src="https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="Youtube">
-                </div>
-                <div class="flink-item-info">
-                  <div class="flink-item-name">Youtube</div>
-                  <div class="flink-item-desc" title="视频网站">视频网站</div>
-                </div>
-              </a>
-            </div>
-            <div class="flink-list-item">
-              <a href="https://www.weibo.com/" title="Weibo" class="cf-friends-link" target="_blank">
-                <div class="flink-item-icon">
-                  <img class="no-lightbox cf-friends-avatar" src="https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="Weibo">
-                </div>
-                <div class="flink-item-info">
-                  <div class="flink-item-name">Weibo</div>
-                  <div class="flink-item-desc" title="中国最大社交分享平台">中国最大社交分享平台</div>
-                </div>
-              </a>
-            </div>
-            <div class="flink-list-item">
-              <a href="https://twitter.com/" title="Twitter" class="cf-friends-link" target="_blank">
-                <div class="flink-item-icon">
-                  <img class="no-lightbox cf-friends-avatar" src="https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="Twitter">
-                </div>
-                <div class="flink-item-info">
-                  <div class="flink-item-name">Twitter</div>
-                  <div class="flink-item-desc" title="社交分享平台">社交分享平台</div>
-                </div>
-              </a>
-            </div></div></div><div class="flink-name">学习</div><div class="flink-desc">值得推荐的网站</div> <div class="flink-list"><div class="anzhiyu-flink-list">
-            <div class="flink-list-item">
-              <a href="https://1024code.com/" title="1024Code" class="cf-friends-link" target="_blank">
-                <div class="flink-item-icon">
-                  <img class="no-lightbox cf-friends-avatar" src="https://1024code.com/icons/icon-144x144.png" onerror="this.onerror=null;this.src="/img/friend_404.gif"" alt="1024Code">
-                </div>
-                <div class="flink-item-info">
-                  <div class="flink-item-name">1024Code</div>
-                  <div class="flink-item-desc" title="一个在线编程页面">一个在线编程页面</div>
-                </div>
-              </a>
-            </div></div></div></div>]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
       </tags>
   </entry>
 </search>
