@@ -288,27 +288,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【picoCTF】JAuth  J</title>
-    <url>/2025/04/19/picoctfjauth--j/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
-<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
-<p>启动实例访问：</p>
-<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
-<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
-<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
-<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
-<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HTML基础内容（文档结构与核心知识）</title>
     <url>/2025/03/27/htlm%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9-%E5%9F%BA%E7%A1%80%E7%BB%93%E6%9E%84%E3%80%81%E7%9F%A5%E8%AF%86%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="基本文档结构"><a href="#基本文档结构" class="headerlink" title="基本文档结构"></a>基本文档结构</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">content</span>=<span class="string">&quot;HTML教程,网页基础&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;HTML文档结构与核心知识点详解&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>HTML基础教程<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 页面内容 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -628,6 +607,27 @@
       <tags>
         <tag>html</tag>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【picoCTF】JAuth  J</title>
+    <url>/2025/04/19/picoctfjauth--j/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
+<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
+<p>启动实例访问：</p>
+<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
+<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
+<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
+<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
+<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>题目</tag>
       </tags>
   </entry>
   <entry>
@@ -1096,6 +1096,82 @@
       </tags>
   </entry>
   <entry>
+    <title>基础知识篇！</title>
+    <url>/2025/04/23/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AF%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、拆包组包：让数据提取更丝滑"><a href="#一、拆包组包：让数据提取更丝滑" class="headerlink" title="一、拆包组包：让数据提取更丝滑"></a>一、拆包组包：让数据提取更丝滑</h2><h3 id="1-元组拆包：一键提取多个值"><a href="#1-元组拆包：一键提取多个值" class="headerlink" title="1. 元组拆包：一键提取多个值"></a>1. 元组拆包：一键提取多个值</h3><p>刚学 Python 时，从元组取数据我还傻傻地用索引，比如<code>r = rgb[0]</code>。后来发现直接拆包更香：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">rgb = (<span class="number">12</span>, <span class="number">45</span>, <span class="number">32</span>)</span><br><span class="line">r, g, b = rgb  <span class="comment"># 一行搞定三个变量赋值，和`r=rgb[0]`说拜拜～</span></span><br><span class="line"><span class="built_in">print</span>(r, g, b)  <span class="comment"># 输出：12 45 32</span></span><br></pre></td></tr></table></figure>
+
+<p>不过要注意哦，变量数量必须和容器长度完全一致，不然会报错。比如你写<code>x, y = (1,2,3)</code>，Python 会直接甩给你一个<code>ValueError</code>，这点一定要记牢。</p>
+<h3 id="2-交换值：一行代码实现变量互换"><a href="#2-交换值：一行代码实现变量互换" class="headerlink" title="2. 交换值：一行代码实现变量互换"></a>2. 交换值：一行代码实现变量互换</h3><p>以前交换两个变量的值，我会用临时变量<code>temp</code>过渡，直到发现 Python 的神奇操作：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a, b = <span class="number">1</span>, <span class="number">2</span></span><br><span class="line">a, b = b, a  <span class="comment"># 直接交换，背后其实是先把b,a装成元组，再拆包给a,b</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;a=<span class="subst">&#123;a&#125;</span>, b=<span class="subst">&#123;b&#125;</span>&quot;</span>)  <span class="comment"># 输出：a=2, b=1</span></span><br></pre></td></tr></table></figure>
+
+<p>这行代码其实藏了个小魔法：右边的<code>b,a</code>是装包成元组<code>(b,a)</code>，左边的<code>a,b</code>则是拆包操作，相当于<code>(a,b) = (b,a)</code>，是不是很巧妙？</p>
+<h3 id="3-灵活取部分数据：按需提取不浪费"><a href="#3-灵活取部分数据：按需提取不浪费" class="headerlink" title="3. 灵活取部分数据：按需提取不浪费"></a>3. 灵活取部分数据：按需提取不浪费</h3><p>如果只想拿元组里的部分数据，拆包也能搞定。比如取前两个值，剩下的存到列表：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = (<span class="number">100</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">40</span>, <span class="number">20</span>)</span><br><span class="line">x, y, *rest = a  <span class="comment"># x=100, y=80, rest=[60,40,20]</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;前两个值：<span class="subst">&#123;x&#125;</span>, <span class="subst">&#123;y&#125;</span>，剩余：<span class="subst">&#123;rest&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>不管是取头尾还是中间部分，都可以用<code>*</code>来灵活组合，Python 在这方面真的很自由～</p>
+<h3 id="4-拆包在函数中的应用"><a href="#4-拆包在函数中的应用" class="headerlink" title="4. 拆包在函数中的应用"></a>4. 拆包在函数中的应用</h3><p>调用函数时，如果参数刚好在元组或字典里，直接拆包就能传参：</p>
+<ul>
+<li><p><strong>元组拆包传参</strong>（用<code>*</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">get_sum</span>(<span class="params">x, y, z</span>):</span><br><span class="line">    <span class="keyword">return</span> x + y + z</span><br><span class="line">nums = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="built_in">print</span>(get_sum(*nums))  <span class="comment"># 相当于传入1,2,3，输出6</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>字典拆包传参</strong>（用<code>**</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">user_info</span>(<span class="params">name, age, addr</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;姓名：<span class="subst">&#123;name&#125;</span>，年龄：<span class="subst">&#123;age&#125;</span>，地址：<span class="subst">&#123;addr&#125;</span>&quot;</span>)</span><br><span class="line">info = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;张三&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">21</span>, <span class="string">&quot;addr&quot;</span>: <span class="string">&quot;成都&quot;</span>&#125;</span><br><span class="line">user_info(**info)  <span class="comment"># 直接展开字典为关键字参数</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>这里的<code>*</code>和<code>**</code>在函数调用时就像 “解包器”，把容器里的数据变成函数需要的参数形式。</p>
+<h2 id="二、函数参数：搞懂这几类就够用了"><a href="#二、函数参数：搞懂这几类就够用了" class="headerlink" title="二、函数参数：搞懂这几类就够用了"></a>二、函数参数：搞懂这几类就够用了</h2><h3 id="1-形参与实参：定义-vs-调用的区别"><a href="#1-形参与实参：定义-vs-调用的区别" class="headerlink" title="1. 形参与实参：定义 vs 调用的区别"></a>1. 形参与实参：定义 vs 调用的区别</h3><ul>
+<li><strong>形参</strong>：定义函数时写的参数，比如<code>def fun(a, b):</code>里的<code>a</code>和<code>b</code>，相当于提前占个位置。</li>
+<li><strong>实参</strong>：调用函数时传的具体值，比如<code>fun(1, 2)</code>里的<code>1</code>和<code>2</code>，是真正传给函数的数据。</li>
+</ul>
+<h3 id="2-位置参数：严格按顺序来"><a href="#2-位置参数：严格按顺序来" class="headerlink" title="2. 位置参数：严格按顺序来"></a>2. 位置参数：严格按顺序来</h3><p>这是最基础的参数类型，调用时必须按定义顺序传参，多一个少一个都不行：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">add(<span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 正确，返回5</span></span><br><span class="line"><span class="comment"># add(2)  # 报错，少传参数</span></span><br><span class="line"><span class="comment"># add(2, 3, 4)  # 报错，多传参数</span></span><br></pre></td></tr></table></figure>
+
+
+<p>就像排队买票，必须按顺序来，一个萝卜一个坑。</p>
+<h3 id="3-关键字参数：可以打乱顺序的-“懒人参数”"><a href="#3-关键字参数：可以打乱顺序的-“懒人参数”" class="headerlink" title="3. 关键字参数：可以打乱顺序的 “懒人参数”"></a>3. 关键字参数：可以打乱顺序的 “懒人参数”</h3><p>调用时直接指定参数名，顺序就不重要了，适合参数多的时候避免搞错位置：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">greet</span>(<span class="params">name, age</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;你好，<span class="subst">&#123;name&#125;</span>，今年<span class="subst">&#123;age&#125;</span>岁啦！&quot;</span>)</span><br><span class="line">greet(age=<span class="number">21</span>, name=<span class="string">&quot;张三&quot;</span>)  <span class="comment"># 和greet(&quot;张三&quot;, 21)效果一样</span></span><br></pre></td></tr></table></figure>
+
+<p>写代码时如果记不清参数顺序，用关键字参数准没错。</p>
+<h3 id="4-默认参数：给参数一个-“备胎值”"><a href="#4-默认参数：给参数一个-“备胎值”" class="headerlink" title="4. 默认参数：给参数一个 “备胎值”"></a>4. 默认参数：给参数一个 “备胎值”</h3><p>定义函数时可以给参数设默认值，调用时如果没传这个参数，就用默认值：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">say_hello</span>(<span class="params">name, msg=<span class="string">&quot;你好&quot;</span></span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;msg&#125;</span>，<span class="subst">&#123;name&#125;</span>！&quot;</span>)</span><br><span class="line">say_hello(<span class="string">&quot;李四&quot;</span>)  <span class="comment"># 没传msg，用默认值“你好”，输出：你好，李四！</span></span><br><span class="line">say_hello(<span class="string">&quot;王五&quot;</span>, <span class="string">&quot;Hi&quot;</span>)  <span class="comment"># 传了msg，用传入的值，输出：Hi，王五！</span></span><br></pre></td></tr></table></figure>
+
+<p>比如写一个发送邮件的函数，默认收件人可以设为自己，每次调用不用重复写，省事～。</p>
+<h3 id="5-不定长参数：处理不确定数量的输入"><a href="#5-不定长参数：处理不确定数量的输入" class="headerlink" title="5. 不定长参数：处理不确定数量的输入"></a>5. 不定长参数：处理不确定数量的输入</h3><ul>
+<li><p><strong><code>*args</code></strong>：接收任意多个未命名参数，存成元组。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">print_args</span>(<span class="params">*args</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;接收到的参数：&quot;</span>, args)</span><br><span class="line">print_args(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 输出：(1, 2, 3)</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong><code>**kwargs</code></strong>：接收任意多个关键字参数，存成字典。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">    <span class="keyword">def</span> <span class="title function_">print_kwargs</span>(<span class="params">**kwargs</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;接收到的关键字参数：&quot;</span>, kwargs)</span><br><span class="line">    print_kwargs(name=<span class="string">&quot;张三&quot;</span>, age=<span class="number">21</span>)  <span class="comment"># 输出：&#123;&#x27;name&#x27;: &#x27;张三&#x27;, &#x27;age&#x27;: 21&#125;</span></span><br><span class="line">    ```  </span><br><span class="line"></span><br><span class="line">这两个参数在写工具函数时特别有用，比如日志记录函数，不管传多少参数都能接住。</span><br><span class="line"></span><br><span class="line"><span class="comment">## 三、面向对象：从 “过程” 到 “对象” 的思维转变</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 1\. 对象是什么？像一个会 “变身” 的字典</span></span><br><span class="line"></span><br><span class="line">刚开始学面向对象时觉得抽象，后来发现对象就像一个 “智能字典”：</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">*   字典用`key:value`存数据，对象用 “属性” 存数据，但需要先 “实例化” 才能用（比如`zhangsan = Student()`）。</span><br><span class="line">*   对象还能有 “方法”（函数），比如`zhangsan.play()`，而字典没有这种行为能力。</span><br><span class="line"></span><br><span class="line"><span class="comment">### 2\. 类属性 vs 实例属性：共享 vs 专属</span></span><br><span class="line">*   **类属性**：定义在类里，所有实例共享，比如班级名称。</span><br><span class="line">    ```python</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">        school = <span class="string">&quot;加州大学&quot;</span>  <span class="comment"># 类属性，所有学生都属于这个学校</span></span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, age</span>):</span><br><span class="line">            <span class="variable language_">self</span>.name = name  <span class="comment"># 实例属性，每个学生名字不同</span></span><br><span class="line">            <span class="variable language_">self</span>.age = age</span><br><span class="line">    zhangsan = Student(<span class="string">&quot;张三&quot;</span>, <span class="number">21</span>)</span><br><span class="line">    <span class="built_in">print</span>(zhangsan.school)  <span class="comment"># 输出：加州大学（共享类属性）</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>实例属性</strong>：在<code>__init__</code>方法里用<code>self</code>定义，每个实例独立，比如每个学生的姓名和年龄。</p>
+</li>
+</ul>
+<h3 id="3-魔术方法：让对象更-“听话”"><a href="#3-魔术方法：让对象更-“听话”" class="headerlink" title="3. 魔术方法：让对象更 “听话”"></a>3. 魔术方法：让对象更 “听话”</h3><p>Python 里有很多以<code>__</code>开头和结尾的魔术方法，能赋予对象特殊能力：</p>
+<ul>
+<li><code>__str__</code>：定义对象打印时的显示内容，比如<code>print(zhangsan)</code>会返回你定义的字符串。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;学生：<span class="subst">&#123;self.name&#125;</span>，年龄<span class="subst">&#123;self.age&#125;</span>&quot;</span></span><br><span class="line"><span class="built_in">print</span>(zhangsan)  <span class="comment"># 直接打印对象，输出：学生：张三，年龄21</span></span><br></pre></td></tr></table></figure></li>
+<li><code>__call__</code>：让对象可以像函数一样被调用，比如<code>zhangsan()</code>会执行你定义的逻辑。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__call__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;self.name&#125;</span>正在调用对象！&quot;</span>)</span><br><span class="line">zhangsan()  <span class="comment"># 输出：张三正在调用对象！</span></span><br></pre></td></tr></table></figure>
+这些魔术方法就像给对象加了 “快捷键”，用起来超方便。</li>
+</ul>
+<h2 id="四、模块与包：代码模块化的-“收纳盒”"><a href="#四、模块与包：代码模块化的-“收纳盒”" class="headerlink" title="四、模块与包：代码模块化的 “收纳盒”"></a>四、模块与包：代码模块化的 “收纳盒”</h2><h3 id="1-什么是模块？把代码分门别类存起来"><a href="#1-什么是模块？把代码分门别类存起来" class="headerlink" title="1. 什么是模块？把代码分门别类存起来"></a>1. 什么是模块？把代码分门别类存起来</h3><p>如果把一个 Python 文件（<code>.py</code>）看作一个 “工具盒”，里面装着函数、类等工具，这就是模块。比如把常用的数据库操作写成<code>db_utils.py</code>，下次直接导入就能用，不用重复写代码。</p>
+<h3 id="2-导入模块的三种方式"><a href="#2-导入模块的三种方式" class="headerlink" title="2. 导入模块的三种方式"></a>2. 导入模块的三种方式</h3><ul>
+<li><p><strong>完整导入</strong>（<code>import 模块名</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="built_in">print</span>(math.pi)  <span class="comment"># 用模块名.属性调用，避免命名冲突</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>按需导入</strong>（<code>from 模块 import 内容</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> pi, sqrt</span><br><span class="line"><span class="built_in">print</span>(pi)  <span class="comment"># 直接用，不用加模块名</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>改名导入</strong>（<code>import 模块 as 别名</code>）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  <span class="comment"># 给长名字模块取别名，比如numpy常用np</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>点线面的选择与控制</title>
     <url>/2025/04/26/%E7%82%B9%E7%BA%BF%E9%9D%A2%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E6%8E%A7%E5%88%B6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://www.bilibili.com/video/BV14u41147YH/?spm_id_from=333.788.videopod.episodes&vd_source=63d165ef1acc5aeae840f5075ad17447&p=6">【建模篇】2.1 点线面的选择与控制_哔哩哔哩_bilibili</a></p>
@@ -1187,82 +1263,6 @@
       </categories>
       <tags>
         <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基础知识篇！</title>
-    <url>/2025/04/23/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AF%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、拆包组包：让数据提取更丝滑"><a href="#一、拆包组包：让数据提取更丝滑" class="headerlink" title="一、拆包组包：让数据提取更丝滑"></a>一、拆包组包：让数据提取更丝滑</h2><h3 id="1-元组拆包：一键提取多个值"><a href="#1-元组拆包：一键提取多个值" class="headerlink" title="1. 元组拆包：一键提取多个值"></a>1. 元组拆包：一键提取多个值</h3><p>刚学 Python 时，从元组取数据我还傻傻地用索引，比如<code>r = rgb[0]</code>。后来发现直接拆包更香：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">rgb = (<span class="number">12</span>, <span class="number">45</span>, <span class="number">32</span>)</span><br><span class="line">r, g, b = rgb  <span class="comment"># 一行搞定三个变量赋值，和`r=rgb[0]`说拜拜～</span></span><br><span class="line"><span class="built_in">print</span>(r, g, b)  <span class="comment"># 输出：12 45 32</span></span><br></pre></td></tr></table></figure>
-
-<p>不过要注意哦，变量数量必须和容器长度完全一致，不然会报错。比如你写<code>x, y = (1,2,3)</code>，Python 会直接甩给你一个<code>ValueError</code>，这点一定要记牢。</p>
-<h3 id="2-交换值：一行代码实现变量互换"><a href="#2-交换值：一行代码实现变量互换" class="headerlink" title="2. 交换值：一行代码实现变量互换"></a>2. 交换值：一行代码实现变量互换</h3><p>以前交换两个变量的值，我会用临时变量<code>temp</code>过渡，直到发现 Python 的神奇操作：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a, b = <span class="number">1</span>, <span class="number">2</span></span><br><span class="line">a, b = b, a  <span class="comment"># 直接交换，背后其实是先把b,a装成元组，再拆包给a,b</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;a=<span class="subst">&#123;a&#125;</span>, b=<span class="subst">&#123;b&#125;</span>&quot;</span>)  <span class="comment"># 输出：a=2, b=1</span></span><br></pre></td></tr></table></figure>
-
-<p>这行代码其实藏了个小魔法：右边的<code>b,a</code>是装包成元组<code>(b,a)</code>，左边的<code>a,b</code>则是拆包操作，相当于<code>(a,b) = (b,a)</code>，是不是很巧妙？</p>
-<h3 id="3-灵活取部分数据：按需提取不浪费"><a href="#3-灵活取部分数据：按需提取不浪费" class="headerlink" title="3. 灵活取部分数据：按需提取不浪费"></a>3. 灵活取部分数据：按需提取不浪费</h3><p>如果只想拿元组里的部分数据，拆包也能搞定。比如取前两个值，剩下的存到列表：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = (<span class="number">100</span>, <span class="number">80</span>, <span class="number">60</span>, <span class="number">40</span>, <span class="number">20</span>)</span><br><span class="line">x, y, *rest = a  <span class="comment"># x=100, y=80, rest=[60,40,20]</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;前两个值：<span class="subst">&#123;x&#125;</span>, <span class="subst">&#123;y&#125;</span>，剩余：<span class="subst">&#123;rest&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>不管是取头尾还是中间部分，都可以用<code>*</code>来灵活组合，Python 在这方面真的很自由～</p>
-<h3 id="4-拆包在函数中的应用"><a href="#4-拆包在函数中的应用" class="headerlink" title="4. 拆包在函数中的应用"></a>4. 拆包在函数中的应用</h3><p>调用函数时，如果参数刚好在元组或字典里，直接拆包就能传参：</p>
-<ul>
-<li><p><strong>元组拆包传参</strong>（用<code>*</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">get_sum</span>(<span class="params">x, y, z</span>):</span><br><span class="line">    <span class="keyword">return</span> x + y + z</span><br><span class="line">nums = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="built_in">print</span>(get_sum(*nums))  <span class="comment"># 相当于传入1,2,3，输出6</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>字典拆包传参</strong>（用<code>**</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">user_info</span>(<span class="params">name, age, addr</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;姓名：<span class="subst">&#123;name&#125;</span>，年龄：<span class="subst">&#123;age&#125;</span>，地址：<span class="subst">&#123;addr&#125;</span>&quot;</span>)</span><br><span class="line">info = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;张三&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="number">21</span>, <span class="string">&quot;addr&quot;</span>: <span class="string">&quot;成都&quot;</span>&#125;</span><br><span class="line">user_info(**info)  <span class="comment"># 直接展开字典为关键字参数</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>这里的<code>*</code>和<code>**</code>在函数调用时就像 “解包器”，把容器里的数据变成函数需要的参数形式。</p>
-<h2 id="二、函数参数：搞懂这几类就够用了"><a href="#二、函数参数：搞懂这几类就够用了" class="headerlink" title="二、函数参数：搞懂这几类就够用了"></a>二、函数参数：搞懂这几类就够用了</h2><h3 id="1-形参与实参：定义-vs-调用的区别"><a href="#1-形参与实参：定义-vs-调用的区别" class="headerlink" title="1. 形参与实参：定义 vs 调用的区别"></a>1. 形参与实参：定义 vs 调用的区别</h3><ul>
-<li><strong>形参</strong>：定义函数时写的参数，比如<code>def fun(a, b):</code>里的<code>a</code>和<code>b</code>，相当于提前占个位置。</li>
-<li><strong>实参</strong>：调用函数时传的具体值，比如<code>fun(1, 2)</code>里的<code>1</code>和<code>2</code>，是真正传给函数的数据。</li>
-</ul>
-<h3 id="2-位置参数：严格按顺序来"><a href="#2-位置参数：严格按顺序来" class="headerlink" title="2. 位置参数：严格按顺序来"></a>2. 位置参数：严格按顺序来</h3><p>这是最基础的参数类型，调用时必须按定义顺序传参，多一个少一个都不行：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">add(<span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 正确，返回5</span></span><br><span class="line"><span class="comment"># add(2)  # 报错，少传参数</span></span><br><span class="line"><span class="comment"># add(2, 3, 4)  # 报错，多传参数</span></span><br></pre></td></tr></table></figure>
-
-
-<p>就像排队买票，必须按顺序来，一个萝卜一个坑。</p>
-<h3 id="3-关键字参数：可以打乱顺序的-“懒人参数”"><a href="#3-关键字参数：可以打乱顺序的-“懒人参数”" class="headerlink" title="3. 关键字参数：可以打乱顺序的 “懒人参数”"></a>3. 关键字参数：可以打乱顺序的 “懒人参数”</h3><p>调用时直接指定参数名，顺序就不重要了，适合参数多的时候避免搞错位置：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">greet</span>(<span class="params">name, age</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;你好，<span class="subst">&#123;name&#125;</span>，今年<span class="subst">&#123;age&#125;</span>岁啦！&quot;</span>)</span><br><span class="line">greet(age=<span class="number">21</span>, name=<span class="string">&quot;张三&quot;</span>)  <span class="comment"># 和greet(&quot;张三&quot;, 21)效果一样</span></span><br></pre></td></tr></table></figure>
-
-<p>写代码时如果记不清参数顺序，用关键字参数准没错。</p>
-<h3 id="4-默认参数：给参数一个-“备胎值”"><a href="#4-默认参数：给参数一个-“备胎值”" class="headerlink" title="4. 默认参数：给参数一个 “备胎值”"></a>4. 默认参数：给参数一个 “备胎值”</h3><p>定义函数时可以给参数设默认值，调用时如果没传这个参数，就用默认值：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">say_hello</span>(<span class="params">name, msg=<span class="string">&quot;你好&quot;</span></span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;msg&#125;</span>，<span class="subst">&#123;name&#125;</span>！&quot;</span>)</span><br><span class="line">say_hello(<span class="string">&quot;李四&quot;</span>)  <span class="comment"># 没传msg，用默认值“你好”，输出：你好，李四！</span></span><br><span class="line">say_hello(<span class="string">&quot;王五&quot;</span>, <span class="string">&quot;Hi&quot;</span>)  <span class="comment"># 传了msg，用传入的值，输出：Hi，王五！</span></span><br></pre></td></tr></table></figure>
-
-<p>比如写一个发送邮件的函数，默认收件人可以设为自己，每次调用不用重复写，省事～。</p>
-<h3 id="5-不定长参数：处理不确定数量的输入"><a href="#5-不定长参数：处理不确定数量的输入" class="headerlink" title="5. 不定长参数：处理不确定数量的输入"></a>5. 不定长参数：处理不确定数量的输入</h3><ul>
-<li><p><strong><code>*args</code></strong>：接收任意多个未命名参数，存成元组。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">print_args</span>(<span class="params">*args</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;接收到的参数：&quot;</span>, args)</span><br><span class="line">print_args(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)  <span class="comment"># 输出：(1, 2, 3)</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong><code>**kwargs</code></strong>：接收任意多个关键字参数，存成字典。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">    <span class="keyword">def</span> <span class="title function_">print_kwargs</span>(<span class="params">**kwargs</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;接收到的关键字参数：&quot;</span>, kwargs)</span><br><span class="line">    print_kwargs(name=<span class="string">&quot;张三&quot;</span>, age=<span class="number">21</span>)  <span class="comment"># 输出：&#123;&#x27;name&#x27;: &#x27;张三&#x27;, &#x27;age&#x27;: 21&#125;</span></span><br><span class="line">    ```  </span><br><span class="line"></span><br><span class="line">这两个参数在写工具函数时特别有用，比如日志记录函数，不管传多少参数都能接住。</span><br><span class="line"></span><br><span class="line"><span class="comment">## 三、面向对象：从 “过程” 到 “对象” 的思维转变</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 1\. 对象是什么？像一个会 “变身” 的字典</span></span><br><span class="line"></span><br><span class="line">刚开始学面向对象时觉得抽象，后来发现对象就像一个 “智能字典”：</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">*   字典用`key:value`存数据，对象用 “属性” 存数据，但需要先 “实例化” 才能用（比如`zhangsan = Student()`）。</span><br><span class="line">*   对象还能有 “方法”（函数），比如`zhangsan.play()`，而字典没有这种行为能力。</span><br><span class="line"></span><br><span class="line"><span class="comment">### 2\. 类属性 vs 实例属性：共享 vs 专属</span></span><br><span class="line">*   **类属性**：定义在类里，所有实例共享，比如班级名称。</span><br><span class="line">    ```python</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">        school = <span class="string">&quot;加州大学&quot;</span>  <span class="comment"># 类属性，所有学生都属于这个学校</span></span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name, age</span>):</span><br><span class="line">            <span class="variable language_">self</span>.name = name  <span class="comment"># 实例属性，每个学生名字不同</span></span><br><span class="line">            <span class="variable language_">self</span>.age = age</span><br><span class="line">    zhangsan = Student(<span class="string">&quot;张三&quot;</span>, <span class="number">21</span>)</span><br><span class="line">    <span class="built_in">print</span>(zhangsan.school)  <span class="comment"># 输出：加州大学（共享类属性）</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>实例属性</strong>：在<code>__init__</code>方法里用<code>self</code>定义，每个实例独立，比如每个学生的姓名和年龄。</p>
-</li>
-</ul>
-<h3 id="3-魔术方法：让对象更-“听话”"><a href="#3-魔术方法：让对象更-“听话”" class="headerlink" title="3. 魔术方法：让对象更 “听话”"></a>3. 魔术方法：让对象更 “听话”</h3><p>Python 里有很多以<code>__</code>开头和结尾的魔术方法，能赋予对象特殊能力：</p>
-<ul>
-<li><code>__str__</code>：定义对象打印时的显示内容，比如<code>print(zhangsan)</code>会返回你定义的字符串。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__str__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="string">f&quot;学生：<span class="subst">&#123;self.name&#125;</span>，年龄<span class="subst">&#123;self.age&#125;</span>&quot;</span></span><br><span class="line"><span class="built_in">print</span>(zhangsan)  <span class="comment"># 直接打印对象，输出：学生：张三，年龄21</span></span><br></pre></td></tr></table></figure></li>
-<li><code>__call__</code>：让对象可以像函数一样被调用，比如<code>zhangsan()</code>会执行你定义的逻辑。<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__call__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;self.name&#125;</span>正在调用对象！&quot;</span>)</span><br><span class="line">zhangsan()  <span class="comment"># 输出：张三正在调用对象！</span></span><br></pre></td></tr></table></figure>
-这些魔术方法就像给对象加了 “快捷键”，用起来超方便。</li>
-</ul>
-<h2 id="四、模块与包：代码模块化的-“收纳盒”"><a href="#四、模块与包：代码模块化的-“收纳盒”" class="headerlink" title="四、模块与包：代码模块化的 “收纳盒”"></a>四、模块与包：代码模块化的 “收纳盒”</h2><h3 id="1-什么是模块？把代码分门别类存起来"><a href="#1-什么是模块？把代码分门别类存起来" class="headerlink" title="1. 什么是模块？把代码分门别类存起来"></a>1. 什么是模块？把代码分门别类存起来</h3><p>如果把一个 Python 文件（<code>.py</code>）看作一个 “工具盒”，里面装着函数、类等工具，这就是模块。比如把常用的数据库操作写成<code>db_utils.py</code>，下次直接导入就能用，不用重复写代码。</p>
-<h3 id="2-导入模块的三种方式"><a href="#2-导入模块的三种方式" class="headerlink" title="2. 导入模块的三种方式"></a>2. 导入模块的三种方式</h3><ul>
-<li><p><strong>完整导入</strong>（<code>import 模块名</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="built_in">print</span>(math.pi)  <span class="comment"># 用模块名.属性调用，避免命名冲突</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>按需导入</strong>（<code>from 模块 import 内容</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> pi, sqrt</span><br><span class="line"><span class="built_in">print</span>(pi)  <span class="comment"># 直接用，不用加模块名</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>改名导入</strong>（<code>import 模块 as 别名</code>）：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  <span class="comment"># 给长名字模块取别名，比如numpy常用np</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
       </tags>
   </entry>
 </search>
