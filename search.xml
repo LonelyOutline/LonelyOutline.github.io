@@ -610,27 +610,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【picoCTF】JAuth  J</title>
-    <url>/2025/04/19/picoctfjauth--j/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
-<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
-<p>启动实例访问：</p>
-<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
-<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
-<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
-<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
-<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python包的概念</title>
     <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包"><a href="#自定义pyothon包" class="headerlink" title="自定义pyothon包"></a>自定义pyothon包</h2><ol>
@@ -695,6 +674,27 @@
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br></pre></td></tr></table></figure>
 <p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>最后尝试：<code>../../../flag.txt</code></p>
 <h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>尝试：<code>../../../flag.txt</code><br>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png"></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>题目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【picoCTF】JAuth  J</title>
+    <url>/2025/04/19/picoctfjauth--j/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
+<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
+<p>启动实例访问：</p>
+<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
+<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
+<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
+<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
+<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
 ]]></content>
       <categories>
         <category>picoCTF</category>
