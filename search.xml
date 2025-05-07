@@ -610,6 +610,27 @@
       </tags>
   </entry>
   <entry>
+    <title>【picoCTF】JAuth  J</title>
+    <url>/2025/04/19/picoctfjauth--j/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
+<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
+<p>启动实例访问：</p>
+<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
+<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
+<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
+<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
+<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
+]]></content>
+      <categories>
+        <category>picoCTF</category>
+      </categories>
+      <tags>
+        <tag>CTF</tag>
+        <tag>题目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python包的概念</title>
     <url>/2025/04/02/python%E5%8C%85%E7%9A%84%E6%A6%82%E5%BF%B5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="自定义pyothon包"><a href="#自定义pyothon包" class="headerlink" title="自定义pyothon包"></a>自定义pyothon包</h2><ol>
@@ -667,6 +688,67 @@
       </tags>
   </entry>
   <entry>
+    <title>Socket 学习</title>
+    <url>/2025/05/07/socket-%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一、Web-服务基础"><a href="#一、Web-服务基础" class="headerlink" title="一、Web 服务基础"></a>一、Web 服务基础</h2><h3 id="1-什么是-Web-服务"><a href="#1-什么是-Web-服务" class="headerlink" title="1. 什么是 Web 服务"></a>1. 什么是 Web 服务</h3><ul>
+<li><strong>定义</strong>：一种面向服务的架构技术，通过标准 Web 协议提供服务，实现不同平台应用的互操作。</li>
+<li><strong>核心作用</strong>：允许通过网络访问目标服务器上的文件，典型案例：淘宝、百度、京东等平台。</li>
+</ul>
+<h3 id="2-C-S-架构-vs-B-S-架构"><a href="#2-C-S-架构-vs-B-S-架构" class="headerlink" title="2. C&#x2F;S 架构 vs B&#x2F;S 架构"></a>2. C&#x2F;S 架构 vs B&#x2F;S 架构</h3><p><strong>架构</strong></p>
+<p><strong>网络环境</strong></p>
+<p><strong>客户端要求</strong></p>
+<p><strong>优势</strong></p>
+<p><strong>C&#x2F;S（客户端 &#x2F; 服务器）</strong></p>
+<p>专用网络（局域网）</p>
+<p>需要安装专用客户端程序</p>
+<p>适合小范围高效数据交互</p>
+<p><strong>B&#x2F;S（浏览器 &#x2F; 服务器）</strong></p>
+<p>广域网（互联网）</p>
+<p>只需浏览器和操作系统</p>
+<p>跨平台性强，部署维护简单</p>
+<h2 id="二、Socket-编程核心概念"><a href="#二、Socket-编程核心概念" class="headerlink" title="二、Socket 编程核心概念"></a>二、Socket 编程核心概念</h2><h3 id="1-TCP-协议特性"><a href="#1-TCP-协议特性" class="headerlink" title="1. TCP 协议特性"></a>1. TCP 协议特性</h3><ul>
+<li><strong>连接特性</strong>：面向连接、字节流传输、可靠传输（通过校验、确认、重传机制保证稳定性）。</li>
+<li><strong>三次握手与四次挥手</strong>（连接建立与断开过程）：<ul>
+<li>三次握手：SYN 同步→SYN+ACK 确认→ACK 确认，建立可靠连接。</li>
+<li>四次挥手：FIN 请求断开→ACK 确认→FIN 再次请求→ACK 最终确认，释放连接资源。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-IP-地址与端口号"><a href="#2-IP-地址与端口号" class="headerlink" title="2. IP 地址与端口号"></a>2. IP 地址与端口号</h3><ul>
+<li><strong>IP 地址</strong>：标识网络中主机的位置（如<code>127.0.0.1</code>为本地回环地址）。</li>
+<li><strong>端口号</strong>：标识主机上的进程（范围 0-65535，1-1024 为系统保留端口），用于区分同一主机上的不同服务（如 HTTP 默认 80 端口）。</li>
+</ul>
+<h3 id="3-半相关与全相关"><a href="#3-半相关与全相关" class="headerlink" title="3. 半相关与全相关"></a>3. 半相关与全相关</h3><ul>
+<li><strong>半相关（三元组）</strong>：<code>（协议，本地地址，本地端口号）</code>，唯一标识本地进程的网络连接部分。</li>
+<li><strong>全相关（五元组）</strong>：<code>（协议，本地地址，本地端口号，远地地址，远地端口号）</code>，完整标识两个进程间的网络连接。</li>
+</ul>
+<h3 id="4-套接字（Socket）类型"><a href="#4-套接字（Socket）类型" class="headerlink" title="4. 套接字（Socket）类型"></a>4. 套接字（Socket）类型</h3><ul>
+<li><strong>流式套接字（SOCK_STREAM）</strong>：基于 TCP，面向连接，保证数据有序可靠（常用）。</li>
+<li><strong>数据报套接字（SOCK_DGRAM）</strong>：基于 UDP，无连接，适合实时性要求高的场景（如视频通话）。</li>
+<li><strong>原始套接字（SOCK_RAW）</strong>：直接操作底层协议，用于网络分析或自定义协议开发（较少用）。</li>
+</ul>
+<h2 id="三、Socket-编程实战：服务端与客户端"><a href="#三、Socket-编程实战：服务端与客户端" class="headerlink" title="三、Socket 编程实战：服务端与客户端"></a>三、Socket 编程实战：服务端与客户端</h2><h3 id="1-服务端编程步骤（以-TCP-为例）"><a href="#1-服务端编程步骤（以-TCP-为例）" class="headerlink" title="1. 服务端编程步骤（以 TCP 为例）"></a>1. 服务端编程步骤（以 TCP 为例）</h3><p>python</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"></span><br><span class="line"><span class="comment"># 1. 创建套接字</span></span><br><span class="line">sk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  </span><br><span class="line"><span class="comment"># AF_INET：IPv4，SOCK_STREAM：流式套接字（TCP）</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 绑定IP和端口</span></span><br><span class="line">sk.bind((<span class="string">&#x27;127.0.0.1&#x27;</span>, <span class="number">8000</span>))  <span class="comment"># 本地地址+端口</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 设置监听，等待客户端连接</span></span><br><span class="line">sk.listen(<span class="number">10</span>)  <span class="comment"># 最大排队连接数</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 接受客户端连接</span></span><br><span class="line">conn, addr = sk.accept()  <span class="comment"># conn：客户端套接字对象，addr：客户端地址</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 5. 接收与发送数据</span></span><br><span class="line">data = conn.recv(<span class="number">1024</span>)  <span class="comment"># 接收数据（1024字节缓冲区）</span></span><br><span class="line">conn.sendall(<span class="string">b&#x27;Hello, Client!&#x27;</span>)  <span class="comment"># 发送数据（确保全部发送）</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 6. 关闭连接</span></span><br><span class="line">conn.close()</span><br><span class="line">sk.close()</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-客户端编程步骤"><a href="#2-客户端编程步骤" class="headerlink" title="2. 客户端编程步骤"></a>2. 客户端编程步骤</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"></span><br><span class="line"><span class="comment"># 1. 创建套接字</span></span><br><span class="line">sk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 连接服务器</span></span><br><span class="line">sk.connect((<span class="string">&#x27;127.0.0.1&#x27;</span>, <span class="number">8000</span>))  <span class="comment"># 目标服务器IP+端口</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 发送与接收数据</span></span><br><span class="line">sk.sendall(<span class="string">b&#x27;Hello, Server!&#x27;</span>)</span><br><span class="line">data = sk.recv(<span class="number">1024</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 关闭连接</span></span><br><span class="line">sk.close()</span><br></pre></td></tr></table></figure>
+
+<h2 id="四、HTTP-协议解析"><a href="#四、HTTP-协议解析" class="headerlink" title="四、HTTP 协议解析"></a>四、HTTP 协议解析</h2><h3 id="1-请求协议格式"><a href="#1-请求协议格式" class="headerlink" title="1. 请求协议格式"></a>1. 请求协议格式</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请求首行：请求方法（GET/POST等） 请求路径 协议版本（如：GET /index.html HTTP/1.1）  </span><br><span class="line">请求头：键值对形式（如：Host: localhost）  </span><br><span class="line">空行：分隔请求头与请求体  </span><br><span class="line">请求体：仅POST等方法存在（如表单数据）  </span><br></pre></td></tr></table></figure>
+
+<h3 id="2-响应协议格式"><a href="#2-响应协议格式" class="headerlink" title="2. 响应协议格式"></a>2. 响应协议格式</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">响应首行：协议版本 状态码 状态描述（如：HTTP/1.1 200 OK）  </span><br><span class="line">响应头：键值对形式（如：Content-Type: text/html）  </span><br><span class="line">空行：分隔响应头与响应体  </span><br><span class="line">响应体：返回的实际数据（如HTML页面内容）  </span><br></pre></td></tr></table></figure>
+
+<h3 id="3-简单-HTTP-响应示例（服务端代码）"><a href="#3-简单-HTTP-响应示例（服务端代码）" class="headerlink" title="3. 简单 HTTP 响应示例（服务端代码）"></a>3. 简单 HTTP 响应示例（服务端代码）</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 正确响应格式需包含完整HTTP头（注意\r\n换行符）</span></span><br><span class="line">server.send(<span class="string">b&#x27;HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nHello World!&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="五、TCP-端口扫描实战"><a href="#五、TCP-端口扫描实战" class="headerlink" title="五、TCP 端口扫描实战"></a>五、TCP 端口扫描实战</h2><h3 id="1-单线程端口扫描"><a href="#1-单线程端口扫描" class="headerlink" title="1. 单线程端口扫描"></a>1. 单线程端口扫描</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> socket <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">port_scanner</span>(<span class="params">host, port</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        s = socket(AF_INET, SOCK_STREAM)</span><br><span class="line">        s.connect((host, port))</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&#x27;[+] <span class="subst">&#123;port&#125;</span> open&#x27;</span>)</span><br><span class="line">        s.close()</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&#x27;[-] <span class="subst">&#123;port&#125;</span> close&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    setdefaulttimeout(<span class="number">1</span>)  <span class="comment"># 设置超时时间</span></span><br><span class="line">    <span class="keyword">for</span> port <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">1024</span>):</span><br><span class="line">        port_scanner(<span class="string">&#x27;127.0.0.1&#x27;</span>, port)</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-多线程优化（提升扫描速度）"><a href="#2-多线程优化（提升扫描速度）" class="headerlink" title="2. 多线程优化（提升扫描速度）"></a>2. 多线程优化（提升扫描速度）</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> threading</span><br><span class="line"></span><br><span class="line">threads = []</span><br><span class="line">open_num = <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">port_scanner</span>(<span class="params">host, port</span>):</span><br><span class="line">    <span class="keyword">global</span> open_num</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        s = socket(AF_INET, SOCK_STREAM)</span><br><span class="line">        s.connect((host, port))</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&#x27;[+] <span class="subst">&#123;port&#125;</span> open&#x27;</span>)</span><br><span class="line">        open_num += <span class="number">1</span></span><br><span class="line">        s.close()</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    setdefaulttimeout(<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">for</span> port <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">9999</span>):</span><br><span class="line">        t = threading.Thread(target=port_scanner, args=(<span class="string">&#x27;127.0.0.1&#x27;</span>, port))</span><br><span class="line">        threads.append(t)</span><br><span class="line">        t.start()</span><br><span class="line">    <span class="keyword">for</span> t <span class="keyword">in</span> threads:</span><br><span class="line">        t.join()  <span class="comment"># 等待所有线程结束</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;\n[*] 扫描完成！共发现 <span class="subst">&#123;open_num&#125;</span> 个开放端口&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【picoCTF】Forbidden Paths 禁止路径</title>
     <url>/2025/04/20/%E3%80%90picoCTF%E3%80%91Forbidden%20Paths%20%E7%A6%81%E6%AD%A2%E8%B7%AF%E5%BE%84/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀Forbidden-Paths-禁止路径"><a href="#👀Forbidden-Paths-禁止路径" class="headerlink" title="👀Forbidden Paths 禁止路径"></a>👀Forbidden Paths 禁止路径</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/19/68036608db4ff.png" alt="Forbidden Paths"><br>访问实例可以得到<br><img src="https://bu.dusays.com/2025/04/19/6803664e728bb.png" alt="Web eReader"></p>
@@ -674,27 +756,6 @@
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">网站文件位于 /usr/share/nginx/html/ 中，</span><br><span class="line">标志位于 /flag.txt 但该网站正在过滤绝对文件路径道网站文件位于 `/usr/share/nginx/html/` 中，</span><br><span class="line"></span><br><span class="line">标志位于 `/flag.txt` 但该网站正在过滤绝对文件路径。</span><br></pre></td></tr></table></figure>
 <p>或许可以尝试使用相对路径，去读取，比如<code>../flag.txt</code><br>最后尝试：<code>../../../flag.txt</code></p>
 <h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>尝试：<code>../../../flag.txt</code><br>flag:<code>picoCTF&#123;7h3_p47h_70_5ucc355_e5a6fcbc&#125;</code><br><img src="https://bu.dusays.com/2025/04/19/680367fb7609c.png"></p>
-]]></content>
-      <categories>
-        <category>picoCTF</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-        <tag>题目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【picoCTF】JAuth  J</title>
-    <url>/2025/04/19/picoctfjauth--j/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="👀JAuth-J"><a href="#👀JAuth-J" class="headerlink" title="👀JAuth  J"></a>👀JAuth  J</h3><p>题目截图：<br><img src="https://bu.dusays.com/2025/04/20/6804ac0036a4e.png" alt="JAuth  J"></p>
-<h3 id="🤔思路："><a href="#🤔思路：" class="headerlink" title="🤔思路："></a>🤔思路：</h3><p>参考大佬博客：<a href="https://mh4ck3r0n3.github.io/posts/2025/03/01/jauth/">🌐 JAuth - mH4ck3r0n3</a><br>题目内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">您能否识别组件并利用易受攻击的组件？</span><br><span class="line">该网站在此处运行。你能成为 ？admin</span><br><span class="line">您可以使用密码登录以开始使用。testTest123!</span><br></pre></td></tr></table></figure>
-<p>启动实例访问：</p>
-<h4 id="第一步"><a href="#第一步" class="headerlink" title="@第一步"></a>@第一步</h4><p>访问网站看到的界面是这样的<br><img src="https://bu.dusays.com/2025/04/20/6804abc06d53a.png" alt="our bank"><br>在题目中有提到<code>admin</code>，以及密码登录:<code>testTest123!</code></p>
-<h4 id="第二步-尝试登录"><a href="#第二步-尝试登录" class="headerlink" title="@第二步 尝试登录"></a>@第二步 尝试登录</h4><p>用户:<code>test</code><br>密码:<code>Test123!</code><br><img src="https://bu.dusays.com/2025/04/20/6804ad633a87e.png"><br>登录成功！<br><img src="https://bu.dusays.com/2025/04/20/6804ad9d2e964.png"><br>好吧被忽悠了，让我们在看看控制台有没有线索？</p>
-<p>在应用程序中能看到cookie有token令牌<br><img src="https://bu.dusays.com/2025/04/20/6804ae454c345.png"></p>
-<p>尝试检查他是不是JWT，可以使用<a href="https://jwt.io/">JSON Web Tokens - jwt.io</a>工具进行确认。<br><img src="https://bu.dusays.com/2025/04/20/6804ae7f6d71c.png"><br>是的，看起来能得到一些信息，可以尝试将角色从<strong>user</strong>提权到<strong>admin</strong>。</p>
-<h3 id="🚩获得flag"><a href="#🚩获得flag" class="headerlink" title="🚩获得flag:"></a>🚩获得flag:</h3><p>####工具<br><a href="https://mh4ck3r0n3.github.io/resources/PicoGym/PicoGymExclusive/JAuth/exploit.py">mH4ck3r0n3的JAuth工具</a></p>
 ]]></content>
       <categories>
         <category>picoCTF</category>
@@ -1172,22 +1233,6 @@
       </tags>
   </entry>
   <entry>
-    <title>点线面的选择与控制</title>
-    <url>/2025/04/26/%E7%82%B9%E7%BA%BF%E9%9D%A2%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E6%8E%A7%E5%88%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://www.bilibili.com/video/BV14u41147YH/?spm_id_from=333.788.videopod.episodes&vd_source=63d165ef1acc5aeae840f5075ad17447&p=6">【建模篇】2.1 点线面的选择与控制_哔哩哔哩_bilibili</a></p>
-<p>按Tab切换编辑模式，为了方便切换多种模式，在新版本的blender中按ctrl+Tab可以快速选择多种模式。旧版本可以在编辑&gt;偏好设置&gt;键位映射:打开拖动激活饼菜单。<br><img src="https://bu.dusays.com/2025/04/26/680c34efb4886.png" alt="激活饼菜单"><br>打开后<mark class="hl-label blue">长按TAB</mark> 可以打开一个饼菜单。</p>
-<p>在编辑模式下通过数字1、2、3可以切换点、线、面，按<u>shift</u> 可以多选模式</p>
-<p>框选有三种模式，按w可以快速切换模式<br><img src="https://bu.dusays.com/2025/04/26/680c37609af79.png" alt="框选模式"></p>
-<p>反选ctrl + i</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>碎碎念</title>
     <url>/2025/03/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://bu.dusays.com/2025/03/29/67e7f9567accd.jpg"></p>
@@ -1208,6 +1253,22 @@
       </categories>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>点线面的选择与控制</title>
+    <url>/2025/04/26/%E7%82%B9%E7%BA%BF%E9%9D%A2%E7%9A%84%E9%80%89%E6%8B%A9%E4%B8%8E%E6%8E%A7%E5%88%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://www.bilibili.com/video/BV14u41147YH/?spm_id_from=333.788.videopod.episodes&vd_source=63d165ef1acc5aeae840f5075ad17447&p=6">【建模篇】2.1 点线面的选择与控制_哔哩哔哩_bilibili</a></p>
+<p>按Tab切换编辑模式，为了方便切换多种模式，在新版本的blender中按ctrl+Tab可以快速选择多种模式。旧版本可以在编辑&gt;偏好设置&gt;键位映射:打开拖动激活饼菜单。<br><img src="https://bu.dusays.com/2025/04/26/680c34efb4886.png" alt="激活饼菜单"><br>打开后<mark class="hl-label blue">长按TAB</mark> 可以打开一个饼菜单。</p>
+<p>在编辑模式下通过数字1、2、3可以切换点、线、面，按<u>shift</u> 可以多选模式</p>
+<p>框选有三种模式，按w可以快速切换模式<br><img src="https://bu.dusays.com/2025/04/26/680c37609af79.png" alt="框选模式"></p>
+<p>反选ctrl + i</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>blender</tag>
       </tags>
   </entry>
   <entry>
